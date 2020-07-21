@@ -2047,7 +2047,7 @@
 <connection t1="Tirion's Cottage" t2="Terrordale"/>
 <connection t1="Havenshire" t2="The Noxious Glade"/>
 <connection t1="Ambermill" t2="Dalaran Remnant Camp"/>
-<connection t1="Revanttusk Village" t2="Arathi High Road"/>
+<connection t1="Revantusk Village" t2="Arathi High Road"/>
 
 <!-- Teleports Territory Definitions -->
 <connection t1="Stratholme Gate" t2="King's Square"/>
@@ -3014,7 +3014,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="abomination" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3030,7 +3032,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3046,7 +3050,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="skeleton_hound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3062,7 +3068,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="banshee" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3078,7 +3086,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="gargoyle" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3097,7 +3107,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="meat_wagon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3113,7 +3125,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="scourge_barge" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3180,7 +3194,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3196,7 +3212,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3212,7 +3230,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="cavalier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3228,7 +3248,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="purifier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3244,7 +3266,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="scarlet_rider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3263,7 +3287,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="cannon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3279,7 +3305,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="scarlet_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3346,7 +3374,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="arcane_guardian" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3362,7 +3392,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="farstrider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3378,7 +3410,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="hawkstrider_cavalier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3394,7 +3428,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="magister" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3410,7 +3446,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dragonhawk_rider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3429,7 +3467,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="thalassian_ballista" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3512,7 +3552,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="beast_master" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3528,7 +3570,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="axe_thrower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3544,7 +3588,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="warbringer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3560,7 +3606,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="witch_doctor" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3576,7 +3624,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dragonhawk" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3595,7 +3645,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3611,7 +3663,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="troll_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3678,7 +3732,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="deathstalker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3694,7 +3750,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="fallen_archer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3710,7 +3768,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dark_knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3726,7 +3786,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="apothecary" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3742,7 +3804,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="bat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3761,7 +3825,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="plague_catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3777,7 +3843,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="forsaken_barge" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3844,7 +3912,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="rune_golem" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3860,7 +3930,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="silver_covenant_ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3876,7 +3948,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mana_hound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3892,7 +3966,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="archmage" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3908,7 +3984,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="silver_covenant_hippogryph" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3927,7 +4005,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="glaive_thrower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3943,7 +4023,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dalaran_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -4102,7 +4184,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="hut"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mystic" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4118,7 +4201,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="hut"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="tent" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4142,7 +4226,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="tent"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="tidecaller" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4158,7 +4243,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="tent"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="hut" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4182,7 +4268,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="mound"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="magi" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4198,7 +4285,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="mound"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mound" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4222,7 +4310,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="hideout"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dark_wizard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4238,7 +4327,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="hideout"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="hideout" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4262,7 +4352,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="nest"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="spitter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4278,7 +4369,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="nest"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="nest" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4302,7 +4394,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="pack_territory"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="moon_walker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4318,7 +4411,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="pack_territory"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="pack_territory" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4342,7 +4436,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="haunt"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="wraith" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4358,7 +4453,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="haunt"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="haunt" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4382,7 +4478,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="mine"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="geomancer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4398,7 +4495,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="mine"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mine" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4422,7 +4520,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="covenant"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="earth_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4438,7 +4537,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="covenant"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="air_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4454,7 +4554,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="covenant"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="water_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4470,7 +4571,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="covenant"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="covenant" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4494,7 +4596,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="mana_nexus"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="remnant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4510,7 +4613,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="$ProductionForTerritories$"/>
+<option name="requiresUnits" value="mana_nexus"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mana_nexus" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
