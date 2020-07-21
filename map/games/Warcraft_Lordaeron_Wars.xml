@@ -1,0 +1,1790 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd"[]>
+<game>
+  <info name="Warcraft: Lordaeron Wars" version="0.1a" />
+  <loader javaClass="games.strategy.triplea.TripleA" />
+  <triplea minimumVersion="1.9" />
+  <diceSides value="10" />
+  <map>
+<!-- Territory Definitions -->
+<territory name="Ash'ari Ziggurat 1"/>
+<territory name="Ash'ari Ziggurat 2"/>
+<territory name="Ash'ari Ziggurat 3"/>
+<territory name="Blackwood Lake"/>
+<territory name="Corin's Crossing"/>
+<territory name="Crown Guard Tower"/>
+<territory name="Crusader's Square"/>
+<territory name="Darrowshire"/>
+<territory name="East plague mountains"/>
+<territory name="Eastwall Gate"/>
+<territory name="Eastwall Tower"/>
+<territory name="Elder's Square"/>
+<territory name="Festival Lane"/>
+<territory name="Harbour"/>
+<territory name="King's Square"/>
+<territory name="Lake Mereldar"/>
+<territory name="Light's Hope Chapel"/>
+<territory name="Market Row"/>
+<territory name="North east plague mountains"/>
+<territory name="North plague mountains"/>
+<territory name="North west plague mountains"/>
+<territory name="Northdale"/>
+<territory name="Plaguewood"/>
+<territory name="Slaughter Square"/>
+<territory name="Slaughterhouse"/>
+<territory name="South Plaguewood"/>
+<territory name="South east plague mountains"/>
+<territory name="South west plague mountains"/>
+<territory name="Stratholme Gate"/>
+<territory name="Terrordale"/>
+<territory name="The Crimson Throne"/>
+<territory name="The Eastern Plaguelands"/>
+<territory name="The Fungus Vale"/>
+<territory name="The Gauntlet"/>
+<territory name="The Hoard"/>
+<territory name="The Marris Stead"/>
+<territory name="The Noxious Glade"/>
+<territory name="The Scarlet Basilica"/>
+<territory name="The Scarlet Bastion"/>
+<territory name="Tirion's Cottage"/>
+<territory name="Tyr's Hand"/>
+<territory name="Undercroft"/>
+<territory name="West plague mountains"/>
+<territory name="Zul'Marshar"/>
+
+<!-- Territory Connections -->
+<!-- Teleporters -->
+<connection t1="Stratholme Gate" t2="King's Square"/>
+<connection t1="Eastwall Gate" t2="Elder's Square"/>
+<!-- Tunnels -->
+<connection t1="Tirion's Cottage" t2="Terrordale"/>
+<!-- Normal Connections -->
+<connection t1="Ash'ari Ziggurat 1" t2="The Gauntlet"/>
+<connection t1="Ash'ari Ziggurat 2" t2="The Gauntlet"/>
+<connection t1="Ash'ari Ziggurat 3" t2="The Gauntlet"/>
+<connection t1="Elder's Square" t2="The Gauntlet"/>
+<connection t1="Blackwood Lake" t2="Corin's Crossing"/>
+<connection t1="Blackwood Lake" t2="Crown Guard Tower"/>
+<connection t1="Blackwood Lake" t2="Eastwall Gate"/>
+<connection t1="Blackwood Lake" t2="Eastwall Tower"/>
+<connection t1="Blackwood Lake" t2="Plaguewood"/>
+<connection t1="Blackwood Lake" t2="South Plaguewood"/>
+<connection t1="Blackwood Lake" t2="The Eastern Plaguelands"/>
+<connection t1="Blackwood Lake" t2="West plague mountains"/>
+<connection t1="Corin's Crossing" t2="Crown Guard Tower"/>
+<connection t1="Corin's Crossing" t2="Lake Mereldar"/>
+<connection t1="Corin's Crossing" t2="The Eastern Plaguelands"/>
+<connection t1="Crown Guard Tower" t2="Darrowshire"/>
+<connection t1="Crown Guard Tower" t2="Lake Mereldar"/>
+<connection t1="Crown Guard Tower" t2="South west plague mountains"/>
+<connection t1="Crown Guard Tower" t2="The Fungus Vale"/>
+<connection t1="Crown Guard Tower" t2="The Marris Stead"/>
+<connection t1="Crown Guard Tower" t2="Undercroft"/>
+<connection t1="Crown Guard Tower" t2="West plague mountains"/>
+<connection t1="Crusader's Square" t2="Market Row"/>
+<connection t1="Crusader's Square" t2="The Scarlet Bastion"/>
+<connection t1="Darrowshire" t2="South west plague mountains"/>
+<connection t1="Darrowshire" t2="Undercroft"/>
+<connection t1="East plague mountains" t2="Light's Hope Chapel"/>
+<connection t1="East plague mountains" t2="North east plague mountains"/>
+<connection t1="East plague mountains" t2="South east plague mountains"/>
+<connection t1="East plague mountains" t2="The Eastern Plaguelands"/>
+<connection t1="East plague mountains" t2="The Noxious Glade"/>
+<connection t1="East plague mountains" t2="The Scarlet Basilica"/>
+<connection t1="East plague mountains" t2="Tyr's Hand"/>
+<connection t1="Eastwall Gate" t2="Eastwall Tower"/>
+<connection t1="Eastwall Gate" t2="North plague mountains"/>
+<connection t1="Eastwall Gate" t2="Plaguewood"/>
+<connection t1="Eastwall Tower" t2="North east plague mountains"/>
+<connection t1="Eastwall Tower" t2="North plague mountains"/>
+<connection t1="Eastwall Tower" t2="Northdale"/>
+<connection t1="Eastwall Tower" t2="The Eastern Plaguelands"/>
+<connection t1="Eastwall Tower" t2="Zul'Marshar"/>
+<connection t1="Elder's Square" t2="Festival Lane"/>
+<connection t1="Festival Lane" t2="King's Square"/>
+<connection t1="Festival Lane" t2="Market Row"/>
+<connection t1="King's Square" t2="Market Row"/>
+<connection t1="Lake Mereldar" t2="South east plague mountains"/>
+<connection t1="Lake Mereldar" t2="South west plague mountains"/>
+<connection t1="Lake Mereldar" t2="The Eastern Plaguelands"/>
+<connection t1="Lake Mereldar" t2="Tyr's Hand"/>
+<connection t1="Light's Hope Chapel" t2="The Eastern Plaguelands"/>
+<connection t1="North east plague mountains" t2="North plague mountains"/>
+<connection t1="North east plague mountains" t2="Northdale"/>
+<connection t1="North east plague mountains" t2="The Eastern Plaguelands"/>
+<connection t1="North east plague mountains" t2="The Noxious Glade"/>
+<connection t1="North east plague mountains" t2="Zul'Marshar"/>
+<connection t1="North plague mountains" t2="North west plague mountains"/>
+<connection t1="North plague mountains" t2="Plaguewood"/>
+<connection t1="North plague mountains" t2="Stratholme Gate"/>
+<connection t1="North plague mountains" t2="Zul'Marshar"/>
+<connection t1="North west plague mountains" t2="Stratholme Gate"/>
+<connection t1="North west plague mountains" t2="Terrordale"/>
+<connection t1="North west plague mountains" t2="Tirion's Cottage"/>
+<connection t1="North west plague mountains" t2="West plague mountains"/>
+<connection t1="Plaguewood" t2="South Plaguewood"/>
+<connection t1="Plaguewood" t2="Stratholme Gate"/>
+<connection t1="Plaguewood" t2="Terrordale"/>
+<connection t1="Slaughter Square" t2="Harbour"/>
+<connection t1="Slaughter Square" t2="Slaughterhouse"/>
+<connection t1="Slaughter Square" t2="The Gauntlet"/>
+<connection t1="South Plaguewood" t2="Terrordale"/>
+<connection t1="South Plaguewood" t2="West plague mountains"/>
+<connection t1="South east plague mountains" t2="South west plague mountains"/>
+<connection t1="South east plague mountains" t2="The Scarlet Basilica"/>
+<connection t1="South east plague mountains" t2="Tyr's Hand"/>
+<connection t1="South west plague mountains" t2="Undercroft"/>
+<connection t1="Stratholme Gate" t2="Terrordale"/>
+<connection t1="Terrordale" t2="West plague mountains"/>
+<connection t1="The Crimson Throne" t2="The Hoard"/>
+<connection t1="The Eastern Plaguelands" t2="The Noxious Glade"/>
+<connection t1="The Eastern Plaguelands" t2="Tyr's Hand"/>
+<connection t1="The Fungus Vale" t2="The Marris Stead"/>
+<connection t1="The Fungus Vale" t2="West plague mountains"/>
+<connection t1="The Hoard" t2="The Scarlet Bastion"/>
+<connection t1="The Marris Stead" t2="Tirion's Cottage"/>
+<connection t1="The Marris Stead" t2="Undercroft"/>
+<connection t1="The Marris Stead" t2="West plague mountains"/>
+<connection t1="The Scarlet Basilica" t2="Tyr's Hand"/>
+<connection t1="Tirion's Cottage" t2="Undercroft"/>
+<connection t1="West plague mountains" t2="Tirion's Cottage"/>
+
+  <!--CANALS-->
+    </map>
+  <resourceList>
+    <resource name="PUs" />
+  </resourceList>
+  <playerList>
+    <!-- In turn order -->
+  <player name="ScarletCrusade" optional="false" canBeDisabled="false" />
+  <player name="Scourge" optional="false" canBeDisabled="false" />
+  <alliance player="ScarletCrusade" alliance="Scarlet" />
+  <alliance player="Scourge" alliance="Undead" />
+
+  </playerList>
+  <unitList>
+<unit name="ghoul" />
+<unit name="abomination" />
+<unit name="crypt_fiend" />
+<unit name="skeleton_hound" />
+<unit name="banshee" />
+<unit name="gargoyle" />
+<unit name="meat_wagon" />
+<unit name="slaughterhouse" />
+<unit name="ziggurat" />
+<unit name="initiate" />
+<unit name="crusader" />
+<unit name="ranger" />
+<unit name="cavalier" />
+<unit name="purifier" />
+<unit name="gryphon_rider" />
+<unit name="cannon" />
+<unit name="barrack" />
+<unit name="scout_tower" />
+<unit name="maggot" />
+<unit name="water_elemental" />
+<unit name="plaguehound" />
+<unit name="bat" />
+<unit name="plagueland_tower" />
+
+    <unit name="townpro" />
+  </unitList>
+  <territoryEffectList>
+<territoryEffect name="Open"/>
+<territoryEffect name="Hillside"/>
+<territoryEffect name="Forest"/>
+<territoryEffect name="Settlement"/>
+<territoryEffect name="Mountain"/>
+<territoryEffect name="Stratholme"/>
+<territoryEffect name="Impassable"/>
+  </territoryEffectList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates" />
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat" />
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move" />
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units" />
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units" />
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete" />
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete" />
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+   <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1" />
+	        <!-- Bidding Phase -->
+      <step name="scourgeBid" delegate="bid" player="Scourge" maxRunCount="1"/>
+      <step name="scourgeBidPlace" delegate="placeBid" player="Scourge" maxRunCount="1"/>
+      <step name="scarletcrusadeBid" delegate="bid" player="ScarletCrusade" maxRunCount="1"/>
+      <step name="scarletcrusadeBidPlace" delegate="placeBid" player="ScarletCrusade" maxRunCount="1"/>
+	      <!--Scarlet Crusade Game Sequence -->
+      <step name="scarletcrusadeCombatMove" delegate="move" player="ScarletCrusade"/>
+      <step name="scarletcrusadePurchase" delegate="purchase" player="ScarletCrusade"/>
+      <step name="scarlet_rusadeBattle" delegate="battle" player="ScarletCrusade"/>
+      <step name="scarletcrusadeNonCombatMove" delegate="move" player="ScarletCrusade" display="Non Combat Move"/>
+      <step name="scarletcrusadePlace" delegate="place" player="ScarletCrusade"/>
+      <step name="scarletcrusadeEndTurn" delegate="endTurn" player="ScarletCrusade"/>
+	  <!--Scourge Game Sequence -->
+      <step name="scourgeCombatMove" delegate="move" player="Scourge"/>
+      <step name="scourgePurchase" delegate="purchase" player="Scourge"/>
+      <step name="scourgeBattle" delegate="battle" player="Scourge"/>
+      <step name="scourgeNonCombatMove" delegate="move" player="Scourge" display="Non Combat Move"/>
+      <step name="scourgePlace" delegate="place" player="Scourge"/>
+      <step name="scourgeEndTurn" delegate="endTurn" player="Scourge"/>
+      <step name="endRoundStep" delegate="endRound" />
+      </sequence>
+    <offset round="0" />
+  </gamePlay>
+  <production>
+  
+<productionRule name="buy_ghoul">
+<cost resource="PUs" quantity="4"/>
+<result resourceOrUnit="ghoul" quantity="1"/>
+</productionRule>
+<productionRule name="buy_abomination">
+<cost resource="PUs" quantity="9"/>
+<result resourceOrUnit="abomination" quantity="1"/>
+</productionRule>
+<productionRule name="buy_crypt_fiend">
+<cost resource="PUs" quantity="7"/>
+<result resourceOrUnit="crypt_fiend" quantity="1"/>
+</productionRule>
+<productionRule name="buy_skeleton_hound">
+<cost resource="PUs" quantity="8"/>
+<result resourceOrUnit="skeleton_hound" quantity="1"/>
+</productionRule>
+<productionRule name="buy_banshee">
+<cost resource="PUs" quantity="7"/>
+<result resourceOrUnit="banshee" quantity="1"/>
+</productionRule>
+<productionRule name="buy_gargoyle">
+<cost resource="PUs" quantity="9"/>
+<result resourceOrUnit="gargoyle" quantity="1"/>
+</productionRule>
+<productionRule name="buy_meat_wagon">
+<cost resource="PUs" quantity="7"/>
+<result resourceOrUnit="meat_wagon" quantity="1"/>
+</productionRule>
+<productionRule name="buy_slaughterhouse">
+<cost resource="PUs" quantity="20"/>
+<result resourceOrUnit="slaughterhouse" quantity="1"/>
+</productionRule>
+<productionRule name="buy_ziggurat">
+<cost resource="PUs" quantity="15"/>
+<result resourceOrUnit="ziggurat" quantity="1"/>
+</productionRule>
+<productionRule name="buy_initiate">
+<cost resource="PUs" quantity="5"/>
+<result resourceOrUnit="initiate" quantity="1"/>
+</productionRule>
+<productionRule name="buy_crusader">
+<cost resource="PUs" quantity="11"/>
+<result resourceOrUnit="crusader" quantity="1"/>
+</productionRule>
+<productionRule name="buy_ranger">
+<cost resource="PUs" quantity="7"/>
+<result resourceOrUnit="ranger" quantity="1"/>
+</productionRule>
+<productionRule name="buy_cavalier">
+<cost resource="PUs" quantity="8"/>
+<result resourceOrUnit="cavalier" quantity="1"/>
+</productionRule>
+<productionRule name="buy_purifier">
+<cost resource="PUs" quantity="7"/>
+<result resourceOrUnit="purifier" quantity="1"/>
+</productionRule>
+<productionRule name="buy_gryphon_rider">
+<cost resource="PUs" quantity="9"/>
+<result resourceOrUnit="gryphon_rider" quantity="1"/>
+</productionRule>
+<productionRule name="buy_cannon">
+<cost resource="PUs" quantity="7"/>
+<result resourceOrUnit="cannon" quantity="1"/>
+</productionRule>
+<productionRule name="buy_barrack">
+<cost resource="PUs" quantity="20"/>
+<result resourceOrUnit="barrack" quantity="1"/>
+</productionRule>
+<productionRule name="buy_scout_tower">
+<cost resource="PUs" quantity="15"/>
+<result resourceOrUnit="scout_tower" quantity="1"/>
+</productionRule>
+
+<productionFrontier name="ScourgeFrontier">
+<frontierRules name="buy_ghoul" />
+<frontierRules name="buy_abomination" />
+<frontierRules name="buy_crypt_fiend" />
+<frontierRules name="buy_skeleton_hound" />
+<frontierRules name="buy_banshee" />
+<frontierRules name="buy_gargoyle" />
+<frontierRules name="buy_meat_wagon" />
+<frontierRules name="buy_slaughterhouse" />
+<frontierRules name="buy_ziggurat" />
+</productionFrontier>
+<productionFrontier name="ScarletCrusadeFrontier">
+<frontierRules name="buy_initiate" />
+<frontierRules name="buy_crusader" />
+<frontierRules name="buy_ranger" />
+<frontierRules name="buy_cavalier" />
+<frontierRules name="buy_purifier" />
+<frontierRules name="buy_gryphon_rider" />
+<frontierRules name="buy_cannon" />
+<frontierRules name="buy_barrack" />
+<frontierRules name="buy_scout_tower" />
+</productionFrontier>
+
+    <playerProduction player="Scourge" frontier="ScourgeFrontier" />
+    <playerProduction player="ScarletCrusade" frontier="ScarletCrusadeFrontier" />
+  </production>
+  
+  <technology>
+  </technology>
+  
+  <attachmentList>
+
+<attachment name="unitAttachment" attachTo="ghoul" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="2" />
+<option name="defense" value="3" />
+<option name="targetsAA" value="skeleton_hound:cavalier:plaguehound" />
+<option name="typeAA" value="retaliation" />
+<option name="offensiveAttackAA" value="0" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="abomination" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="5" />
+<option name="defense" value="5" />
+<option name="targetsAA" value="skeleton_hound:cavalier:plaguehound" />
+<option name="typeAA" value="retaliation" />
+<option name="offensiveAttackAA" value="0" />
+<option name="attackAA" value="3" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="3" />
+<option name="defense" value="2" />
+<option name="targetsAA" value="gargoyle:gryphon_rider:bat" />
+<option name="typeAA" value="anti air" />
+<option name="offensiveAttackAA" value="1" />
+<option name="attackAA" value="3" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="skeleton_hound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="2" />
+<option name="attack" value="2" />
+<option name="defense" value="2" />
+<option name="targetsAA" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound" />
+<option name="typeAA" value="charge" />
+<option name="offensiveAttackAA" value="2" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="banshee" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="2" />
+<option name="defense" value="2" />
+<option name="targetsAA" value="banshee:purifier" />
+<option name="typeAA" value="magic" />
+<option name="offensiveAttackAA" value="1" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="gargoyle" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="3" />
+<option name="attack" value="2" />
+<option name="defense" value="3" />
+<option name="isAir" value="true" />
+<option name="canAirBattle" value="true" />
+<option name="airDefense" value="2" />
+<option name="airAttack" value="3" />
+<option name="targetsAA" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" />
+<option name="typeAA" value="flank" />
+<option name="offensiveAttackAA" value="3" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="meat_wagon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="2" />
+<option name="movement" value="1" />
+<option name="attack" value="2" />
+<option name="defense" value="1" />
+<option name="targetsAA" value="ziggurat:scout_tower:plagueland_tower" />
+<option name="typeAA" value="sieging" />
+<option name="offensiveAttackAA" value="4" />
+<option name="attackAA" value="0" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="slaughterhouse" javaClass="UnitAttachment" type="unitType">
+<option name="canProduceUnits" value="true"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionType" value="factory"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+<option name="maxConstructionsPerTypePerTerr" value="1"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="ziggurat" javaClass="UnitAttachment" type="unitType">
+<option name="canProduceUnits" value="true"/>
+<option name="canProduceXUnits" value="1"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionType" value="tower"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+<option name="maxConstructionsPerTypePerTerr" value="100"/>
+<option name="attack" value="4" />
+<option name="attackRolls" value="2" />
+<option name="defense" value="4" />
+<option name="defenseRolls" value="2" />
+</attachment>
+<attachment name="unitAttachment" attachTo="initiate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="3" />
+<option name="defense" value="2" />
+<option name="targetsAA" value="skeleton_hound:cavalier:plaguehound" />
+<option name="typeAA" value="retaliation" />
+<option name="offensiveAttackAA" value="0" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="6" />
+<option name="defense" value="4" />
+<option name="targetsAA" value="skeleton_hound:cavalier:plaguehound" />
+<option name="typeAA" value="retaliation" />
+<option name="offensiveAttackAA" value="0" />
+<option name="attackAA" value="3" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="2" />
+<option name="defense" value="2" />
+<option name="targetsAA" value="gargoyle:gryphon_rider:bat" />
+<option name="typeAA" value="anti air" />
+<option name="offensiveAttackAA" value="1" />
+<option name="attackAA" value="2" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="cavalier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="2" />
+<option name="attack" value="4" />
+<option name="defense" value="2" />
+<option name="targetsAA" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound" />
+<option name="typeAA" value="charge" />
+<option name="offensiveAttackAA" value="3" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="purifier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="2" />
+<option name="defense" value="2" />
+<option name="targetsAA" value="banshee:purifier" />
+<option name="typeAA" value="magic" />
+<option name="offensiveAttackAA" value="3" />
+<option name="attackAA" value="2" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="gryphon_rider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="3" />
+<option name="attack" value="3" />
+<option name="defense" value="3" />
+<option name="isAir" value="true" />
+<option name="canAirBattle" value="true" />
+<option name="airDefense" value="2" />
+<option name="airAttack" value="3" />
+<option name="targetsAA" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" />
+<option name="typeAA" value="flank" />
+<option name="offensiveAttackAA" value="3" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="cannon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="2" />
+<option name="movement" value="1" />
+<option name="attack" value="2" />
+<option name="defense" value="1" />
+<option name="targetsAA" value="ziggurat:scout_tower:plagueland_tower" />
+<option name="typeAA" value="sieging" />
+<option name="offensiveAttackAA" value="4" />
+<option name="attackAA" value="0" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="barrack" javaClass="UnitAttachment" type="unitType">
+<option name="canProduceUnits" value="true"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionType" value="factory"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+<option name="maxConstructionsPerTypePerTerr" value="1"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="scout_tower" javaClass="UnitAttachment" type="unitType">
+<option name="canProduceUnits" value="true"/>
+<option name="canProduceXUnits" value="1"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionType" value="tower"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+<option name="maxConstructionsPerTypePerTerr" value="100"/>
+<option name="attack" value="4" />
+<option name="attackRolls" value="2" />
+<option name="defense" value="4" />
+<option name="defenseRolls" value="2" />
+</attachment>
+<attachment name="unitAttachment" attachTo="maggot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="2" />
+<option name="defense" value="3" />
+<option name="targetsAA" value="skeleton_hound:cavalier:plaguehound" />
+<option name="typeAA" value="retaliation" />
+<option name="offensiveAttackAA" value="0" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="water_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="1" />
+<option name="attack" value="5" />
+<option name="defense" value="4" />
+<option name="targetsAA" value="skeleton_hound:cavalier:plaguehound" />
+<option name="typeAA" value="retaliation" />
+<option name="offensiveAttackAA" value="0" />
+<option name="attackAA" value="3" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="plaguehound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="transportCost" value="1" />
+<option name="movement" value="2" />
+<option name="attack" value="3" />
+<option name="defense" value="2" />
+<option name="targetsAA" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound" />
+<option name="typeAA" value="charge" />
+<option name="offensiveAttackAA" value="3" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="bat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<option name="movement" value="3" />
+<option name="attack" value="3" />
+<option name="defense" value="3" />
+<option name="isAir" value="true" />
+<option name="canAirBattle" value="true" />
+<option name="airDefense" value="2" />
+<option name="airAttack" value="3" />
+<option name="targetsAA" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" />
+<option name="typeAA" value="flank" />
+<option name="offensiveAttackAA" value="3" />
+<option name="attackAA" value="1" />
+<option name="isAAforCombatOnly" value="true" />
+<option name="mayOverStackAA" value="false" />
+<option name="damageableAA" value="false" />
+<option name="maxAAattacks" value="1" />
+<option name="maxRoundsAA" value="1" />
+</attachment>
+<attachment name="unitAttachment" attachTo="townpro" javaClass="UnitAttachment" type="unitType">
+<option name="canProduceUnits" value="true"/>
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="plagueland_tower" javaClass="UnitAttachment" type="unitType">
+<option name="canProduceUnits" value="true"/>
+<option name="canProduceXUnits" value="1"/>
+<option name="isInfrastructure" value="true"/>
+<option name="isConstruction" value="true"/>
+<option name="constructionType" value="tower"/>
+<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+<option name="maxConstructionsPerTypePerTerr" value="100"/>
+<option name="attack" value="4" />
+<option name="attackRolls" value="2" />
+<option name="defense" value="4" />
+<option name="defenseRolls" value="2" />
+</attachment>
+
+<attachment name="supportAttachment_leadership_abomination" attachTo="abomination" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="allied" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="1" />
+<option name="number" value="1" />
+<option name="bonusType" value="leadership" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_leadership_crypt_fiend" attachTo="crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="allied" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="1" />
+<option name="number" value="1" />
+<option name="bonusType" value="leadership" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_curse_skeleton_hound" attachTo="skeleton_hound" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="enemy" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="-1" />
+<option name="number" value="1" />
+<option name="bonusType" value="curse" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_curse_banshee" attachTo="banshee" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="enemy" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="-1" />
+<option name="number" value="2" />
+<option name="bonusType" value="curse" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_leadership_meat_wagon" attachTo="meat_wagon" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="allied" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="1" />
+<option name="number" value="2" />
+<option name="bonusType" value="leadership" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_defenses_ziggurat" attachTo="ziggurat" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" />
+<option name="faction" value="allied" />
+<option name="side" value="defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="2" />
+<option name="number" value="2" />
+<option name="bonusType" value="defenses" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_leadership_crusader" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="allied" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="2" />
+<option name="number" value="2" />
+<option name="bonusType" value="leadership" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_leadership_ranger" attachTo="ranger" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="allied" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="1" />
+<option name="number" value="1" />
+<option name="bonusType" value="leadership" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_leadership_purifier" attachTo="purifier" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="allied" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="1" />
+<option name="number" value="1" />
+<option name="bonusType" value="leadership" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_leadership_cannon" attachTo="cannon" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="allied" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="1" />
+<option name="number" value="2" />
+<option name="bonusType" value="leadership" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_defenses_scout_tower" attachTo="scout_tower" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" />
+<option name="faction" value="allied" />
+<option name="side" value="defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="2" />
+<option name="number" value="2" />
+<option name="bonusType" value="defenses" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_leadership_water_elemental" attachTo="water_elemental" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="ghoul:abomination:skeleton_hound:initiate:crusader:cavalier:maggot:water_elemental:plaguehound:crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon:gargoyle:gryphon_rider:bat" />
+<option name="faction" value="allied" />
+<option name="side" value="offence:defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="1" />
+<option name="number" value="1" />
+<option name="bonusType" value="leadership" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="supportAttachment_defenses_plagueland_tower" attachTo="plagueland_tower" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<option name="unitType" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" />
+<option name="faction" value="allied" />
+<option name="side" value="defence" />
+<option name="dice" value="strength" />
+<option name="bonus" value="2" />
+<option name="number" value="2" />
+<option name="bonusType" value="defenses" />
+<option name="impArtTech" value="false" />
+<option name="players" value="Scourge:ScarletCrusade" />
+</attachment>
+
+<attachment name="territoryEffectAttachment" attachTo="Open" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
+<option name="combatOffenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="0" />
+<option name="combatDefenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="0" />
+<option name="combatOffenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="1" />
+<option name="combatDefenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="-1" />
+<option name="combatOffenseEffect" value="skeleton_hound:cavalier:plaguehound" count="2" />
+<option name="combatDefenseEffect" value="skeleton_hound:cavalier:plaguehound" count="-1" />
+<option name="combatOffenseEffect" value="gargoyle:gryphon_rider:bat" count="1" />
+<option name="combatDefenseEffect" value="gargoyle:gryphon_rider:bat" count="-2" />
+</attachment>
+<attachment name="territoryEffectAttachment" attachTo="Hillside" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
+<option name="combatOffenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="-1" />
+<option name="combatDefenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="1" />
+<option name="combatOffenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="0" />
+<option name="combatDefenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="1" />
+<option name="combatOffenseEffect" value="skeleton_hound:cavalier:plaguehound" count="-1" />
+<option name="combatDefenseEffect" value="skeleton_hound:cavalier:plaguehound" count="1" />
+<option name="combatOffenseEffect" value="gargoyle:gryphon_rider:bat" count="2" />
+<option name="combatDefenseEffect" value="gargoyle:gryphon_rider:bat" count="0" />
+</attachment>
+<attachment name="territoryEffectAttachment" attachTo="Forest" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
+<option name="combatOffenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="-1" />
+<option name="combatDefenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="1" />
+<option name="combatOffenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="-1" />
+<option name="combatDefenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="-1" />
+<option name="combatOffenseEffect" value="skeleton_hound:cavalier:plaguehound" count="-1" />
+<option name="combatDefenseEffect" value="skeleton_hound:cavalier:plaguehound" count="-1" />
+<option name="combatOffenseEffect" value="gargoyle:gryphon_rider:bat" count="-1" />
+<option name="combatDefenseEffect" value="gargoyle:gryphon_rider:bat" count="1" />
+</attachment>
+<attachment name="territoryEffectAttachment" attachTo="Settlement" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
+<option name="combatOffenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="2" />
+<option name="combatDefenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="2" />
+<option name="combatOffenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="0" />
+<option name="combatDefenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="2" />
+<option name="combatOffenseEffect" value="skeleton_hound:cavalier:plaguehound" count="-2" />
+<option name="combatDefenseEffect" value="skeleton_hound:cavalier:plaguehound" count="0" />
+<option name="combatOffenseEffect" value="gargoyle:gryphon_rider:bat" count="-1" />
+<option name="combatDefenseEffect" value="gargoyle:gryphon_rider:bat" count="1" />
+</attachment>
+<attachment name="territoryEffectAttachment" attachTo="Mountain" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
+<option name="combatOffenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="-1" />
+<option name="combatDefenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="2" />
+<option name="combatOffenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="-1" />
+<option name="combatDefenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="2" />
+<option name="combatOffenseEffect" value="skeleton_hound:cavalier:plaguehound" count="-2" />
+<option name="combatDefenseEffect" value="skeleton_hound:cavalier:plaguehound" count="0" />
+<option name="combatOffenseEffect" value="gargoyle:gryphon_rider:bat" count="1" />
+<option name="combatDefenseEffect" value="gargoyle:gryphon_rider:bat" count="2" />
+<option name="unitsNotAllowed" value="abomination:meat_wagon:slaughterhouse:ziggurat:crusader:cavalier:cannon:barrack:scout_tower" />
+</attachment>
+<attachment name="territoryEffectAttachment" attachTo="Stratholme" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
+<option name="combatOffenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="1" />
+<option name="combatDefenseEffect" value="ghoul:abomination:initiate:crusader:maggot:water_elemental" count="0" />
+<option name="combatOffenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="1" />
+<option name="combatDefenseEffect" value="crypt_fiend:banshee:meat_wagon:ranger:purifier:cannon" count="-1" />
+<option name="combatOffenseEffect" value="skeleton_hound:cavalier:plaguehound" count="1" />
+<option name="combatDefenseEffect" value="skeleton_hound:cavalier:plaguehound" count="0" />
+<option name="combatOffenseEffect" value="gargoyle:gryphon_rider:bat" count="1" />
+<option name="combatDefenseEffect" value="gargoyle:gryphon_rider:bat" count="1" />
+</attachment>
+
+<!-- Territory Effects -->
+
+<attachment name="territoryAttachment" attachTo="Ash'ari Ziggurat 1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Ash'ari Ziggurat 2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Ash'ari Ziggurat 3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Blackwood Lake" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Open" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Corin's Crossing" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="4" />
+<option name="territoryEffect" value="Settlement" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Crown Guard Tower" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="territoryEffect" value="Forest" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Crusader's Square" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Darrowshire" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="4" />
+<option name="territoryEffect" value="Settlement" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="East plague mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Mountain" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Eastwall Gate" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="territoryEffect" value="Hillside" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Eastwall Tower" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="territoryEffect" value="Open" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Elder's Square" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Festival Lane" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Harbour" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="King's Square" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Lake Mereldar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Open" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Light's Hope Chapel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="4" />
+<option name="territoryEffect" value="Settlement" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Market Row" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="North east plague mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Mountain" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="North plague mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Mountain" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="North west plague mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Mountain" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Northdale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="territoryEffect" value="Settlement" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Plaguewood" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3" />
+<option name="territoryEffect" value="Settlement" />
+<option name="territoryEffect" value="Hillside" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Slaughter Square" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Slaughterhouse" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+<option name="capital" value="Scourge"/>
+  </attachment>
+<attachment name="territoryAttachment" attachTo="South Plaguewood" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="territoryEffect" value="Forest" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="South east plague mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Mountain" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="South west plague mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Mountain" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Stratholme Gate" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Open" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Terrordale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="territoryEffect" value="Settlement" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="The Crimson Throne" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="5" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+<option name="capital" value="ScarletCrusade"/>
+  </attachment>
+<attachment name="territoryAttachment" attachTo="The Eastern Plaguelands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Open" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="The Fungus Vale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="territoryEffect" value="Hillside" />
+<option name="territoryEffect" value="Forest" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="The Gauntlet" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="The Hoard" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="3" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="The Marris Stead" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Forest" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="The Noxious Glade" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="territoryEffect" value="Hillside" />
+<option name="territoryEffect" value="Forest" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="The Scarlet Basilica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="4" />
+<option name="territoryEffect" value="Settlement" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="The Scarlet Bastion" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Stratholme" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Tirion's Cottage" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Hillside" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Tyr's Hand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="5" />
+<option name="territoryEffect" value="Settlement" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Undercroft" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Open" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="West plague mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="1" />
+<option name="territoryEffect" value="Mountain" />
+  </attachment>
+<attachment name="territoryAttachment" attachTo="Zul'Marshar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+<option name="production" value="2" />
+<option name="territoryEffect" value="Settlement" />
+<option name="territoryEffect" value="Hillside" />
+  </attachment>
+  <!--Player Attachments-->
+  <attachment name="playerAttachment" attachTo="Scourge" javaClass="PlayerAttachment" type="player">
+<option name="retainCapitalNumber" value="0" />
+<option name="captureUnitOnEnteringBy" value="Scourge:ScarletCrusade" />
+</attachment>
+<attachment name="playerAttachment" attachTo="ScarletCrusade" javaClass="PlayerAttachment" type="player">
+<option name="retainCapitalNumber" value="0" />
+<option name="captureUnitOnEnteringBy" value="Scourge:ScarletCrusade" />
+</attachment>
+
+</attachmentList>
+
+<!--CAPITAL CONDITIONS-->
+    <!--OBJECTIVES-->
+    <!--ha! no objectives for you-->
+    <!--CONDITIONS-->
+	    <initialize>
+    <ownerInitialize>
+	      <!-- Scourge -->
+	      <territoryOwner territory="Ash'ari Ziggurat 1" owner="Scourge" />
+		  <territoryOwner territory="Ash'ari Ziggurat 2" owner="Scourge" />
+		  <territoryOwner territory="Ash'ari Ziggurat 3" owner="Scourge" />
+		  <territoryOwner territory="Corin's Crossing" owner="Scourge" />
+		  <territoryOwner territory="Elder's Square" owner="Scourge" />
+		  <territoryOwner territory="Festival Lane" owner="Scourge" />
+		  <territoryOwner territory="Harbour" owner="Scourge" />
+		  <territoryOwner territory="King's Square" owner="Scourge" />  
+		  <territoryOwner territory="Market Row" owner="Scourge" />
+		  <territoryOwner territory="Plaguewood" owner="Scourge" />
+		  <territoryOwner territory="Slaughter Square" owner="Scourge" />
+		  <territoryOwner territory="Slaughterhouse" owner="Scourge" />
+		  <territoryOwner territory="South Plaguewood" owner="Scourge" />
+		  <territoryOwner territory="The Fungus Vale" owner="Scourge" />
+		  <territoryOwner territory="The Gauntlet" owner="Scourge" />
+		  <territoryOwner territory="The Noxious Glade" owner="Scourge" />
+		  <!-- ScarletCrusade -->
+		  <territoryOwner territory="Crusader's Square" owner="ScarletCrusade" />
+		  <territoryOwner territory="The Crimson Throne" owner="ScarletCrusade" />
+		  <territoryOwner territory="The Hoard" owner="ScarletCrusade" />
+		  <territoryOwner territory="The Scarlet Basilica" owner="ScarletCrusade" />
+		  <territoryOwner territory="The Scarlet Bastion" owner="ScarletCrusade" />
+		  <territoryOwner territory="Tyr's Hand" owner="ScarletCrusade" />
+     </ownerInitialize>
+	 
+	 <unitInitialize>
+	      <!-- Scourge -->
+	 <unitPlacement unitType="ghoul" territory="Corin's Crossing" quantity="3" owner="Scourge" />
+	 <unitPlacement unitType="abomination" territory="Corin's Crossing" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="banshee" territory="Corin's Crossing" quantity="3" owner="Scourge" />
+	 <unitPlacement unitType="skeleton_hound" territory="Corin's Crossing" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="gargoyle" territory="Corin's Crossing" quantity="2" owner="Scourge" />
+	
+	 <unitPlacement unitType="ghoul" territory="The Noxious Glade" quantity="3" owner="Scourge" />
+	 <unitPlacement unitType="crypt_fiend" territory="The Noxious Glade" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="banshee" territory="The Noxious Glade" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="ziggurat" territory="The Noxious Glade" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="slaughterhouse" territory="The Noxious Glade" quantity="1" owner="Scourge" />
+	
+	 <unitPlacement unitType="abomination" territory="The Fungus Vale" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="crypt_fiend" territory="The Fungus Vale" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="ziggurat" territory="The Fungus Vale" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="slaughterhouse" territory="The Fungus Vale" quantity="1" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ghoul" territory="Plaguewood" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="abomination" territory="Plaguewood" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="crypt_fiend" territory="Plaguewood" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="skeleton_hound" territory="Plaguewood" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="ziggurat" territory="Plaguewood" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="slaughterhouse" territory="Plaguewood" quantity="1" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ghoul" territory="South Plaguewood" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="banshee" territory="South Plaguewood" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="meat_wagon" territory="South Plaguewood" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="ziggurat" territory="South Plaguewood" quantity="1" owner="Scourge" />
+	 
+	 
+	 <unitPlacement unitType="abomination" territory="Slaughter Square" quantity="3" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ghoul" territory="The Gauntlet" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="gargoyle" territory="The Gauntlet" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="crypt_fiend" territory="The Gauntlet" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="banshee" territory="The Gauntlet" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="skeleton_hound" territory="The Gauntlet" quantity="1" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ziggurat" territory="Ash'ari Ziggurat 1" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="crypt_fiend" territory="Ash'ari Ziggurat 1" quantity="2" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ziggurat" territory="Ash'ari Ziggurat 2" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="banshee" territory="Ash'ari Ziggurat 2" quantity="2" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ziggurat" territory="Ash'ari Ziggurat 3" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="ghoul" territory="Ash'ari Ziggurat 3" quantity="2" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ghoul" territory="Elder's Square" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="skeleton_hound" territory="Elder's Square" quantity="1" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ghoul" territory="Festival Lane" quantity="2" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ghoul" territory="Market Row" quantity="2" owner="Scourge" />
+	 <unitPlacement unitType="abomination" territory="Market Row" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="banshee" territory="Market Row" quantity="1" owner="Scourge" />
+	 
+	 <unitPlacement unitType="ghoul" territory="King's Square" quantity="1" owner="Scourge" />
+	 <unitPlacement unitType="skeleton_hound" territory="King's Square" quantity="2" owner="Scourge" />
+	 
+		  <!-- ScarletCrusade -->
+		  
+	 <unitPlacement unitType="initiate" territory="Tyr's Hand" quantity="3" owner="ScarletCrusade" />
+	 <unitPlacement unitType="crusader" territory="Tyr's Hand" quantity="1" owner="ScarletCrusade" />
+	 <unitPlacement unitType="ranger" territory="Tyr's Hand" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="cavalier" territory="Tyr's Hand" quantity="3" owner="ScarletCrusade" />
+	 <unitPlacement unitType="cannon" territory="Tyr's Hand" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="scout_tower" territory="Tyr's Hand" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="barrack" territory="Tyr's Hand" quantity="1" owner="ScarletCrusade" />
+	 
+	 <unitPlacement unitType="crusader" territory="The Scarlet Basilica" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="gryphon_rider" territory="The Scarlet Basilica" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="purifier" territory="The Scarlet Basilica" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="barrack" territory="The Scarlet Basilica" quantity="1" owner="ScarletCrusade" />
+	 
+	 
+	 <unitPlacement unitType="initiate" territory="Crusader's Square" quantity="4" owner="ScarletCrusade" />
+	 <unitPlacement unitType="crusader" territory="Crusader's Square" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="ranger" territory="Crusader's Square" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="purifier" territory="Crusader's Square" quantity="1" owner="ScarletCrusade" />
+	 
+	 <unitPlacement unitType="initiate" territory="The Scarlet Bastion" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="crusader" territory="The Scarlet Bastion" quantity="3" owner="ScarletCrusade" />
+	 <unitPlacement unitType="ranger" territory="The Scarlet Bastion" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="purifier" territory="The Scarlet Bastion" quantity="3" owner="ScarletCrusade" />
+	 
+	 <unitPlacement unitType="initiate" territory="The Hoard" quantity="2" owner="ScarletCrusade" />
+	 <unitPlacement unitType="ranger" territory="The Hoard" quantity="3" owner="ScarletCrusade" />
+	 <unitPlacement unitType="purifier" territory="The Hoard" quantity="1" owner="ScarletCrusade" />
+	 <unitPlacement unitType="cannon" territory="The Hoard" quantity="2" owner="ScarletCrusade" />
+	 
+	 <unitPlacement unitType="crusader" territory="The Crimson Throne" quantity="3" owner="ScarletCrusade" />
+	 
+	 	  <!-- Neutral -->
+		  
+
+     <unitPlacement unitType="plaguehound" territory="Tirion's Cottage" quantity="2" />
+     <unitPlacement unitType="maggot" territory="Tirion's Cottage" quantity="1" />	 
+	 
+	 <unitPlacement unitType="maggot" territory="The Marris Stead" quantity="1" />	
+	 <unitPlacement unitType="bat" territory="The Marris Stead" quantity="2" />	
+	 <unitPlacement unitType="ranger" territory="The Marris Stead" quantity="1" />	
+	 
+	 <unitPlacement unitType="maggot" territory="Undercroft" quantity="3" />
+	 
+	 <unitPlacement unitType="banshee" territory="Darrowshire" quantity="3" />
+	 
+	 <unitPlacement unitType="plagueland_tower" territory="Crown Guard Tower" quantity="1" />
+	 <unitPlacement unitType="plaguehound" territory="Crown Guard Tower" quantity="2" />
+	 <unitPlacement unitType="maggot" territory="Crown Guard Tower" quantity="2" />
+	 <unitPlacement unitType="bat" territory="Crown Guard Tower" quantity="1" />
+	 
+	 <unitPlacement unitType="water_elemental" territory="Lake Mereldar" quantity="3" />
+	 
+	 <unitPlacement unitType="water_elemental" territory="Blackwood Lake" quantity="3" />
+	 <unitPlacement unitType="maggot" territory="Blackwood Lake" quantity="1" />
+	 
+	 <unitPlacement unitType="maggot" territory="The Eastern Plaguelands" quantity="2" />
+	 <unitPlacement unitType="plaguehound" territory="The Eastern Plaguelands" quantity="1" />
+	 
+	 <unitPlacement unitType="crusader" territory="Light's Hope Chapel" quantity="2" />
+	 <unitPlacement unitType="purifier" territory="Light's Hope Chapel" quantity="2" />
+	 <unitPlacement unitType="initiate" territory="Light's Hope Chapel" quantity="1" />
+	 
+	 <unitPlacement unitType="plagueland_tower" territory="Eastwall Tower" quantity="1" />
+	 <unitPlacement unitType="maggot" territory="Eastwall Tower" quantity="2" />
+	 <unitPlacement unitType="bat" territory="Eastwall Tower" quantity="1" />
+	 
+	 <unitPlacement unitType="water_elemental" territory="Northdale" quantity="3" />
+	 <unitPlacement unitType="banshee" territory="Northdale" quantity="1" />
+	  
+	 <unitPlacement unitType="maggot" territory="Zul'Marshar" quantity="4" />
+	 
+	 <unitPlacement unitType="plagueland_tower" territory="Eastwall Gate" quantity="1" />
+	 <unitPlacement unitType="maggot" territory="Eastwall Gate" quantity="4" />
+	 
+	 <unitPlacement unitType="plagueland_tower" territory="Terrordale" quantity="1" />
+	 <unitPlacement unitType="banshee" territory="Terrordale" quantity="3" />
+	 
+	<!-- Stratholm Initial -->
+	
+    <unitPlacement unitType="townpro" territory="Ash'ari Ziggurat 1" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="Ash'ari Ziggurat 2" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="Ash'ari Ziggurat 3" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="Elder's Square" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="Festival Lane" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="Harbour" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="King's Square" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="Market Row" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="Slaughter Square" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="Slaughterhouse" quantity="1" owner="Scourge" />
+	<unitPlacement unitType="townpro" territory="The Gauntlet" quantity="1" owner="Scourge" />
+	
+	<unitPlacement unitType="townpro" territory="Crusader's Square" quantity="1" owner="ScarletCrusade" />
+	<unitPlacement unitType="townpro" territory="The Crimson Throne" quantity="1" owner="ScarletCrusade" />
+	<unitPlacement unitType="townpro" territory="The Hoard" quantity="1" owner="ScarletCrusade" />
+	<unitPlacement unitType="townpro" territory="The Scarlet Bastion" quantity="1" owner="ScarletCrusade" />
+	
+     </unitInitialize>
+	 
+	     <resourceInitialize>
+      <resourceGiven player="Scourge" resource="PUs" quantity="30" />
+      <resourceGiven player="ScarletCrusade" resource="PUs" quantity="30" />
+    </resourceInitialize>
+	  </initialize>
+	  <propertyList>
+    <!-- Bidding
+    <property name="Scourge Bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Scarlet Crusade Bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property> -->
+    <!-- victory options 
+    <property name="Projection of Power" value="true" editable="true">
+      <boolean/>
+    </property> -->
+    <!-- format of "<alliance> <Name of Victory Condition>" 
+    <property name="Axis Projection of Power VCs" value="11" editable="false">
+      <number min="10" max="15"/>
+    </property>
+    <property name="Allies Projection of Power VCs" value="11" editable="false">
+      <number min="10" max="15"/>
+    </property> -->
+    <!-- Triggered Victory is a victory condition set by a trigger, using a condition or national objective
+    <property name="Triggered Victory" value="true" editable="true">
+      <boolean/>
+    </property> -->
+    <!-- End of Victory Conditions, rest of typical changed properties below -->
+    <property name="Low Luck" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for AntiAircraft" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Technology" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Bombing and Territory Damage" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Use Politics" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- If this is set, it adds or subtracks from any conditions that require a relationship to last for X rounds -->
+    <property name="Relationships Last Extra Rounds" value="0" editable="false">
+      <number min="-1" max="2"/>
+    </property>
+    <property name="Alliances Can Chain Together" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="National Objectives" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Use Triggers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Tech Development" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Remove All Tech Tokens At End Of Turn" value="false" editable="false">
+      <boolean/>
+    </property>
+		<!-- If "true" adds 0-1 to the submarines defensive value if and when SuperSubs tech is activated -->
+    <property name="Super Sub Defence Bonus" value="0" editable="false">
+      <number min="0" max="1"/>
+    </property>
+    <!-- All units with multiple dice rolls, will be forced to select the best die rolled instead of using all dice. -->
+    <property name="LHTR Heavy Bombers" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Heavy Bomber Dice Rolls" value="2" editable="false">
+      <number min="2" max="3"/>
+    </property>
+    <property name="Paratroopers Can Move During Non Combat" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Paratroopers Can Attack Deep Into Enemy Territory" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Always on AA" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Kamikaze Airplanes will allow all air units on the map to use all their movement to get to a battle -->
+    <property name="Kamikaze Airplanes" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Use Kamikaze Suicide Attacks allows a player to use resources designated in player attachments to make special attacks -->
+    <property name="Use Kamikaze Suicide Attacks" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Kamikaze Suicide Attacks Done By Current Territory Owner allows you to have the current owner perform the suicide attacks, instead of the original owner -->
+    <property name="Kamikaze Suicide Attacks Done By Current Territory Owner" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Kamikaze Suicide Attacks Only Where Battles Are has the attacks only occur only when there are amphibious battles from that territory, or a battle in that territory -->
+    <property name="Kamikaze Suicide Attacks Only Where Battles Are" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Units Repair Hits End Turn" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Units Repair Hits Start Turn" value="false" editable="true">
+      <boolean/>
+    </property>
+    <!-- in order to repair, a unit must in the presence of a unit with "repairsUnits" unit attachment -->
+    <property name="Two HitPoint Units Require Repair Facilities" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Display Options -->
+    <!-- Multiply PUs will multiply all PUs gained or lost during a turn. It will not yet multiply costs of units or any other costs, or starting PUs -->
+    <property name="Multiply PUs" value="1" editable="false">
+      <number min="1" max="10"/>
+    </property>
+    <property name="Selectable Zero Movement Units" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- END OF TYPICAL OPTIONAL PROPERTIES -->
+    <!-- rules and tech -->
+	<!-- ww2v2 rules override many individual rules to create revised rules
+				<property name="WW2V2" value="false" editable="false">
+						<boolean/>
+				</property> -->
+    <!-- Unlike the WW2V2 option, WW2V3 actually sets very little: If no techs specified then it will create WW2V3 default techs,
+								and if a game is not WW2V2 and not WW2V3, then it must be 'classic' rules [this is applicable for when rockets fire, and how aa guns may stack, the default win conditions for classic games, and that air units create retreat paths for ground/sea units]-->
+    <property name="WW2V3" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="WW2V3 Tech Model" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Selectable Tech Roll" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Use Shipyards turns on the shipyards tech's old way of doing things, which requires that all nations use the same production frontiers. A new way of doing shipywards will require triggers and is currently being coded -->
+    <property name="Use Shipyards" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- For use with RandomStartDelegate -->
+    <property name="Territories Are Assigned Randomly" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- If any players are disabled and unused, then all their units, money, etc, gets deleted at the start of the game during initialization delegate. -->
+    <property name="Disabled Players Assets Deleted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Scramble Rules In Effect" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Scrambled Units Return To Base" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Scramble To Sea Only" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Scramble From Island Only" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Scramble To Any Amphibious Assault" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Can Scramble Into Air Battles" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Airborne Attacks Only In Existing Battles" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Airborne Attacks Only In Enemy Territories" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- if true we will not use the "classic" rule of getting a single rocket attack for the whole round, and instead get a rocket attack for each rocket we have -->
+    <property name="All Rockets Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- if true allows infinite attacks against a factory by many rockets, if false,will only allow a max of 1 rocket to attack each factory -->
+    <property name="Rocket Attacks Per Factory Infinite" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Rockets Can Fly Over Impassables" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Pacific Theater does 4 things: allows nations to gain VictoryPoints by capturing PUs, allows Strategic Bombing to destroy VPs,
+				allows NoPU purchases (ww2v3 does also), and allows an additional purchase in NOPU purchases if you control the Burma Road
+		<property name="Pacific Theater" value="false" editable="false">
+				<boolean/>
+		</property>-->
+    <!-- Do we charge for fuel when we move units? -->
+    <property name="Use Fuel Cost" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- These require an associated value in the attachments section above-->
+    <property name="Movement By Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Production Per X Territories Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- only territories with a production value of 1 or more may count towards the production per x territories -->
+    <property name="Production Per Valued Territory Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement Per Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Place in Any Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unplaced units live when not placed" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- allows a player to give units to another player if true. units must have canBeGivenByTerritory and territories must have changeUnitOwners and the players must have the player attachment giveUnitControl -->
+    <property name="Give Units By Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- allows a player to let its units be captured by another player if true, when the territory is captured. units must have canBeCapturedOnEnteringBy and territories must have captureUnitOnEnteringBy and the players must have the player attachment captureUnitOnEnteringBy -->
+    <property name="Capture Units On Entering Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- if "Capture Units On Entering Territory" is true, then the units can either be captured (default) or destroyed (only if this property below is true: "On Entering Units Destroyed Instead Of Captured") -->
+    <property name="On Entering Units Destroyed Instead Of Captured" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- specific rules -->
+    <!-- land related -->
+    <!-- if true, units with destroyedWhenCapturedBy will be destroyed instead of captured. only applies to non-combat units, since combat units die in combat -->
+    <property name="Units Can Be Destroyed Instead Of Captured" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- allows units to change into other units using the whenCapturedChangesInto ability -->
+    <property name="Units Can Be Changed On Capture" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- if true you may have a number of constructions up to the value of the territory, in territories with factories -->
+    <property name="More Constructions with Factory" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- if true you may have a number of constructions up to the value of the territory, in territories without factories -->
+    <property name="More Constructions without Factory" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unlimited Constructions" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Blitz Through Factories And AA Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- will roll dice for each type of aircraft separately -->
+    <property name="Roll AA Individually" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- random aa casualties lets the engine choose casualties randomly, and allows you to lose 2 bombers if you attack with 2 bombers and some fighters. I do not recommend using this property
+		<property name="Random AA Casualties" value="false" editable="false">
+				<boolean/>
+		</property>-->
+    <property name="Choose AA Casualties" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- will only roll aa if aaGun is in the territory getting attacked or bombed -->
+    <property name="AA Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- will cause the isAAforFlyOverOnly to shoot for the last step in a movement, instead of just everything but the end. -->
+    <property name="Force AA Attacks For Last Step Of Fly Over" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Multiple AA Per Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- if false, (all property default to false), then units killed by suicide units can return fire.  if true, they can not return fire -->
+    <property name="Suicide and Munition Casualties Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- if suicide units act like normal units on defense, except that they can not die to attacks by other suicide units -->
+    <property name="Defending Suicide and Munition Units Do Not Fire" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Units May Give Bonus Movement allows units with givesMovement to give other units bonus movement-->
+    <property name="Units May Give Bonus Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Used when setting movement costs with territory effects to determine if unit can use remaining movement to enter a territory with a higher cost -->
+    <property name="Enter Territories With Higher Movement Costs Then Remaining Moves" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- sea related -->
+    <property name="Partial Amphibious Retreat" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- a subset of partial amphibious retreat, allows attacker to withdraw planes -->
+    <property name="Attacker Retreat Planes" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Despite what this one says, it means the opposite.  If true, casualties from naval bombard will get to return fire. -->
+    <property name="Naval Bombard Casualties Return Fire" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- if true, allied air on your carriers will participate in an attack -->
+    <property name="Allied Air Independent" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Surviving Air Move To Land" value="true" editable="false">
+      <boolean/>
+    </property>
+		<!-- If set to "true" a destroyer (isDestroyer) is required in the seazone in order for an air unit (isAir) to be able to hit an enemy submarine (isSub). 
+		Furthermore if air unit is the attacker, the destroyer must be owned by the attackers nation. If air unit is a defender, the destroyer can be owned by a allied nation as long as it is also at war with enemy submarines nations. 
+		This will also determine if the air unit rolls together or rolls seperately or rolls nothing, depending on the makeup of other allied units in the seazone when a submarine unit is present. -->
+    <property name="Air Attack Sub Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- transports may not unload to multiple territories -->
+    <property name="Transport Restricted Unload" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Transport In Movement" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Casualties Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- If enabled, transports can capture convoy zones. -->
+    <property name="Transport Control Sea Zone" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Submarines stop transports from doing amphibious assault unless there is at least 1 owned warship in the sea zone. If "true" submarine units are being counted as escorts. Combat transports are unaffected by this property. -->
+    <property name="Submarines Prevent Unescorted Amphibious Assaults" value="false" editable="false">
+      <boolean/>
+    </property>
+		<!-- Allows naval units to bypass subs during movement phase (both combat and non combat). Also allows units ending moves in a SZ occupied by an enemy sub with the choice to either attack or ignore enemy sub. -->
+    <property name="Ignore Sub In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+		<!-- They have first strike when defending as well unless a destroyer is present -->
+    <property name="Defending Subs Sneak Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+		<!-- Allows option for subs to withdraw from battle prior to the combat rolls -->
+    <property name="Sub Retreat Before Battle" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Submarines Defending May Submerge Or Retreat will allow defending submarines to retreat to friendly sea zones or submerge -->
+    <property name="Submarines Defending May Submerge Or Retreat" value="false" editable="false">
+      <boolean/>
+    </property>
+		<!-- Subs can travel through enemy sea zones except if enemy destroyer is present. Subs have the option to submerge rather than withdraw. -->
+    <property name="Submersible Subs" value="true" editable="false">
+      <boolean/>
+    </property>
+		<!-- Sub Control Sea Zone Restricted should be FALSE if there are any convoy zones! If true, subs will not be able to capture convoy zones. 
+		Determines whether or not a sub can controls a sea zone. Determines if transports can't unload if a sub is present -->
+    <property name="Sub Control Sea Zone Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Subs Can End NonCombat Move With Enemies allows submarines to end their noncombat movement in a sea zone containing any enemy units, including enemy subs -->
+    <property name="Subs Can End NonCombat Move With Enemies" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- if true, naval units may not move into convoy zones or controlled sea zones during non-combat moves -->
+    <property name="Naval Units May Not NonCombat Move Into Controlled Sea Zones" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- if true, units need to be able to pass through all canals of a same connection to move from one to the other zone -->
+    <property name="Control All Canals Between Territories To Pass" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Only affects units exactly called "battleship" -->
+    <property name="Two hit battleship" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- If false, blockades will deal set amount of damage per unit. If true, a 6 sided die will be rolled for each damage point, with that being the damage, except rolls higher than 3 will be ignored -->
+    <property name="Convoy Blockades Roll Dice For Cost" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- production related -->
+    <property name="Produce fighters on carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce new fighters on old carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Move existing fighters to new carriers" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Land existing fighters on new carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- LHTR Carrier rules enable 'Produce fighters on carriers', and 'Produce new fighters on old carriers', and 'Land existing fighters on new carriers', AND it will disable 'Move existing fighters to new carriers' -->
+    <property name="LHTR Carrier production rules" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+      <boolean/>
+    </property>
+	<!-- Allows units to be loaded even if there are enemy ships in the transport's sea zone, used to avoid players blocking unit loading with 1 cheap naval unit -->
+    <property name="Units Can Load In Hostile Sea Zones" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- used to add destroyers and artillery to the ww2v1 map
+		<property name="Use Destroyers and Artillery" value="false" editable="false">
+				<boolean/>
+		</property>-->
+    <!-- Any territory that contains enemy units will not produce any income or resources -->
+    <property name="Contested Territories Produce No Income" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Any territory abandoned may be taken over by the remaining units on the same turn it was abandoned on. Also includes if a territory is attacked and both all the attackers and all defenders die, then any other player with combat units will take over the territory. -->
+    <property name="Abandoned Territories May Be Taken Over Immediately" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- may only bomb or rocket a factory to a max of its territory value per turn (the individual two parts are below) -->
+    <property name="Territory Turn Limit" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Limit SBR Damage Per Turn" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Limit Rocket Damage Per Turn" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="maxFactoriesPerTerritory" value="1" editable="false">
+      <number min="1" max="100"/>
+    </property>
+    <!-- Placement Restricted By Factory warns the player whenever they try to produce more units than their factories can handle (can be turned off for individual players using rules attachments for unlimitedProduction -->
+    <property name="Placement Restricted By Factory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Unit Placement Restrictions are restrictions on the placement of units: unitPlacementRestrictions, unitPlacementOnlyAllowedIn, canOnlyBePlacedInTerritoryValuedAtX, requiresUnits, -->
+    <property name="Unit Placement Restrictions" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Attacker is given the option not to create a battle for sea battles -->
+    <property name="Sea Battles May Be Ignored" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Land Battle Rounds means the number of rounds that a normal Battle goes on for (land). Default is -1, and if negative, the battle continues forever until 1 side is eliminated. -->
+    <property name="Land Battle Rounds" value="10" editable="false">
+      <number min="-1" max="100"/>
+    </property>
+    <!-- Sea Battle Rounds means the number of rounds that a normal Battle goes on for (sea). Default is -1, and if negative, the battle continues forever until 1 side is eliminated. -->
+    <property name="Sea Battle Rounds" value="10" editable="false">
+      <number min="-1" max="100"/>
+    </property>
+    <!-- Air Battle Rounds means the number of rounds that an Air Battle goes on for. If negative, the battle continues forever until 1 side is eliminated. Default is 1, meaning the battle ends after the first round of combat. -->
+    <property name="Air Battle Rounds" value="1" editable="false">
+      <number min="-1" max="100"/>
+    </property>
+    <!-- Retreating Units Remain In Place means units retreat to the same territory as the battle territory, both both land and sea territories -->
+    <property name="Retreating Units Remain In Place" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Air Battle Attackers Can Retreat" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Air Battle Defenders Can Retreat" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Allows normal battles to have Escort aircraft and also be Intercepted by the defender -->
+    <property name="Battles May Be Preceeded By Air Battles" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Allows Strategic Bombing Raids to have Escort aircraft and also be Intercepted by the defender -->
+    <property name="Raids May Be Preceeded By Air Battles" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- SBR Affects Unit Production no longer does anything at all.  Instead it just sets to true: "Damage From Bombing Done To Units Instead Of Territories"
+-->
+    <!-- Damage From Bombing Done To Units Instead Of Territories has Strategic Bombing and Rockets do damage to a specific unit rather than directly to the player's PUs or to a territory. -->
+    <property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Allows all units that cause strategic bombing raid or rocket damage, to use "bombingMaxDieSides" and "bombingBonus" -->
+    <property name="Use Bombing Max Dice Sides And Bonus" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- similar to TTL, except that it is per rocket/aircraft instead of per turn -->
+    <property name="Limit SBR Damage To Factory Production" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- allows the loss of a victory point for every 10 sbr damage per turn
+		<property name="SBR Victory Points" value="false" editable="false">
+				<boolean/>
+		</property>-->
+    <!-- Neutrals related -->
+    <!-- amount of money subtracted to attack a neutral territory, (set neutrals charge to zero if you plan on attacking neutrals) -->
+    <property name="neutralCharge" value="0" editable="false">
+      <number min="0" max="9999999"/>
+    </property>
+    <property name="Neutrals Are Impassable" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Neutrals Are Blitzable" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Neutral Flyover Allowed" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Map Name: also used for map utils when asked (MUST exactly match the folder or zip name of your map (do not include the .zip of course). May point to another map folder if you are making a mod of that map) -->
+    <property name="mapName" value="warcraft_lordaeron_wars" editable="false">
+      <string/>
+    </property>
+    </propertyList>
+</game>

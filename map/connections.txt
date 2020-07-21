@@ -1,0 +1,145 @@
+<!-- Territory Definitions -->
+<territory name="Ash'ari Ziggurat 1"/>
+<territory name="Ash'ari Ziggurat 2"/>
+<territory name="Ash'ari Ziggurat 3"/>
+<territory name="Blackwood Lake"/>
+<territory name="Corin's Crossing"/>
+<territory name="Crown Guard Tower"/>
+<territory name="Crusader's Square"/>
+<territory name="Darrowshire"/>
+<territory name="East plague mountains"/>
+<territory name="Eastwall Gate"/>
+<territory name="Eastwall Tower"/>
+<territory name="Elder's Square"/>
+<territory name="Festival Lane"/>
+<territory name="Harbour"/>
+<territory name="King's Square"/>
+<territory name="Lake Mereldar"/>
+<territory name="Light's Hope Chapel"/>
+<territory name="Market Row"/>
+<territory name="North east plague mountains"/>
+<territory name="North plague mountains"/>
+<territory name="North west plague mountains"/>
+<territory name="Northdale"/>
+<territory name="Plaguewood"/>
+<territory name="Slaughter Square"/>
+<territory name="Slaughterhouse"/>
+<territory name="South Plaguewood"/>
+<territory name="South east plague mountains"/>
+<territory name="South west plague mountains"/>
+<territory name="Stratholme City"/>
+<territory name="Stratholme Gate"/>
+<territory name="Terrordale"/>
+<territory name="The Crimson Throne"/>
+<territory name="The Eastern Plaguelands"/>
+<territory name="The Fungus Vale"/>
+<territory name="The Gauntlet"/>
+<territory name="The Hoard"/>
+<territory name="The Marris Stead"/>
+<territory name="The Noxious Glade"/>
+<territory name="The Scarlet Basilica"/>
+<territory name="The Scarlet Bastion"/>
+<territory name="Tirion's Cottage"/>
+<territory name="Tyr's Hand"/>
+<territory name="Undercroft"/>
+<territory name="West plague mountains"/>
+<territory name="Zul'Marshar"/>
+
+<!-- Territory Connections -->
+<!-- Teleporters -->
+<connection t1="Stratholme Gate" t2="King's Square"/>
+<connection t1="Eastwall Gate" t2="Elder's Square"/>
+<!-- Tunnels -->
+<connection t1="Tirion's Cottage" t2="Terrordale"/>
+<!-- Normal Connections -->
+<connection t1="Ash'ari Ziggurat 1" t2="The Gauntlet"/>
+<connection t1="Ash'ari Ziggurat 2" t2="The Gauntlet"/>
+<connection t1="Ash'ari Ziggurat 3" t2="The Gauntlet"/>
+<connection t1="Blackwood Lake" t2="Corin's Crossing"/>
+<connection t1="Blackwood Lake" t2="Crown Guard Tower"/>
+<connection t1="Blackwood Lake" t2="Eastwall Gate"/>
+<connection t1="Blackwood Lake" t2="Eastwall Tower"/>
+<connection t1="Blackwood Lake" t2="Plaguewood"/>
+<connection t1="Blackwood Lake" t2="South Plaguewood"/>
+<connection t1="Blackwood Lake" t2="The Eastern Plaguelands"/>
+<connection t1="Blackwood Lake" t2="West plague mountains"/>
+<connection t1="Corin's Crossing" t2="Crown Guard Tower"/>
+<connection t1="Corin's Crossing" t2="Lake Mereldar"/>
+<connection t1="Corin's Crossing" t2="The Eastern Plaguelands"/>
+<connection t1="Crown Guard Tower" t2="Darrowshire"/>
+<connection t1="Crown Guard Tower" t2="Lake Mereldar"/>
+<connection t1="Crown Guard Tower" t2="South west plague mountains"/>
+<connection t1="Crown Guard Tower" t2="The Fungus Vale"/>
+<connection t1="Crown Guard Tower" t2="The Marris Stead"/>
+<connection t1="Crown Guard Tower" t2="Undercroft"/>
+<connection t1="Crown Guard Tower" t2="West plague mountains"/>
+<connection t1="Crusader's Square" t2="Market Row"/>
+<connection t1="Crusader's Square" t2="The Scarlet Bastion"/>
+<connection t1="Darrowshire" t2="South west plague mountains"/>
+<connection t1="Darrowshire" t2="Undercroft"/>
+<connection t1="East plague mountains" t2="Light's Hope Chapel"/>
+<connection t1="East plague mountains" t2="North east plague mountains"/>
+<connection t1="East plague mountains" t2="South east plague mountains"/>
+<connection t1="East plague mountains" t2="The Eastern Plaguelands"/>
+<connection t1="East plague mountains" t2="The Noxious Glade"/>
+<connection t1="East plague mountains" t2="The Scarlet Basilica"/>
+<connection t1="East plague mountains" t2="Tyr's Hand"/>
+<connection t1="Eastwall Gate" t2="Eastwall Tower"/>
+<connection t1="Eastwall Gate" t2="North plague mountains"/>
+<connection t1="Eastwall Gate" t2="Plaguewood"/>
+<connection t1="Eastwall Tower" t2="North east plague mountains"/>
+<connection t1="Eastwall Tower" t2="North plague mountains"/>
+<connection t1="Eastwall Tower" t2="Northdale"/>
+<connection t1="Eastwall Tower" t2="The Eastern Plaguelands"/>
+<connection t1="Eastwall Tower" t2="Zul'Marshar"/>
+<connection t1="Elder's Square" t2="Festival Lane"/>
+<connection t1="Festival Lane" t2="King's Square"/>
+<connection t1="Festival Lane" t2="Market Row"/>
+<connection t1="King's Square" t2="Market Row"/>
+<connection t1="Lake Mereldar" t2="South east plague mountains"/>
+<connection t1="Lake Mereldar" t2="South west plague mountains"/>
+<connection t1="Lake Mereldar" t2="The Eastern Plaguelands"/>
+<connection t1="Lake Mereldar" t2="Tyr's Hand"/>
+<connection t1="Light's Hope Chapel" t2="The Eastern Plaguelands"/>
+<connection t1="North east plague mountains" t2="North plague mountains"/>
+<connection t1="North east plague mountains" t2="Northdale"/>
+<connection t1="North east plague mountains" t2="The Eastern Plaguelands"/>
+<connection t1="North east plague mountains" t2="The Noxious Glade"/>
+<connection t1="North east plague mountains" t2="Zul'Marshar"/>
+<connection t1="North plague mountains" t2="North west plague mountains"/>
+<connection t1="North plague mountains" t2="Plaguewood"/>
+<connection t1="North plague mountains" t2="Stratholme City"/>
+<connection t1="North plague mountains" t2="Stratholme Gate"/>
+<connection t1="North plague mountains" t2="Zul'Marshar"/>
+<connection t1="North west plague mountains" t2="Stratholme City"/>
+<connection t1="North west plague mountains" t2="Stratholme Gate"/>
+<connection t1="North west plague mountains" t2="Terrordale"/>
+<connection t1="North west plague mountains" t2="Tirion's Cottage"/>
+<connection t1="North west plague mountains" t2="West plague mountains"/>
+<connection t1="Plaguewood" t2="South Plaguewood"/>
+<connection t1="Plaguewood" t2="Stratholme Gate"/>
+<connection t1="Plaguewood" t2="Terrordale"/>
+<connection t1="Slaughter Square" t2="Harbour"/>
+<connection t1="Slaughter Square" t2="Slaughterhouse"/>
+<connection t1="Slaughter Square" t2="The Gauntlet"/>
+<connection t1="South Plaguewood" t2="Terrordale"/>
+<connection t1="South Plaguewood" t2="West plague mountains"/>
+<connection t1="South east plague mountains" t2="South west plague mountains"/>
+<connection t1="South east plague mountains" t2="The Scarlet Basilica"/>
+<connection t1="South east plague mountains" t2="Tyr's Hand"/>
+<connection t1="South west plague mountains" t2="Undercroft"/>
+<connection t1="Stratholme City" t2="Stratholme Gate"/>
+<connection t1="Stratholme Gate" t2="Terrordale"/>
+<connection t1="Terrordale" t2="West plague mountains"/>
+<connection t1="The Crimson Throne" t2="The Hoard"/>
+<connection t1="The Eastern Plaguelands" t2="The Noxious Glade"/>
+<connection t1="The Eastern Plaguelands" t2="Tyr's Hand"/>
+<connection t1="The Fungus Vale" t2="The Marris Stead"/>
+<connection t1="The Fungus Vale" t2="West plague mountains"/>
+<connection t1="The Hoard" t2="The Scarlet Bastion"/>
+<connection t1="The Marris Stead" t2="Tirion's Cottage"/>
+<connection t1="The Marris Stead" t2="Undercroft"/>
+<connection t1="The Marris Stead" t2="West plague mountains"/>
+<connection t1="The Scarlet Basilica" t2="Tyr's Hand"/>
+<connection t1="Tirion's Cottage" t2="Undercroft"/>
+<connection t1="West plague mountains" t2="Tirion's Cottage"/>
