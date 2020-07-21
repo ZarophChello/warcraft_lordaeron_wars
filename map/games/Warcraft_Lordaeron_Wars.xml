@@ -8670,7 +8670,7 @@
 <unitPlacement unitType="port" territory="Revantusk Village" quantity="1" />
 <unitPlacement unitType="port" territory="Zul'Aman" quantity="1" owner="TrollTribes" />
 <unitPlacement unitType="port" territory="Fenris Keep" quantity="1" owner="GnollPacks" />
-<unitPlacement unitType="port" territory="Shalandis Isle" quantity="1" />
+<unitPlacement unitType="port" territory="Shalandis Isle" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="port" territory="The North Coast" quantity="1" owner="MurlocTribes" />
 <unitPlacement unitType="port" territory="Exile's Reach" quantity="1" owner="OgreClans" />
 <unitPlacement unitType="port" territory="Jorundall" quantity="1" />
