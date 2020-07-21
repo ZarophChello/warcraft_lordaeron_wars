@@ -6,6 +6,76 @@
   <triplea minimumVersion="1.9" />
   <diceSides value="10" />
 <variableList>
+<variable name="Leadership all not in use">
+<element name="ghoul"/>
+<element name="abomination"/>
+<element name="skeleton_hound"/>
+<element name="initiate"/>
+<element name="crusader"/>
+<element name="cavalier"/>
+<element name="swordsman"/>
+<element name="arcane_guardian"/>
+<element name="hawkstrider_cavalier"/>
+<element name="berserker"/>
+<element name="beast_master"/>
+<element name="warbringer"/>
+<element name="deathguard"/>
+<element name="deathstalker"/>
+<element name="dark_knight"/>
+<element name="sunreaver_battle_mage"/>
+<element name="rune_golem"/>
+<element name="mana_hound"/>
+<element name="grunt"/>
+<element name="poacher"/>
+<element name="coastrunner"/>
+<element name="brute"/>
+<element name="renegade"/>
+<element name="broodling"/>
+<element name="dark_runner"/>
+<element name="moon_walker"/>
+<element name="ghost"/>
+<element name="wraith"/>
+<element name="tunneler"/>
+<element name="fire_elemental"/>
+<element name="earth_elemental"/>
+<element name="husk"/>
+<element name="crypt_fiend"/>
+<element name="banshee"/>
+<element name="meat_wagon"/>
+<element name="ranger"/>
+<element name="purifier"/>
+<element name="cannon"/>
+<element name="farstrider"/>
+<element name="magister"/>
+<element name="thalassian_ballista"/>
+<element name="axe_thrower"/>
+<element name="witch_doctor"/>
+<element name="catapult"/>
+<element name="fallen_archer"/>
+<element name="apothecary"/>
+<element name="plague_catapult"/>
+<element name="silver_covenant_ranger"/>
+<element name="archmage"/>
+<element name="glaive_thrower"/>
+<element name="headhunter"/>
+<element name="rifleman"/>
+<element name="mystic"/>
+<element name="tidecaller"/>
+<element name="magi"/>
+<element name="dark_wizard"/>
+<element name="spitter"/>
+<element name="geomancer"/>
+<element name="air_elemental"/>
+<element name="water_elemental"/>
+<element name="remnant"/>
+<element name="gargoyle"/>
+<element name="scarlet_rider"/>
+<element name="dragonhawk_rider"/>
+<element name="dragonhawk"/>
+<element name="bat"/>
+<element name="silver_covenant_hippogryph"/>
+<element name="gryphon_rider"/>
+</variable>
 <variable name="ChargeTargeted">
 <element name="ghoul"/>
 <element name="abomination"/>
@@ -102,7 +172,130 @@
 <element name="water_elemental"/>
 <element name="remnant"/>
 </variable>
-<variable name="LeadershipTargeted">
+<variable name="ArcherLeadership">
+<element name="ghoul"/>
+<element name="abomination"/>
+<element name="skeleton_hound"/>
+<element name="initiate"/>
+<element name="crusader"/>
+<element name="cavalier"/>
+<element name="swordsman"/>
+<element name="arcane_guardian"/>
+<element name="hawkstrider_cavalier"/>
+<element name="berserker"/>
+<element name="beast_master"/>
+<element name="warbringer"/>
+<element name="deathguard"/>
+<element name="deathstalker"/>
+<element name="dark_knight"/>
+<element name="sunreaver_battle_mage"/>
+<element name="rune_golem"/>
+<element name="mana_hound"/>
+<element name="grunt"/>
+<element name="poacher"/>
+<element name="coastrunner"/>
+<element name="brute"/>
+<element name="renegade"/>
+<element name="broodling"/>
+<element name="dark_runner"/>
+<element name="moon_walker"/>
+<element name="ghost"/>
+<element name="wraith"/>
+<element name="tunneler"/>
+<element name="fire_elemental"/>
+<element name="earth_elemental"/>
+<element name="husk"/>
+<element name="banshee"/>
+<element name="meat_wagon"/>
+<element name="purifier"/>
+<element name="cannon"/>
+<element name="magister"/>
+<element name="thalassian_ballista"/>
+<element name="witch_doctor"/>
+<element name="catapult"/>
+<element name="apothecary"/>
+<element name="plague_catapult"/>
+<element name="archmage"/>
+<element name="glaive_thrower"/>
+<element name="mystic"/>
+<element name="tidecaller"/>
+<element name="magi"/>
+<element name="dark_wizard"/>
+<element name="geomancer"/>
+<element name="water_elemental"/>
+<element name="gargoyle"/>
+<element name="scarlet_rider"/>
+<element name="dragonhawk_rider"/>
+<element name="dragonhawk"/>
+<element name="bat"/>
+<element name="silver_covenant_hippogryph"/>
+<element name="gryphon_rider"/>
+</variable>
+<variable name="SiegeLeadership">
+<element name="ghoul"/>
+<element name="abomination"/>
+<element name="skeleton_hound"/>
+<element name="initiate"/>
+<element name="crusader"/>
+<element name="cavalier"/>
+<element name="swordsman"/>
+<element name="arcane_guardian"/>
+<element name="hawkstrider_cavalier"/>
+<element name="berserker"/>
+<element name="beast_master"/>
+<element name="warbringer"/>
+<element name="deathguard"/>
+<element name="deathstalker"/>
+<element name="dark_knight"/>
+<element name="sunreaver_battle_mage"/>
+<element name="rune_golem"/>
+<element name="mana_hound"/>
+<element name="grunt"/>
+<element name="poacher"/>
+<element name="coastrunner"/>
+<element name="brute"/>
+<element name="renegade"/>
+<element name="broodling"/>
+<element name="dark_runner"/>
+<element name="moon_walker"/>
+<element name="ghost"/>
+<element name="wraith"/>
+<element name="tunneler"/>
+<element name="fire_elemental"/>
+<element name="earth_elemental"/>
+<element name="husk"/>
+<element name="crypt_fiend"/>
+<element name="banshee"/>
+<element name="ranger"/>
+<element name="purifier"/>
+<element name="farstrider"/>
+<element name="magister"/>
+<element name="axe_thrower"/>
+<element name="witch_doctor"/>
+<element name="fallen_archer"/>
+<element name="apothecary"/>
+<element name="silver_covenant_ranger"/>
+<element name="archmage"/>
+<element name="headhunter"/>
+<element name="rifleman"/>
+<element name="mystic"/>
+<element name="tidecaller"/>
+<element name="magi"/>
+<element name="dark_wizard"/>
+<element name="spitter"/>
+<element name="geomancer"/>
+<element name="air_elemental"/>
+<element name="water_elemental"/>
+<element name="remnant"/>
+<element name="gargoyle"/>
+<element name="scarlet_rider"/>
+<element name="dragonhawk_rider"/>
+<element name="dragonhawk"/>
+<element name="bat"/>
+<element name="silver_covenant_hippogryph"/>
+<element name="gryphon_rider"/>
+</variable>
+<variable name="HeavyInfantryLeadership">
 <element name="ghoul"/>
 <element name="abomination"/>
 <element name="skeleton_hound"/>
@@ -4311,7 +4504,7 @@
 <option name='unitPlacementRestrictions' value="$DungeonTiles$" />
 </attachment>
 <attachment name="supportAttachment_leadership_abomination" attachTo="abomination" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4322,7 +4515,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_crypt_fiend" attachTo="crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4333,7 +4526,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_meat_wagon" attachTo="meat_wagon" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4355,7 +4548,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_crusader" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4366,7 +4559,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_ranger" attachTo="ranger" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4377,7 +4570,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_cannon" attachTo="cannon" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4399,7 +4592,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_arcane_guardian" attachTo="arcane_guardian" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4410,7 +4603,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_farstrider" attachTo="farstrider" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4421,7 +4614,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_thalassian_ballista" attachTo="thalassian_ballista" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4443,7 +4636,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_beast_master" attachTo="beast_master" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4454,7 +4647,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_axe_thrower" attachTo="axe_thrower" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4465,7 +4658,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_catapult" attachTo="catapult" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4487,7 +4680,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_deathstalker" attachTo="deathstalker" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4498,7 +4691,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_fallen_archer" attachTo="fallen_archer" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4509,7 +4702,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_plague_catapult" attachTo="plague_catapult" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4531,7 +4724,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_rune_golem" attachTo="rune_golem" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4542,7 +4735,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_silver_covenant_ranger" attachTo="silver_covenant_ranger" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4553,7 +4746,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_glaive_thrower" attachTo="glaive_thrower" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4575,7 +4768,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_headhunter" attachTo="headhunter" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4586,7 +4779,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_rifleman" attachTo="rifleman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4608,7 +4801,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_brute" attachTo="brute" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4619,7 +4812,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_spitter" attachTo="spitter" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4630,7 +4823,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_moon_walker" attachTo="moon_walker" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4641,7 +4834,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_wraith" attachTo="wraith" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4652,7 +4845,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_earth_elemental" attachTo="earth_elemental" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4663,7 +4856,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_air_elemental" attachTo="air_elemental" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
