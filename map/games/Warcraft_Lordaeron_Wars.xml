@@ -2031,6 +2031,7 @@
 <!-- Tunnel Territory Definitions -->
 <connection t1="Tirion's Cottage" t2="Terrordale"/>
 <connection t1="Havenshire" t2="The Noxious Glade"/>
+<connection t1="Ambermill" t2="Dalaran Remnant Camp"/>
 
 <!-- Teleports Territory Definitions -->
 <connection t1="Stratholme Gate" t2="King's Square"/>
