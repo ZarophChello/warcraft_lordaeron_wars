@@ -1,145 +1,1242 @@
 <!-- Territory Definitions -->
-<territory name="Ash'ari Ziggurat 1"/>
-<territory name="Ash'ari Ziggurat 2"/>
-<territory name="Ash'ari Ziggurat 3"/>
+<territory name="Aerie Mountains"/>
+<territory name="Aerie Peak"/>
+<territory name="Aerie Valley"/>
+<territory name="Agamand Hills"/>
+<territory name="Agamand Mills"/>
+<territory name="Agol'watha"/>
+<territory name="Alterac Mountains"/>
+<territory name="Alterac Valley"/>
+<territory name="Alterac Valley Mountains"/>
+<territory name="Amani Mountains"/>
+<territory name="Ambermill"/>
+<territory name="An'daroth"/>
+<territory name="An'owyn"/>
+<territory name="An'telas"/>
+<territory name="Andilien Estate"/>
+<territory name="Andorhal"/>
+<territory name="Andorhal Road"/>
+<territory name="Arathi Highlands"/>
+<territory name="Arathi Lowlands"/>
+<territory name="Arathi Road"/>
+<territory name="Azurelode Mine"/>
+<territory name="Balnir Farmstead"/>
+<territory name="Beren's Peril"/>
 <territory name="Blackwood Lake"/>
-<territory name="Corin's Crossing"/>
+<territory name="Bogen's Ledge"/>
+<territory name="Boulder'gor"/>
+<territory name="Boulderfist Hall"/>
+<territory name="Brightwater Lake"/>
+<territory name="Brightwater Shore"/>
+<territory name="Brill"/>
+<territory name="Caer Darrow"/>
+<territory name="Centre Dead Scar"/>
+<territory name="Chillwind Camp"/>
+<territory name="Chillwind Point"/>
+<territory name="Chillwind Road"/>
+<territory name="Circle of East Binding"/>
+<territory name="Circle of Inner Binding"/>
+<territory name="Circle of Outer Binding"/>
+<territory name="Circle of West Binding"/>
+<territory name="Cold Hearth Manor"/>
+<territory name="Corrin's Crossing"/>
+<territory name="Creeping Ruin"/>
+<territory name="Crosspoint Tower"/>
 <territory name="Crown Guard Tower"/>
+<territory name="Crusader Outpost"/>
 <territory name="Crusader's Square"/>
+<territory name="Crushridge Hold"/>
+<territory name="Dabyrie's Farmstead"/>
+<territory name="Dalaran"/>
+<territory name="Dalaran Mountains"/>
+<territory name="Dalaran Remnant Camp"/>
+<territory name="Dalson's Tears"/>
+<territory name="Dandred's Fold"/>
+<territory name="Darrow Hill"/>
+<territory name="Darrowmere Lake"/>
+<territory name="Darrowmere Shore"/>
 <territory name="Darrowshire"/>
-<territory name="East plague mountains"/>
+<territory name="Darrowshire Mountains"/>
+<territory name="Dawning Lane"/>
+<territory name="Dawnstar Spire"/>
+<territory name="Dawnstar Village"/>
+<territory name="Deathknell"/>
+<territory name="Deatholme"/>
+<territory name="Deep Elem Mine"/>
+<territory name="Drywhisker Gorge"/>
+<territory name="Dun Garok"/>
+<territory name="Durnholde Fields"/>
+<territory name="Durnholde Keep"/>
+<territory name="Duskwither Grounds"/>
+<territory name="Duskwither Spire"/>
+<territory name="Dwarf Farm"/>
+<territory name="East Sanctum"/>
+<territory name="East Silvermoon Mountain"/>
+<territory name="East Thandol Mountains"/>
+<territory name="Eastern Strand"/>
+<territory name="Eastpoint Tower"/>
 <territory name="Eastwall Gate"/>
 <territory name="Eastwall Tower"/>
 <territory name="Elder's Square"/>
+<territory name="Fairbreeze Mountains"/>
+<territory name="Fairbreeze Village"/>
+<territory name="Falconwing Square"/>
+<territory name="Faldir's Cove"/>
+<territory name="Falthrien Academy"/>
+<territory name="Farstrider Enclave"/>
+<territory name="Farstrider Retreat"/>
+<territory name="Felstone Field"/>
+<territory name="Fenris Keep"/>
 <territory name="Festival Lane"/>
-<territory name="Harbour"/>
+<territory name="Fungal Mountains"/>
+<territory name="Gahrron's Withering"/>
+<territory name="Gallows' Corner"/>
+<territory name="Garren's Hunt"/>
+<territory name="Gauntlet Ash'ari Crystal 1"/>
+<territory name="Gauntlet Ash'ari Crystal 2"/>
+<territory name="Gauntlet Ash'ari Crystal 3"/>
+<territory name="Gauntlet Buildings"/>
+<territory name="Ghostlands"/>
+<territory name="Gilneas"/>
+<territory name="Gilneas Mountains"/>
+<territory name="Go'Shek Farm"/>
+<territory name="Golden Strand"/>
+<territory name="Goldenbough Pass"/>
+<territory name="Goldenmist Village"/>
+<territory name="Greengill Coast"/>
+<territory name="Greenrush River"/>
+<territory name="Greymane Wall"/>
+<territory name="Grimscale Shore"/>
+<territory name="Growless Cave"/>
+<territory name="Gunther's Retreat"/>
+<territory name="Hammerfall"/>
+<territory name="Hatchet Hills"/>
+<territory name="Havenshire"/>
+<territory name="Hearthglen"/>
+<territory name="Hearthglen Tower"/>
+<territory name="Hillsbrad Fields"/>
+<territory name="Hillsbrad Foothills"/>
+<territory name="Hinterlands High Road"/>
+<territory name="Hiri'watha"/>
+<territory name="Infectis Scar"/>
+<territory name="Isle of Tribulations"/>
+<territory name="Jintha'Alor"/>
 <territory name="King's Square"/>
 <territory name="Lake Mereldar"/>
-<territory name="Light's Hope Chapel"/>
+<territory name="Light Hope's Chapel"/>
+<territory name="Living Wood Mountains"/>
+<territory name="Lordaeron City Gates"/>
+<territory name="Lordaeron Mountains"/>
+<territory name="Lordaeron River"/>
+<territory name="Lordaeron Road"/>
+<territory name="Lordamere Internment Camp"/>
+<territory name="Lordamere Lake"/>
+<territory name="Magister's Terrace"/>
 <territory name="Market Row"/>
-<territory name="North east plague mountains"/>
-<territory name="North plague mountains"/>
-<territory name="North west plague mountains"/>
+<territory name="Marris Woodland"/>
+<territory name="Meraldar Mountains"/>
+<territory name="Misty Shore"/>
+<territory name="Nethander Stead"/>
+<territory name="New Avalon"/>
+<territory name="Nightmare Vale"/>
+<territory name="North Darrowmere River"/>
+<territory name="North Dead Scar"/>
+<territory name="North Sanctum"/>
+<territory name="North Silverpine Forest"/>
+<territory name="North Tide River"/>
+<territory name="North Tide's Run"/>
+<territory name="North Twin"/>
+<territory name="Northaeron Mountains"/>
 <territory name="Northdale"/>
+<territory name="Northern Lordaeron"/>
+<territory name="Northfold Manor"/>
+<territory name="Northridge Field"/>
+<territory name="Northridge Lumber Camp"/>
+<territory name="Northridge Mountains"/>
+<territory name="Olsen's Farthing"/>
+<territory name="Overlook River"/>
+<territory name="Parhelion Plaza"/>
+<territory name="Pestilent Scar"/>
+<territory name="Plaguemist Mountains"/>
 <territory name="Plaguewood"/>
+<territory name="Pyrewood Village"/>
+<territory name="Quel'Danas Dead Scar"/>
+<territory name="Quel'Danil Lodge"/>
+<territory name="Quel'Lithien Lodge"/>
+<territory name="Ravenholdt"/>
+<territory name="Refuge Pointe"/>
+<territory name="Revantusk Village"/>
+<territory name="Ruined Silvermoon Wall"/>
+<territory name="Ruins of Alterac"/>
+<territory name="Ruins of Silvermoon"/>
+<territory name="Runestone Falithas"/>
+<territory name="Runestone Shan'dor"/>
+<territory name="SZ0" water="true"/>
+<territory name="SZ1" water="true"/>
+<territory name="SZ2" water="true"/>
+<territory name="SZ3" water="true"/>
+<territory name="SZ4" water="true"/>
+<territory name="SZ5" water="true"/>
+<territory name="SZ7" water="true"/>
+<territory name="SZ8" water="true"/>
+<territory name="SZ9" water="true"/>
+<territory name="SZ10" water="true"/>
+<territory name="SZ11" water="true"/>
+<territory name="SZ12" water="true"/>
+<territory name="SZ13" water="true"/>
+<territory name="SZ14" water="true"/>
+<territory name="SZ15" water="true"/>
+<territory name="SZ16" water="true"/>
+<territory name="SZ17" water="true"/>
+<territory name="SZ18" water="true"/>
+<territory name="SZ19" water="true"/>
+<territory name="SZ20" water="true"/>
+<territory name="SZ21" water="true"/>
+<territory name="SZ22" water="true"/>
+<territory name="SZ23" water="true"/>
+<territory name="SZ24" water="true"/>
+<territory name="SZ25" water="true"/>
+<territory name="SZ26" water="true"/>
+<territory name="SZ27" water="true"/>
+<territory name="SZ28" water="true"/>
+<territory name="SZ29" water="true"/>
+<territory name="SZ30" water="true"/>
+<territory name="SZ31" water="true"/>
+<territory name="SZ32" water="true"/>
+<territory name="Sanctum of the Moon"/>
+<territory name="Sanctum of the Sun"/>
+<territory name="Scarlet Camp"/>
+<territory name="Scarlet Enclave"/>
+<territory name="Scarlet Monastery"/>
+<territory name="Scarlet Watch Post"/>
+<territory name="Scarlet Watchtower"/>
+<territory name="Seradane"/>
+<territory name="Seradane Mountains"/>
+<territory name="Shadowfang Keep"/>
+<territory name="Shadra'Alor"/>
+<territory name="Shalandis Isle"/>
+<territory name="Shaol'watha"/>
+<territory name="Shindigger's Camp"/>
+<territory name="Silvermoon City"/>
+<territory name="Silvermoon City Wall"/>
+<territory name="Silverpine Road"/>
+<territory name="Skittering Dark"/>
+<territory name="Skull Rock"/>
 <territory name="Slaughter Square"/>
-<territory name="Slaughterhouse"/>
+<territory name="Solliden Farmstead"/>
+<territory name="Sorrow Hill"/>
+<territory name="Sorrow Hill Cemetery"/>
+<territory name="South Alterac Mountains"/>
+<territory name="South Amani Mountains"/>
+<territory name="South Darrowmere River"/>
+<territory name="South Dead Scar"/>
+<territory name="South Hatchet Hills"/>
 <territory name="South Plaguewood"/>
-<territory name="South east plague mountains"/>
-<territory name="South west plague mountains"/>
+<territory name="South Silverpine Forest"/>
+<territory name="South Tide's Run"/>
+<territory name="South Twin"/>
+<territory name="Southpoint Tower"/>
+<territory name="Southshore"/>
+<territory name="Stillwater Pond"/>
+<territory name="Strahnbrad"/>
+<territory name="Stratholme Buildings"/>
 <territory name="Stratholme City"/>
+<territory name="Stratholme City Interior"/>
+<territory name="Stratholme East Mountains"/>
 <territory name="Stratholme Gate"/>
+<territory name="Stratholme Harbour"/>
+<territory name="Stromgarde City"/>
+<territory name="Stromgarde Keep"/>
+<territory name="Stromgarde Mountains"/>
+<territory name="Stromgarde Road"/>
+<territory name="Sun's Reach"/>
+<territory name="Sunblade Coast"/>
+<territory name="Suncrown Village"/>
+<territory name="Sungraze Peak"/>
+<territory name="Sunsail Anchorage"/>
+<territory name="Sunstrider Isle"/>
+<territory name="Sunwell Plateau"/>
+<territory name="Sunwell Wall"/>
+<territory name="Tarren Mill"/>
 <territory name="Terrordale"/>
+<territory name="Thalassian Pass"/>
+<territory name="The Altar of Zul"/>
+<territory name="The Bulwark"/>
 <territory name="The Crimson Throne"/>
+<territory name="The Dawning Isles"/>
+<territory name="The Dead Fields"/>
+<territory name="The Decrepit Ferry"/>
 <territory name="The Eastern Plaguelands"/>
+<territory name="The Fingers"/>
 <territory name="The Fungus Vale"/>
-<territory name="The Gauntlet"/>
 <territory name="The Hoard"/>
 <territory name="The Marris Stead"/>
+<territory name="The North Coast"/>
 <territory name="The Noxious Glade"/>
-<territory name="The Scarlet Basilica"/>
+<territory name="The Overlook Cliffs"/>
 <territory name="The Scarlet Bastion"/>
+<territory name="The Scorched Grove"/>
+<territory name="The Sepulcher"/>
+<territory name="The Shining Strand"/>
+<territory name="The Slaughter House"/>
+<territory name="The Thandol Span"/>
+<territory name="The Tirisfal Mountains"/>
+<territory name="The Weeping Cave"/>
+<territory name="The Western Plaguelands"/>
+<territory name="The Worg Orchards"/>
+<territory name="The Writhing Haunt"/>
+<territory name="Thondroril River"/>
+<territory name="Thoradin's North Wall"/>
+<territory name="Thoradin's Ruined Wall"/>
+<territory name="Thoradin's South Wall"/>
+<territory name="Thurons Livery"/>
+<territory name="Tide's Run Mountains"/>
 <territory name="Tirion's Cottage"/>
+<territory name="Tirisfal Glades"/>
+<territory name="Tor'Watha"/>
+<territory name="Tor'Watha Mountain"/>
+<territory name="Tower of Arathor"/>
+<territory name="Tranquil Shore"/>
+<territory name="Tranquillien"/>
+<territory name="Troll Mountains"/>
+<territory name="Twin Ziggurats"/>
 <territory name="Tyr's Hand"/>
+<territory name="Undercity"/>
 <territory name="Undercroft"/>
-<territory name="West plague mountains"/>
+<territory name="Underlight Mines"/>
+<territory name="Upland Mountains"/>
+<territory name="Uplands"/>
+<territory name="Vale Mountains"/>
+<territory name="Valorwind Lake"/>
+<territory name="Venomweb Vale"/>
+<territory name="West Sanctum"/>
+<territory name="West Silvermoon Mountain"/>
+<territory name="West Thandol Mountains"/>
+<territory name="Western Strand"/>
+<territory name="Whispering Forest"/>
+<territory name="Whispering Shore"/>
+<territory name="Windrunner Spire"/>
+<territory name="Windrunner Village"/>
+<territory name="Witherbark Village"/>
+<territory name="Zeb'Nowa"/>
+<territory name="Zeb'Sora"/>
+<territory name="Zeb'Tela"/>
+<territory name="Zeb'Watha"/>
+<territory name="Zul'Aman"/>
 <territory name="Zul'Marshar"/>
+<territory name="Zun'watha"/>
 
 <!-- Territory Connections -->
-<!-- Teleporters -->
-<connection t1="Stratholme Gate" t2="King's Square"/>
-<connection t1="Eastwall Gate" t2="Elder's Square"/>
-<!-- Tunnels -->
-<connection t1="Tirion's Cottage" t2="Terrordale"/>
-<!-- Normal Connections -->
-<connection t1="Ash'ari Ziggurat 1" t2="The Gauntlet"/>
-<connection t1="Ash'ari Ziggurat 2" t2="The Gauntlet"/>
-<connection t1="Ash'ari Ziggurat 3" t2="The Gauntlet"/>
-<connection t1="Blackwood Lake" t2="Corin's Crossing"/>
+<connection t1="Aerie Mountains" t2="Aerie Valley"/>
+<connection t1="Aerie Mountains" t2="Chillwind Point"/>
+<connection t1="Aerie Mountains" t2="Ravenholdt"/>
+<connection t1="Aerie Mountains" t2="Shindigger's Camp"/>
+<connection t1="Aerie Peak" t2="Aerie Mountains"/>
+<connection t1="Aerie Peak" t2="Aerie Valley"/>
+<connection t1="Aerie Peak" t2="Zun'watha"/>
+<connection t1="Aerie Valley" t2="Durnholde Fields"/>
+<connection t1="Aerie Valley" t2="Ravenholdt"/>
+<connection t1="Aerie Valley" t2="Zun'watha"/>
+<connection t1="Agamand Hills" t2="Garren's Hunt"/>
+<connection t1="Agamand Hills" t2="SZ13"/>
+<connection t1="Agamand Hills" t2="SZ15"/>
+<connection t1="Agamand Hills" t2="Stillwater Pond"/>
+<connection t1="Agamand Hills" t2="The North Coast"/>
+<connection t1="Agamand Hills" t2="Whispering Shore"/>
+<connection t1="Agamand Mills" t2="Agamand Hills"/>
+<connection t1="Agamand Mills" t2="Stillwater Pond"/>
+<connection t1="Agamand Mills" t2="Whispering Shore"/>
+<connection t1="Agol'watha" t2="Creeping Ruin"/>
+<connection t1="Agol'watha" t2="Hinterlands High Road"/>
+<connection t1="Agol'watha" t2="Overlook River"/>
+<connection t1="Agol'watha" t2="Plaguemist Mountains"/>
+<connection t1="Agol'watha" t2="Quel'Danil Lodge"/>
+<connection t1="Agol'watha" t2="Skull Rock"/>
+<connection t1="Agol'watha" t2="Valorwind Lake"/>
+<connection t1="Alterac Mountains" t2="Dalaran Remnant Camp"/>
+<connection t1="Alterac Mountains" t2="Dandred's Fold"/>
+<connection t1="Alterac Mountains" t2="Gallows' Corner"/>
+<connection t1="Alterac Mountains" t2="Growless Cave"/>
+<connection t1="Alterac Mountains" t2="Misty Shore"/>
+<connection t1="Alterac Mountains" t2="Strahnbrad"/>
+<connection t1="Alterac Mountains" t2="Uplands"/>
+<connection t1="Alterac Valley" t2="Alterac Valley Mountains"/>
+<connection t1="Alterac Valley" t2="Chillwind Road"/>
+<connection t1="Alterac Valley" t2="Tarren Mill"/>
+<connection t1="Alterac Valley" t2="The Fingers"/>
+<connection t1="Alterac Valley Mountains" t2="Chillwind Road"/>
+<connection t1="Alterac Valley Mountains" t2="Gallows' Corner"/>
+<connection t1="Alterac Valley Mountains" t2="Strahnbrad"/>
+<connection t1="Alterac Valley Mountains" t2="The Fingers"/>
+<connection t1="Amani Mountains" t2="Dawnstar Spire"/>
+<connection t1="Amani Mountains" t2="SZ30"/>
+<connection t1="Amani Mountains" t2="SZ31"/>
+<connection t1="Amani Mountains" t2="Tor'Watha Mountain"/>
+<connection t1="Amani Mountains" t2="Zeb'Nowa"/>
+<connection t1="Amani Mountains" t2="Zeb'Sora"/>
+<connection t1="Amani Mountains" t2="Zeb'Tela"/>
+<connection t1="Amani Mountains" t2="Zul'Aman"/>
+<connection t1="Ambermill" t2="Beren's Peril"/>
+<connection t1="Ambermill" t2="Dalaran Mountains"/>
+<connection t1="Ambermill" t2="South Silverpine Forest"/>
+<connection t1="An'daroth" t2="Grimscale Shore"/>
+<connection t1="An'daroth" t2="Isle of Tribulations"/>
+<connection t1="An'daroth" t2="South Dead Scar"/>
+<connection t1="An'owyn" t2="An'telas"/>
+<connection t1="An'owyn" t2="Andilien Estate"/>
+<connection t1="An'owyn" t2="Hatchet Hills"/>
+<connection t1="An'owyn" t2="Sanctum of the Sun"/>
+<connection t1="An'owyn" t2="Zeb'Nowa"/>
+<connection t1="An'telas" t2="Farstrider Enclave"/>
+<connection t1="An'telas" t2="Sanctum of the Sun"/>
+<connection t1="An'telas" t2="Sungraze Peak"/>
+<connection t1="An'telas" t2="Zeb'Nowa"/>
+<connection t1="An'telas" t2="Zeb'Tela"/>
+<connection t1="Andilien Estate" t2="Deatholme"/>
+<connection t1="Andilien Estate" t2="Hatchet Hills"/>
+<connection t1="Andilien Estate" t2="Sanctum of the Sun"/>
+<connection t1="Andilien Estate" t2="South Dead Scar"/>
+<connection t1="Andilien Estate" t2="Stratholme East Mountains"/>
+<connection t1="Andilien Estate" t2="Thalassian Pass"/>
+<connection t1="Andilien Estate" t2="Tranquillien"/>
+<connection t1="Andilien Estate" t2="Twin Ziggurats"/>
+<connection t1="Andorhal" t2="Andorhal Road"/>
+<connection t1="Andorhal" t2="Lordaeron River"/>
+<connection t1="Andorhal" t2="The Western Plaguelands"/>
+<connection t1="Andorhal" t2="The Writhing Haunt"/>
+<connection t1="Andorhal Road" t2="Dalson's Tears"/>
+<connection t1="Andorhal Road" t2="Felstone Field"/>
+<connection t1="Andorhal Road" t2="Scarlet Camp"/>
+<connection t1="Andorhal Road" t2="The Western Plaguelands"/>
+<connection t1="Andorhal Road" t2="The Writhing Haunt"/>
+<connection t1="Arathi Highlands" t2="Bogen's Ledge"/>
+<connection t1="Arathi Highlands" t2="Boulder'gor"/>
+<connection t1="Arathi Highlands" t2="Dabyrie's Farmstead"/>
+<connection t1="Arathi Highlands" t2="Northfold Manor"/>
+<connection t1="Arathi Highlands" t2="Refuge Pointe"/>
+<connection t1="Arathi Highlands" t2="Troll Mountains"/>
+<connection t1="Arathi Lowlands" t2="Arathi Road"/>
+<connection t1="Arathi Lowlands" t2="Boulderfist Hall"/>
+<connection t1="Arathi Lowlands" t2="Circle of Outer Binding"/>
+<connection t1="Arathi Lowlands" t2="East Thandol Mountains"/>
+<connection t1="Arathi Lowlands" t2="Go'Shek Farm"/>
+<connection t1="Arathi Lowlands" t2="Witherbark Village"/>
+<connection t1="Arathi Road" t2="Boulder'gor"/>
+<connection t1="Arathi Road" t2="Boulderfist Hall"/>
+<connection t1="Arathi Road" t2="Circle of Inner Binding"/>
+<connection t1="Arathi Road" t2="Circle of Outer Binding"/>
+<connection t1="Arathi Road" t2="Refuge Pointe"/>
+<connection t1="Arathi Road" t2="The Thandol Span"/>
+<connection t1="Arathi Road" t2="West Thandol Mountains"/>
+<connection t1="Azurelode Mine" t2="Darrow Hill"/>
+<connection t1="Azurelode Mine" t2="Gilneas Mountains"/>
+<connection t1="Azurelode Mine" t2="Hillsbrad Fields"/>
+<connection t1="Azurelode Mine" t2="Southpoint Tower"/>
+<connection t1="Azurelode Mine" t2="Southshore"/>
+<connection t1="Azurelode Mine" t2="Western Strand"/>
+<connection t1="Balnir Farmstead" t2="Lordaeron City Gates"/>
+<connection t1="Balnir Farmstead" t2="Lordaeron Road"/>
+<connection t1="Balnir Farmstead" t2="Northridge Mountains"/>
+<connection t1="Balnir Farmstead" t2="The Bulwark"/>
+<connection t1="Balnir Farmstead" t2="Tirisfal Glades"/>
+<connection t1="Beren's Peril" t2="Dalaran Mountains"/>
+<connection t1="Beren's Peril" t2="Silverpine Road"/>
+<connection t1="Beren's Peril" t2="South Silverpine Forest"/>
+<connection t1="Blackwood Lake" t2="Corrin's Crossing"/>
 <connection t1="Blackwood Lake" t2="Crown Guard Tower"/>
 <connection t1="Blackwood Lake" t2="Eastwall Gate"/>
 <connection t1="Blackwood Lake" t2="Eastwall Tower"/>
+<connection t1="Blackwood Lake" t2="Fungal Mountains"/>
+<connection t1="Blackwood Lake" t2="Infectis Scar"/>
 <connection t1="Blackwood Lake" t2="Plaguewood"/>
 <connection t1="Blackwood Lake" t2="South Plaguewood"/>
 <connection t1="Blackwood Lake" t2="The Eastern Plaguelands"/>
-<connection t1="Blackwood Lake" t2="West plague mountains"/>
-<connection t1="Corin's Crossing" t2="Crown Guard Tower"/>
-<connection t1="Corin's Crossing" t2="Lake Mereldar"/>
-<connection t1="Corin's Crossing" t2="The Eastern Plaguelands"/>
+<connection t1="Bogen's Ledge" t2="Aerie Valley"/>
+<connection t1="Bogen's Ledge" t2="Durnholde Fields"/>
+<connection t1="Bogen's Ledge" t2="Hiri'watha"/>
+<connection t1="Bogen's Ledge" t2="Northfold Manor"/>
+<connection t1="Bogen's Ledge" t2="Shadra'Alor"/>
+<connection t1="Bogen's Ledge" t2="Thoradin's Ruined Wall"/>
+<connection t1="Bogen's Ledge" t2="Troll Mountains"/>
+<connection t1="Bogen's Ledge" t2="Zun'watha"/>
+<connection t1="Boulder'gor" t2="Circle of Inner Binding"/>
+<connection t1="Boulder'gor" t2="Northfold Manor"/>
+<connection t1="Boulder'gor" t2="Refuge Pointe"/>
+<connection t1="Boulder'gor" t2="Stromgarde Road"/>
+<connection t1="Boulderfist Hall" t2="East Thandol Mountains"/>
+<connection t1="Boulderfist Hall" t2="The Thandol Span"/>
+<connection t1="Brightwater Lake" t2="Brightwater Shore"/>
+<connection t1="Brightwater Lake" t2="Gunther's Retreat"/>
+<connection t1="Brightwater Lake" t2="Tirisfal Glades"/>
+<connection t1="Brightwater Shore" t2="Brill"/>
+<connection t1="Brightwater Shore" t2="Crusader Outpost"/>
+<connection t1="Brightwater Shore" t2="Garren's Hunt"/>
+<connection t1="Brightwater Shore" t2="Northaeron Mountains"/>
+<connection t1="Brightwater Shore" t2="The North Coast"/>
+<connection t1="Brightwater Shore" t2="Tirisfal Glades"/>
+<connection t1="Brill" t2="Cold Hearth Manor"/>
+<connection t1="Brill" t2="Garren's Hunt"/>
+<connection t1="Brill" t2="Lordaeron City Gates"/>
+<connection t1="Brill" t2="Stillwater Pond"/>
+<connection t1="Brill" t2="Tirisfal Glades"/>
+<connection t1="Caer Darrow" t2="Darrowmere Lake"/>
+<connection t1="Centre Dead Scar" t2="East Sanctum"/>
+<connection t1="Centre Dead Scar" t2="Fairbreeze Village"/>
+<connection t1="Centre Dead Scar" t2="Greenrush River"/>
+<connection t1="Centre Dead Scar" t2="Isle of Tribulations"/>
+<connection t1="Centre Dead Scar" t2="Runestone Falithas"/>
+<connection t1="Centre Dead Scar" t2="Runestone Shan'dor"/>
+<connection t1="Chillwind Camp" t2="Chillwind Road"/>
+<connection t1="Chillwind Camp" t2="Lordaeron River"/>
+<connection t1="Chillwind Camp" t2="Sorrow Hill Cemetery"/>
+<connection t1="Chillwind Camp" t2="Upland Mountains"/>
+<connection t1="Chillwind Point" t2="Darrowmere Lake"/>
+<connection t1="Chillwind Point" t2="North Darrowmere River"/>
+<connection t1="Chillwind Point" t2="Overlook River"/>
+<connection t1="Chillwind Point" t2="Ravenholdt"/>
+<connection t1="Chillwind Road" t2="North Darrowmere River"/>
+<connection t1="Chillwind Road" t2="Sorrow Hill"/>
+<connection t1="Chillwind Road" t2="Sorrow Hill Cemetery"/>
+<connection t1="Chillwind Road" t2="Strahnbrad"/>
+<connection t1="Chillwind Road" t2="Tarren Mill"/>
+<connection t1="Chillwind Road" t2="Upland Mountains"/>
+<connection t1="Circle of East Binding" t2="Circle of Outer Binding"/>
+<connection t1="Circle of East Binding" t2="Dabyrie's Farmstead"/>
+<connection t1="Circle of East Binding" t2="Drywhisker Gorge"/>
+<connection t1="Circle of East Binding" t2="Go'Shek Farm"/>
+<connection t1="Circle of East Binding" t2="Hammerfall"/>
+<connection t1="Circle of East Binding" t2="Troll Mountains"/>
+<connection t1="Circle of Inner Binding" t2="Stromgarde Road"/>
+<connection t1="Circle of Inner Binding" t2="West Thandol Mountains"/>
+<connection t1="Circle of Outer Binding" t2="Dabyrie's Farmstead"/>
+<connection t1="Circle of Outer Binding" t2="Go'Shek Farm"/>
+<connection t1="Circle of Outer Binding" t2="Refuge Pointe"/>
+<connection t1="Circle of West Binding" t2="Hillsbrad Foothills"/>
+<connection t1="Circle of West Binding" t2="Northfold Manor"/>
+<connection t1="Circle of West Binding" t2="Stromgarde Mountains"/>
+<connection t1="Circle of West Binding" t2="Stromgarde Road"/>
+<connection t1="Circle of West Binding" t2="Thoradin's North Wall"/>
+<connection t1="Circle of West Binding" t2="Thoradin's South Wall"/>
+<connection t1="Cold Hearth Manor" t2="Lordaeron City Gates"/>
+<connection t1="Cold Hearth Manor" t2="Nightmare Vale"/>
+<connection t1="Cold Hearth Manor" t2="Scarlet Watchtower"/>
+<connection t1="Cold Hearth Manor" t2="Stillwater Pond"/>
+<connection t1="Corrin's Crossing" t2="Crown Guard Tower"/>
+<connection t1="Corrin's Crossing" t2="Infectis Scar"/>
+<connection t1="Corrin's Crossing" t2="Lake Mereldar"/>
+<connection t1="Corrin's Crossing" t2="The Eastern Plaguelands"/>
+<connection t1="Creeping Ruin" t2="Hinterlands High Road"/>
+<connection t1="Creeping Ruin" t2="The Altar of Zul"/>
+<connection t1="Creeping Ruin" t2="Troll Mountains"/>
+<connection t1="Creeping Ruin" t2="Valorwind Lake"/>
+<connection t1="Crosspoint Tower" t2="Darrow Hill"/>
+<connection t1="Crosspoint Tower" t2="South Darrowmere River"/>
+<connection t1="Crosspoint Tower" t2="Southshore"/>
+<connection t1="Crosspoint Tower" t2="Tarren Mill"/>
+<connection t1="Crosspoint Tower" t2="The Fingers"/>
 <connection t1="Crown Guard Tower" t2="Darrowshire"/>
+<connection t1="Crown Guard Tower" t2="Darrowshire Mountains"/>
+<connection t1="Crown Guard Tower" t2="Fungal Mountains"/>
+<connection t1="Crown Guard Tower" t2="Infectis Scar"/>
 <connection t1="Crown Guard Tower" t2="Lake Mereldar"/>
-<connection t1="Crown Guard Tower" t2="South west plague mountains"/>
+<connection t1="Crown Guard Tower" t2="Meraldar Mountains"/>
 <connection t1="Crown Guard Tower" t2="The Fungus Vale"/>
 <connection t1="Crown Guard Tower" t2="The Marris Stead"/>
 <connection t1="Crown Guard Tower" t2="Undercroft"/>
-<connection t1="Crown Guard Tower" t2="West plague mountains"/>
+<connection t1="Crusader Outpost" t2="Northaeron Mountains"/>
+<connection t1="Crusader Outpost" t2="Northridge Mountains"/>
+<connection t1="Crusader Outpost" t2="Scarlet Monastery"/>
+<connection t1="Crusader Outpost" t2="Scarlet Watch Post"/>
+<connection t1="Crusader Outpost" t2="Tirisfal Glades"/>
+<connection t1="Crusader Outpost" t2="Venomweb Vale"/>
 <connection t1="Crusader's Square" t2="Market Row"/>
+<connection t1="Crusader's Square" t2="Stratholme City Interior"/>
 <connection t1="Crusader's Square" t2="The Scarlet Bastion"/>
-<connection t1="Darrowshire" t2="South west plague mountains"/>
+<connection t1="Crushridge Hold" t2="Alterac Mountains"/>
+<connection t1="Crushridge Hold" t2="Gallows' Corner"/>
+<connection t1="Crushridge Hold" t2="Ruins of Alterac"/>
+<connection t1="Dabyrie's Farmstead" t2="Refuge Pointe"/>
+<connection t1="Dabyrie's Farmstead" t2="Troll Mountains"/>
+<connection t1="Dalaran" t2="Dalaran Remnant Camp"/>
+<connection t1="Dalaran Mountains" t2="Dalaran Remnant Camp"/>
+<connection t1="Dalaran Mountains" t2="Deep Elem Mine"/>
+<connection t1="Dalaran Mountains" t2="Hillsbrad Fields"/>
+<connection t1="Dalaran Mountains" t2="Lordamere Internment Camp"/>
+<connection t1="Dalaran Mountains" t2="Lordamere Lake"/>
+<connection t1="Dalaran Mountains" t2="North Silverpine Forest"/>
+<connection t1="Dalaran Mountains" t2="Silverpine Road"/>
+<connection t1="Dalaran Mountains" t2="South Silverpine Forest"/>
+<connection t1="Dalaran Mountains" t2="Southpoint Tower"/>
+<connection t1="Dalaran Mountains" t2="The Decrepit Ferry"/>
+<connection t1="Dalaran Remnant Camp" t2="Growless Cave"/>
+<connection t1="Dalaran Remnant Camp" t2="Lordamere Internment Camp"/>
+<connection t1="Dalaran Remnant Camp" t2="Lordamere Lake"/>
+<connection t1="Dalaran Remnant Camp" t2="Misty Shore"/>
+<connection t1="Dalson's Tears" t2="North Twin"/>
+<connection t1="Dalson's Tears" t2="Northridge Field"/>
+<connection t1="Dalson's Tears" t2="Scarlet Camp"/>
+<connection t1="Dalson's Tears" t2="South Twin"/>
+<connection t1="Dalson's Tears" t2="The Writhing Haunt"/>
+<connection t1="Dandred's Fold" t2="Lordamere Lake"/>
+<connection t1="Dandred's Fold" t2="Misty Shore"/>
+<connection t1="Dandred's Fold" t2="Upland Mountains"/>
+<connection t1="Dandred's Fold" t2="Uplands"/>
+<connection t1="Darrow Hill" t2="Hillsbrad Fields"/>
+<connection t1="Darrow Hill" t2="Lordamere Internment Camp"/>
+<connection t1="Darrow Hill" t2="Southshore"/>
+<connection t1="Darrow Hill" t2="The Fingers"/>
+<connection t1="Darrowmere Lake" t2="Darrowmere Shore"/>
+<connection t1="Darrowmere Lake" t2="Gahrron's Withering"/>
+<connection t1="Darrowmere Lake" t2="Lordaeron River"/>
+<connection t1="Darrowmere Lake" t2="North Darrowmere River"/>
+<connection t1="Darrowmere Lake" t2="Overlook River"/>
+<connection t1="Darrowmere Lake" t2="Sorrow Hill Cemetery"/>
+<connection t1="Darrowmere Lake" t2="South Twin"/>
+<connection t1="Darrowmere Lake" t2="The Writhing Haunt"/>
+<connection t1="Darrowmere Shore" t2="Darrowshire Mountains"/>
+<connection t1="Darrowmere Shore" t2="Marris Woodland"/>
+<connection t1="Darrowmere Shore" t2="Thondroril River"/>
+<connection t1="Darrowshire" t2="Darrowshire Mountains"/>
 <connection t1="Darrowshire" t2="Undercroft"/>
-<connection t1="East plague mountains" t2="Light's Hope Chapel"/>
-<connection t1="East plague mountains" t2="North east plague mountains"/>
-<connection t1="East plague mountains" t2="South east plague mountains"/>
-<connection t1="East plague mountains" t2="The Eastern Plaguelands"/>
-<connection t1="East plague mountains" t2="The Noxious Glade"/>
-<connection t1="East plague mountains" t2="The Scarlet Basilica"/>
-<connection t1="East plague mountains" t2="Tyr's Hand"/>
+<connection t1="Darrowshire Mountains" t2="Meraldar Mountains"/>
+<connection t1="Darrowshire Mountains" t2="Overlook River"/>
+<connection t1="Darrowshire Mountains" t2="Seradane"/>
+<connection t1="Darrowshire Mountains" t2="Seradane Mountains"/>
+<connection t1="Darrowshire Mountains" t2="Undercroft"/>
+<connection t1="Dawning Lane" t2="East Silvermoon Mountain"/>
+<connection t1="Dawning Lane" t2="Falthrien Academy"/>
+<connection t1="Dawning Lane" t2="Ruined Silvermoon Wall"/>
+<connection t1="Dawning Lane" t2="Ruins of Silvermoon"/>
+<connection t1="Dawning Lane" t2="SZ0"/>
+<connection t1="Dawning Lane" t2="SZ3"/>
+<connection t1="Dawning Lane" t2="SZ5"/>
+<connection t1="Dawning Lane" t2="SZ7"/>
+<connection t1="Dawning Lane" t2="Silvermoon City Wall"/>
+<connection t1="Dawning Lane" t2="Sunstrider Isle"/>
+<connection t1="Dawning Lane" t2="West Silvermoon Mountain"/>
+<connection t1="Dawnstar Spire" t2="Farstrider Enclave"/>
+<connection t1="Dawnstar Spire" t2="Isle of Tribulations"/>
+<connection t1="Dawnstar Spire" t2="Zeb'Sora"/>
+<connection t1="Dawnstar Spire" t2="Zeb'Tela"/>
+<connection t1="Dawnstar Village" t2="Parhelion Plaza"/>
+<connection t1="Dawnstar Village" t2="SZ2"/>
+<connection t1="Dawnstar Village" t2="SZ4"/>
+<connection t1="Dawnstar Village" t2="SZ5"/>
+<connection t1="Dawnstar Village" t2="Sun's Reach"/>
+<connection t1="Dawnstar Village" t2="Sunblade Coast"/>
+<connection t1="Dawnstar Village" t2="Sunwell Plateau"/>
+<connection t1="Dawnstar Village" t2="Sunwell Wall"/>
+<connection t1="Deathknell" t2="Solliden Farmstead"/>
+<connection t1="Deathknell" t2="Stillwater Pond"/>
+<connection t1="Deathknell" t2="The Tirisfal Mountains"/>
+<connection t1="Deathknell" t2="Vale Mountains"/>
+<connection t1="Deathknell" t2="Whispering Forest"/>
+<connection t1="Deatholme" t2="Stratholme East Mountains"/>
+<connection t1="Deatholme" t2="Twin Ziggurats"/>
+<connection t1="Deatholme" t2="Underlight Mines"/>
+<connection t1="Deep Elem Mine" t2="North Silverpine Forest"/>
+<connection t1="Deep Elem Mine" t2="Olsen's Farthing"/>
+<connection t1="Deep Elem Mine" t2="South Silverpine Forest"/>
+<connection t1="Drywhisker Gorge" t2="Go'Shek Farm"/>
+<connection t1="Drywhisker Gorge" t2="Hammerfall"/>
+<connection t1="Drywhisker Gorge" t2="The Overlook Cliffs"/>
+<connection t1="Drywhisker Gorge" t2="Troll Mountains"/>
+<connection t1="Drywhisker Gorge" t2="Witherbark Village"/>
+<connection t1="Dun Garok" t2="Eastern Strand"/>
+<connection t1="Dun Garok" t2="Hillsbrad Foothills"/>
+<connection t1="Dun Garok" t2="Nethander Stead"/>
+<connection t1="Dun Garok" t2="Stromgarde Mountains"/>
+<connection t1="Dun Garok" t2="Thoradin's South Wall"/>
+<connection t1="Durnholde Fields" t2="Durnholde Keep"/>
+<connection t1="Durnholde Fields" t2="Hillsbrad Foothills"/>
+<connection t1="Durnholde Fields" t2="Northfold Manor"/>
+<connection t1="Durnholde Fields" t2="Ravenholdt"/>
+<connection t1="Durnholde Fields" t2="Thoradin's North Wall"/>
+<connection t1="Durnholde Fields" t2="Thoradin's Ruined Wall"/>
+<connection t1="Durnholde Keep" t2="Eastpoint Tower"/>
+<connection t1="Durnholde Keep" t2="Hillsbrad Foothills"/>
+<connection t1="Durnholde Keep" t2="Ravenholdt"/>
+<connection t1="Duskwither Grounds" t2="Duskwither Spire"/>
+<connection t1="Duskwither Grounds" t2="East Silvermoon Mountain"/>
+<connection t1="Duskwither Grounds" t2="SZ32"/>
+<connection t1="Duskwither Spire" t2="East Silvermoon Mountain"/>
+<connection t1="Duskwither Spire" t2="Farstrider Retreat"/>
+<connection t1="Duskwither Spire" t2="SZ32"/>
+<connection t1="Duskwither Spire" t2="Tor'Watha Mountain"/>
+<connection t1="Dwarf Farm" t2="East Thandol Mountains"/>
+<connection t1="Dwarf Farm" t2="SZ25"/>
+<connection t1="Dwarf Farm" t2="The Overlook Cliffs"/>
+<connection t1="East Sanctum" t2="Greenrush River"/>
+<connection t1="East Sanctum" t2="Living Wood Mountains"/>
+<connection t1="East Sanctum" t2="Runestone Shan'dor"/>
+<connection t1="East Sanctum" t2="Zeb'Watha"/>
+<connection t1="East Silvermoon Mountain" t2="Farstrider Retreat"/>
+<connection t1="East Silvermoon Mountain" t2="SZ3"/>
+<connection t1="East Silvermoon Mountain" t2="SZ32"/>
+<connection t1="East Silvermoon Mountain" t2="Silvermoon City Wall"/>
+<connection t1="East Silvermoon Mountain" t2="Thurons Livery"/>
+<connection t1="East Thandol Mountains" t2="SZ25"/>
+<connection t1="East Thandol Mountains" t2="The Overlook Cliffs"/>
+<connection t1="East Thandol Mountains" t2="The Thandol Span"/>
+<connection t1="East Thandol Mountains" t2="Witherbark Village"/>
+<connection t1="Eastern Strand" t2="Nethander Stead"/>
+<connection t1="Eastern Strand" t2="SZ22"/>
+<connection t1="Eastern Strand" t2="South Darrowmere River"/>
+<connection t1="Eastern Strand" t2="Stromgarde Mountains"/>
+<connection t1="Eastpoint Tower" t2="Hillsbrad Foothills"/>
+<connection t1="Eastpoint Tower" t2="Nethander Stead"/>
+<connection t1="Eastpoint Tower" t2="Ravenholdt"/>
+<connection t1="Eastpoint Tower" t2="South Darrowmere River"/>
 <connection t1="Eastwall Gate" t2="Eastwall Tower"/>
-<connection t1="Eastwall Gate" t2="North plague mountains"/>
+<connection t1="Eastwall Gate" t2="Northdale"/>
 <connection t1="Eastwall Gate" t2="Plaguewood"/>
-<connection t1="Eastwall Tower" t2="North east plague mountains"/>
-<connection t1="Eastwall Tower" t2="North plague mountains"/>
+<connection t1="Eastwall Gate" t2="Quel'Lithien Lodge"/>
+<connection t1="Eastwall Gate" t2="Stratholme East Mountains"/>
 <connection t1="Eastwall Tower" t2="Northdale"/>
+<connection t1="Eastwall Tower" t2="South Hatchet Hills"/>
 <connection t1="Eastwall Tower" t2="The Eastern Plaguelands"/>
-<connection t1="Eastwall Tower" t2="Zul'Marshar"/>
+<connection t1="Eastwall Tower" t2="The Noxious Glade"/>
 <connection t1="Elder's Square" t2="Festival Lane"/>
+<connection t1="Elder's Square" t2="Stratholme City Interior"/>
+<connection t1="Fairbreeze Mountains" t2="Fairbreeze Village"/>
+<connection t1="Fairbreeze Mountains" t2="Goldenbough Pass"/>
+<connection t1="Fairbreeze Mountains" t2="Runestone Falithas"/>
+<connection t1="Fairbreeze Mountains" t2="Sunsail Anchorage"/>
+<connection t1="Fairbreeze Mountains" t2="The Scorched Grove"/>
+<connection t1="Fairbreeze Village" t2="Greenrush River"/>
+<connection t1="Fairbreeze Village" t2="Runestone Falithas"/>
+<connection t1="Fairbreeze Village" t2="Sunsail Anchorage"/>
+<connection t1="Falconwing Square" t2="North Sanctum"/>
+<connection t1="Falconwing Square" t2="Ruined Silvermoon Wall"/>
+<connection t1="Falconwing Square" t2="Ruins of Silvermoon"/>
+<connection t1="Faldir's Cove" t2="SZ24"/>
+<connection t1="Faldir's Cove" t2="West Thandol Mountains"/>
+<connection t1="Falthrien Academy" t2="Sunstrider Isle"/>
+<connection t1="Farstrider Enclave" t2="Isle of Tribulations"/>
+<connection t1="Farstrider Enclave" t2="Suncrown Village"/>
+<connection t1="Farstrider Enclave" t2="Sungraze Peak"/>
+<connection t1="Farstrider Enclave" t2="Zeb'Tela"/>
+<connection t1="Farstrider Retreat" t2="Greenrush River"/>
+<connection t1="Farstrider Retreat" t2="Thurons Livery"/>
+<connection t1="Farstrider Retreat" t2="Tor'Watha"/>
+<connection t1="Farstrider Retreat" t2="Tor'Watha Mountain"/>
+<connection t1="Felstone Field" t2="Northridge Mountains"/>
+<connection t1="Felstone Field" t2="Scarlet Camp"/>
+<connection t1="Felstone Field" t2="The Bulwark"/>
+<connection t1="Felstone Field" t2="The Western Plaguelands"/>
+<connection t1="Fenris Keep" t2="Lordamere Lake"/>
 <connection t1="Festival Lane" t2="King's Square"/>
 <connection t1="Festival Lane" t2="Market Row"/>
+<connection t1="Festival Lane" t2="Stratholme Buildings"/>
+<connection t1="Festival Lane" t2="Stratholme City Interior"/>
+<connection t1="Fungal Mountains" t2="Marris Woodland"/>
+<connection t1="Fungal Mountains" t2="Northern Lordaeron"/>
+<connection t1="Fungal Mountains" t2="South Plaguewood"/>
+<connection t1="Fungal Mountains" t2="Terrordale"/>
+<connection t1="Fungal Mountains" t2="The Fungus Vale"/>
+<connection t1="Fungal Mountains" t2="The Marris Stead"/>
+<connection t1="Fungal Mountains" t2="Tirion's Cottage"/>
+<connection t1="Gahrron's Withering" t2="North Twin"/>
+<connection t1="Gahrron's Withering" t2="South Twin"/>
+<connection t1="Gahrron's Withering" t2="The Weeping Cave"/>
+<connection t1="Gahrron's Withering" t2="Thondroril River"/>
+<connection t1="Gallows' Corner" t2="Growless Cave"/>
+<connection t1="Gallows' Corner" t2="Ruins of Alterac"/>
+<connection t1="Gallows' Corner" t2="South Alterac Mountains"/>
+<connection t1="Gallows' Corner" t2="Strahnbrad"/>
+<connection t1="Gallows' Corner" t2="The Fingers"/>
+<connection t1="Garren's Hunt" t2="Stillwater Pond"/>
+<connection t1="Garren's Hunt" t2="The North Coast"/>
+<connection t1="Gauntlet Ash'ari Crystal 1" t2="Gauntlet Ash'ari Crystal 2"/>
+<connection t1="Gauntlet Ash'ari Crystal 1" t2="Gauntlet Buildings"/>
+<connection t1="Gauntlet Ash'ari Crystal 1" t2="Stratholme City Interior"/>
+<connection t1="Gauntlet Ash'ari Crystal 2" t2="Gauntlet Ash'ari Crystal 3"/>
+<connection t1="Gauntlet Ash'ari Crystal 2" t2="Gauntlet Buildings"/>
+<connection t1="Gauntlet Ash'ari Crystal 2" t2="Stratholme City Interior"/>
+<connection t1="Gauntlet Ash'ari Crystal 3" t2="Gauntlet Ash'ari Crystal 1"/>
+<connection t1="Gauntlet Ash'ari Crystal 3" t2="Gauntlet Buildings"/>
+<connection t1="Gauntlet Ash'ari Crystal 3" t2="Slaughter Square"/>
+<connection t1="Gauntlet Ash'ari Crystal 3" t2="Stratholme City Interior"/>
+<connection t1="Gauntlet Buildings" t2="Stratholme City Interior"/>
+<connection t1="Ghostlands" t2="Isle of Tribulations"/>
+<connection t1="Ghostlands" t2="South Dead Scar"/>
+<connection t1="Ghostlands" t2="Suncrown Village"/>
+<connection t1="Ghostlands" t2="Sungraze Peak"/>
+<connection t1="Ghostlands" t2="Tranquillien"/>
+<connection t1="Gilneas" t2="Gilneas Mountains"/>
+<connection t1="Gilneas" t2="Greymane Wall"/>
+<connection t1="Gilneas" t2="SZ19"/>
+<connection t1="Gilneas" t2="SZ20"/>
+<connection t1="Gilneas" t2="SZ21"/>
+<connection t1="Gilneas" t2="South Tide's Run"/>
+<connection t1="Gilneas Mountains" t2="Greymane Wall"/>
+<connection t1="Gilneas Mountains" t2="SZ21"/>
+<connection t1="Gilneas Mountains" t2="Silverpine Road"/>
+<connection t1="Gilneas Mountains" t2="Southpoint Tower"/>
+<connection t1="Gilneas Mountains" t2="Western Strand"/>
+<connection t1="Go'Shek Farm" t2="Witherbark Village"/>
+<connection t1="Golden Strand" t2="Goldenbough Pass"/>
+<connection t1="Golden Strand" t2="Greenrush River"/>
+<connection t1="Golden Strand" t2="SZ7"/>
+<connection t1="Golden Strand" t2="Sunsail Anchorage"/>
+<connection t1="Goldenbough Pass" t2="SZ7"/>
+<connection t1="Goldenbough Pass" t2="SZ8"/>
+<connection t1="Goldenbough Pass" t2="Sunsail Anchorage"/>
+<connection t1="Goldenbough Pass" t2="The Scorched Grove"/>
+<connection t1="Goldenmist Village" t2="Isle of Tribulations"/>
+<connection t1="Goldenmist Village" t2="SZ8"/>
+<connection t1="Greengill Coast" t2="Magister's Terrace"/>
+<connection t1="Greengill Coast" t2="Quel'Danas Dead Scar"/>
+<connection t1="Greengill Coast" t2="SZ3"/>
+<connection t1="Greengill Coast" t2="Sunwell Plateau"/>
+<connection t1="Greengill Coast" t2="Sunwell Wall"/>
+<connection t1="Greenrush River" t2="Isle of Tribulations"/>
+<connection t1="Greenrush River" t2="North Dead Scar"/>
+<connection t1="Greenrush River" t2="North Sanctum"/>
+<connection t1="Greenrush River" t2="SZ7"/>
+<connection t1="Greenrush River" t2="Sunsail Anchorage"/>
+<connection t1="Greenrush River" t2="Thurons Livery"/>
+<connection t1="Greenrush River" t2="Tor'Watha"/>
+<connection t1="Greenrush River" t2="Tranquil Shore"/>
+<connection t1="Greenrush River" t2="West Sanctum"/>
+<connection t1="Greenrush River" t2="West Silvermoon Mountain"/>
+<connection t1="Greenrush River" t2="Zeb'Sora"/>
+<connection t1="Greymane Wall" t2="Pyrewood Village"/>
+<connection t1="Greymane Wall" t2="Silverpine Road"/>
+<connection t1="Greymane Wall" t2="South Tide's Run"/>
+<connection t1="Grimscale Shore" t2="Isle of Tribulations"/>
+<connection t1="Growless Cave" t2="Lordamere Internment Camp"/>
+<connection t1="Growless Cave" t2="Ruins of Alterac"/>
+<connection t1="Growless Cave" t2="South Alterac Mountains"/>
+<connection t1="Growless Cave" t2="The Fingers"/>
+<connection t1="Hammerfall" t2="Troll Mountains"/>
+<connection t1="Hatchet Hills" t2="Northdale"/>
+<connection t1="Hatchet Hills" t2="Quel'Lithien Lodge"/>
+<connection t1="Hatchet Hills" t2="South Amani Mountains"/>
+<connection t1="Hatchet Hills" t2="South Hatchet Hills"/>
+<connection t1="Hatchet Hills" t2="Thalassian Pass"/>
+<connection t1="Hatchet Hills" t2="Zeb'Nowa"/>
+<connection t1="Hatchet Hills" t2="Zul'Marshar"/>
+<connection t1="Havenshire" t2="New Avalon"/>
+<connection t1="Havenshire" t2="SZ29"/>
+<connection t1="Havenshire" t2="Scarlet Enclave"/>
+<connection t1="Hearthglen" t2="Hearthglen Tower"/>
+<connection t1="Hearthglen" t2="Northaeron Mountains"/>
+<connection t1="Hearthglen" t2="Northridge Mountains"/>
+<connection t1="Hearthglen Tower" t2="North Twin"/>
+<connection t1="Hearthglen Tower" t2="Northaeron Mountains"/>
+<connection t1="Hearthglen Tower" t2="Northridge Field"/>
+<connection t1="Hearthglen Tower" t2="Northridge Mountains"/>
+<connection t1="Hillsbrad Fields" t2="Lordamere Internment Camp"/>
+<connection t1="Hillsbrad Fields" t2="Southpoint Tower"/>
+<connection t1="Hillsbrad Foothills" t2="Nethander Stead"/>
+<connection t1="Hillsbrad Foothills" t2="Thoradin's North Wall"/>
+<connection t1="Hillsbrad Foothills" t2="Thoradin's South Wall"/>
+<connection t1="Hinterlands High Road" t2="Jintha'Alor"/>
+<connection t1="Hinterlands High Road" t2="Shaol'watha"/>
+<connection t1="Hinterlands High Road" t2="Skull Rock"/>
+<connection t1="Hinterlands High Road" t2="The Overlook Cliffs"/>
+<connection t1="Hinterlands High Road" t2="Troll Mountains"/>
+<connection t1="Hiri'watha" t2="Quel'Danil Lodge"/>
+<connection t1="Hiri'watha" t2="Shadra'Alor"/>
+<connection t1="Hiri'watha" t2="Valorwind Lake"/>
+<connection t1="Hiri'watha" t2="Zun'watha"/>
+<connection t1="Isle of Tribulations" t2="Living Wood Mountains"/>
+<connection t1="Isle of Tribulations" t2="Runestone Shan'dor"/>
+<connection t1="Isle of Tribulations" t2="SZ8"/>
+<connection t1="Isle of Tribulations" t2="Sanctum of the Moon"/>
+<connection t1="Isle of Tribulations" t2="Shalandis Isle"/>
+<connection t1="Isle of Tribulations" t2="The Scorched Grove"/>
+<connection t1="Isle of Tribulations" t2="Windrunner Village"/>
+<connection t1="Isle of Tribulations" t2="Zeb'Sora"/>
+<connection t1="Isle of Tribulations" t2="Zeb'Watha"/>
+<connection t1="Jintha'Alor" t2="The Overlook Cliffs"/>
+<connection t1="Jintha'Alor" t2="Troll Mountains"/>
 <connection t1="King's Square" t2="Market Row"/>
-<connection t1="Lake Mereldar" t2="South east plague mountains"/>
-<connection t1="Lake Mereldar" t2="South west plague mountains"/>
+<connection t1="King's Square" t2="Stratholme Buildings"/>
+<connection t1="King's Square" t2="Stratholme City Interior"/>
+<connection t1="Lake Mereldar" t2="Meraldar Mountains"/>
+<connection t1="Lake Mereldar" t2="Scarlet Enclave"/>
 <connection t1="Lake Mereldar" t2="The Eastern Plaguelands"/>
 <connection t1="Lake Mereldar" t2="Tyr's Hand"/>
-<connection t1="Light's Hope Chapel" t2="The Eastern Plaguelands"/>
-<connection t1="North east plague mountains" t2="North plague mountains"/>
-<connection t1="North east plague mountains" t2="Northdale"/>
-<connection t1="North east plague mountains" t2="The Eastern Plaguelands"/>
-<connection t1="North east plague mountains" t2="The Noxious Glade"/>
-<connection t1="North east plague mountains" t2="Zul'Marshar"/>
-<connection t1="North plague mountains" t2="North west plague mountains"/>
-<connection t1="North plague mountains" t2="Plaguewood"/>
-<connection t1="North plague mountains" t2="Stratholme City"/>
-<connection t1="North plague mountains" t2="Stratholme Gate"/>
-<connection t1="North plague mountains" t2="Zul'Marshar"/>
-<connection t1="North west plague mountains" t2="Stratholme City"/>
-<connection t1="North west plague mountains" t2="Stratholme Gate"/>
-<connection t1="North west plague mountains" t2="Terrordale"/>
-<connection t1="North west plague mountains" t2="Tirion's Cottage"/>
-<connection t1="North west plague mountains" t2="West plague mountains"/>
+<connection t1="Light Hope's Chapel" t2="Pestilent Scar"/>
+<connection t1="Light Hope's Chapel" t2="Scarlet Enclave"/>
+<connection t1="Light Hope's Chapel" t2="The Eastern Plaguelands"/>
+<connection t1="Living Wood Mountains" t2="Runestone Shan'dor"/>
+<connection t1="Living Wood Mountains" t2="Zeb'Watha"/>
+<connection t1="Lordaeron City Gates" t2="Lordaeron Mountains"/>
+<connection t1="Lordaeron City Gates" t2="Lordaeron Road"/>
+<connection t1="Lordaeron City Gates" t2="Scarlet Watchtower"/>
+<connection t1="Lordaeron City Gates" t2="Tirisfal Glades"/>
+<connection t1="Lordaeron City Gates" t2="Undercity"/>
+<connection t1="Lordaeron Mountains" t2="Lordaeron River"/>
+<connection t1="Lordaeron Mountains" t2="Lordaeron Road"/>
+<connection t1="Lordaeron Mountains" t2="Lordamere Lake"/>
+<connection t1="Lordaeron Mountains" t2="The Bulwark"/>
+<connection t1="Lordaeron Mountains" t2="The Western Plaguelands"/>
+<connection t1="Lordaeron Mountains" t2="Undercity"/>
+<connection t1="Lordaeron River" t2="Sorrow Hill Cemetery"/>
+<connection t1="Lordaeron River" t2="The Western Plaguelands"/>
+<connection t1="Lordaeron River" t2="The Writhing Haunt"/>
+<connection t1="Lordaeron Road" t2="The Bulwark"/>
+<connection t1="Lordamere Internment Camp" t2="The Fingers"/>
+<connection t1="Lordamere Lake" t2="Misty Shore"/>
+<connection t1="Lordamere Lake" t2="North Tide River"/>
+<connection t1="Lordamere Lake" t2="The Dawning Isles"/>
+<connection t1="Lordamere Lake" t2="The Decrepit Ferry"/>
+<connection t1="Lordamere Lake" t2="The Shining Strand"/>
+<connection t1="Lordamere Lake" t2="The Worg Orchards"/>
+<connection t1="Lordamere Lake" t2="Undercity"/>
+<connection t1="Lordamere Lake" t2="Upland Mountains"/>
+<connection t1="Magister's Terrace" t2="SZ1"/>
+<connection t1="Magister's Terrace" t2="SZ2"/>
+<connection t1="Magister's Terrace" t2="SZ3"/>
+<connection t1="Magister's Terrace" t2="Sun's Reach"/>
+<connection t1="Magister's Terrace" t2="Sunwell Plateau"/>
+<connection t1="Market Row" t2="Stratholme Buildings"/>
+<connection t1="Market Row" t2="Stratholme City Interior"/>
+<connection t1="Marris Woodland" t2="The Marris Stead"/>
+<connection t1="Marris Woodland" t2="Thondroril River"/>
+<connection t1="Marris Woodland" t2="Tirion's Cottage"/>
+<connection t1="Marris Woodland" t2="Undercroft"/>
+<connection t1="Meraldar Mountains" t2="New Avalon"/>
+<connection t1="Meraldar Mountains" t2="SZ28"/>
+<connection t1="Meraldar Mountains" t2="SZ29"/>
+<connection t1="Meraldar Mountains" t2="Seradane Mountains"/>
+<connection t1="Meraldar Mountains" t2="Tyr's Hand"/>
+<connection t1="Nethander Stead" t2="South Darrowmere River"/>
+<connection t1="New Avalon" t2="SZ29"/>
+<connection t1="New Avalon" t2="Scarlet Enclave"/>
+<connection t1="New Avalon" t2="Tyr's Hand"/>
+<connection t1="Nightmare Vale" t2="Deathknell"/>
+<connection t1="Nightmare Vale" t2="Scarlet Watchtower"/>
+<connection t1="Nightmare Vale" t2="Stillwater Pond"/>
+<connection t1="Nightmare Vale" t2="Vale Mountains"/>
+<connection t1="North Darrowmere River" t2="Sorrow Hill"/>
+<connection t1="North Darrowmere River" t2="Tarren Mill"/>
+<connection t1="North Dead Scar" t2="Dawning Lane"/>
+<connection t1="North Dead Scar" t2="North Sanctum"/>
+<connection t1="North Dead Scar" t2="Ruined Silvermoon Wall"/>
+<connection t1="North Dead Scar" t2="Silvermoon City Wall"/>
+<connection t1="North Dead Scar" t2="Thurons Livery"/>
+<connection t1="North Sanctum" t2="Ruined Silvermoon Wall"/>
+<connection t1="North Sanctum" t2="West Silvermoon Mountain"/>
+<connection t1="North Silverpine Forest" t2="North Tide River"/>
+<connection t1="North Silverpine Forest" t2="Olsen's Farthing"/>
+<connection t1="North Silverpine Forest" t2="The Decrepit Ferry"/>
+<connection t1="North Silverpine Forest" t2="The Sepulcher"/>
+<connection t1="North Silverpine Forest" t2="The Worg Orchards"/>
+<connection t1="North Silverpine Forest" t2="Tide's Run Mountains"/>
+<connection t1="North Tide River" t2="North Tide's Run"/>
+<connection t1="North Tide River" t2="SZ17"/>
+<connection t1="North Tide River" t2="The Dead Fields"/>
+<connection t1="North Tide River" t2="The Decrepit Ferry"/>
+<connection t1="North Tide River" t2="The Worg Orchards"/>
+<connection t1="North Tide River" t2="Tide's Run Mountains"/>
+<connection t1="North Tide's Run" t2="SZ17"/>
+<connection t1="North Tide's Run" t2="Skittering Dark"/>
+<connection t1="North Tide's Run" t2="The Dead Fields"/>
+<connection t1="North Twin" t2="Northaeron Mountains"/>
+<connection t1="North Twin" t2="Northridge Field"/>
+<connection t1="North Twin" t2="South Twin"/>
+<connection t1="North Twin" t2="The Weeping Cave"/>
+<connection t1="Northaeron Mountains" t2="SZ11"/>
+<connection t1="Northaeron Mountains" t2="SZ13"/>
+<connection t1="Northaeron Mountains" t2="Scarlet Monastery"/>
+<connection t1="Northaeron Mountains" t2="Scarlet Watch Post"/>
+<connection t1="Northaeron Mountains" t2="The North Coast"/>
+<connection t1="Northaeron Mountains" t2="The Weeping Cave"/>
+<connection t1="Northaeron Mountains" t2="Thondroril River"/>
+<connection t1="Northdale" t2="Quel'Lithien Lodge"/>
+<connection t1="Northdale" t2="South Hatchet Hills"/>
+<connection t1="Northdale" t2="Zul'Marshar"/>
+<connection t1="Northern Lordaeron" t2="SZ10"/>
+<connection t1="Northern Lordaeron" t2="SZ11"/>
+<connection t1="Northern Lordaeron" t2="Stratholme City"/>
+<connection t1="Northern Lordaeron" t2="Stratholme Gate"/>
+<connection t1="Northern Lordaeron" t2="Terrordale"/>
+<connection t1="Northern Lordaeron" t2="Thondroril River"/>
+<connection t1="Northern Lordaeron" t2="Tirion's Cottage"/>
+<connection t1="Northfold Manor" t2="Stromgarde Road"/>
+<connection t1="Northfold Manor" t2="Thoradin's North Wall"/>
+<connection t1="Northfold Manor" t2="Thoradin's Ruined Wall"/>
+<connection t1="Northridge Field" t2="Northridge Lumber Camp"/>
+<connection t1="Northridge Field" t2="Northridge Mountains"/>
+<connection t1="Northridge Field" t2="Scarlet Camp"/>
+<connection t1="Northridge Lumber Camp" t2="Hearthglen Tower"/>
+<connection t1="Northridge Lumber Camp" t2="Northridge Mountains"/>
+<connection t1="Northridge Mountains" t2="Northaeron Mountains"/>
+<connection t1="Northridge Mountains" t2="Scarlet Camp"/>
+<connection t1="Northridge Mountains" t2="Scarlet Monastery"/>
+<connection t1="Northridge Mountains" t2="The Bulwark"/>
+<connection t1="Northridge Mountains" t2="Tirisfal Glades"/>
+<connection t1="Olsen's Farthing" t2="South Silverpine Forest"/>
+<connection t1="Olsen's Farthing" t2="Tide's Run Mountains"/>
+<connection t1="Overlook River" t2="Plaguemist Mountains"/>
+<connection t1="Overlook River" t2="SZ28"/>
+<connection t1="Overlook River" t2="Seradane Mountains"/>
+<connection t1="Overlook River" t2="Shaol'watha"/>
+<connection t1="Pestilent Scar" t2="Scarlet Enclave"/>
+<connection t1="Pestilent Scar" t2="The Eastern Plaguelands"/>
+<connection t1="Plaguemist Mountains" t2="Chillwind Point"/>
+<connection t1="Plaguemist Mountains" t2="Quel'Danil Lodge"/>
+<connection t1="Plaguemist Mountains" t2="Shindigger's Camp"/>
+<connection t1="Plaguemist Mountains" t2="Zun'watha"/>
 <connection t1="Plaguewood" t2="South Plaguewood"/>
+<connection t1="Plaguewood" t2="Stratholme East Mountains"/>
 <connection t1="Plaguewood" t2="Stratholme Gate"/>
 <connection t1="Plaguewood" t2="Terrordale"/>
-<connection t1="Slaughter Square" t2="Harbour"/>
-<connection t1="Slaughter Square" t2="Slaughterhouse"/>
-<connection t1="Slaughter Square" t2="The Gauntlet"/>
+<connection t1="Pyrewood Village" t2="SZ19"/>
+<connection t1="Pyrewood Village" t2="Shadowfang Keep"/>
+<connection t1="Pyrewood Village" t2="Silverpine Road"/>
+<connection t1="Pyrewood Village" t2="South Silverpine Forest"/>
+<connection t1="Pyrewood Village" t2="South Tide's Run"/>
+<connection t1="Quel'Danas Dead Scar" t2="SZ3"/>
+<connection t1="Quel'Danas Dead Scar" t2="SZ5"/>
+<connection t1="Quel'Danas Dead Scar" t2="Sunblade Coast"/>
+<connection t1="Quel'Danas Dead Scar" t2="Sunwell Plateau"/>
+<connection t1="Quel'Danas Dead Scar" t2="Sunwell Wall"/>
+<connection t1="Quel'Danil Lodge" t2="Valorwind Lake"/>
+<connection t1="Quel'Danil Lodge" t2="Zun'watha"/>
+<connection t1="Quel'Lithien Lodge" t2="Stratholme East Mountains"/>
+<connection t1="Quel'Lithien Lodge" t2="Thalassian Pass"/>
+<connection t1="Ravenholdt" t2="North Darrowmere River"/>
+<connection t1="Ravenholdt" t2="South Darrowmere River"/>
+<connection t1="Revantusk Village" t2="SZ27"/>
+<connection t1="Revantusk Village" t2="The Overlook Cliffs"/>
+<connection t1="Ruined Silvermoon Wall" t2="Ruins of Silvermoon"/>
+<connection t1="Ruined Silvermoon Wall" t2="West Silvermoon Mountain"/>
+<connection t1="Ruins of Alterac" t2="Alterac Mountains"/>
+<connection t1="Runestone Falithas" t2="Isle of Tribulations"/>
+<connection t1="Runestone Falithas" t2="The Scorched Grove"/>
+<connection t1="SZ0" t2="SZ4"/>
+<connection t1="SZ0" t2="SZ5"/>
+<connection t1="SZ0" t2="SZ7"/>
+<connection t1="SZ0" t2="SZ9"/>
+<connection t1="SZ0" t2="Stratholme City Interior"/>
+<connection t1="SZ1" t2="SZ2"/>
+<connection t1="SZ1" t2="SZ3"/>
+<connection t1="SZ1" t2="SZ32"/>
+<connection t1="SZ2" t2="SZ4"/>
+<connection t1="SZ2" t2="Sun's Reach"/>
+<connection t1="SZ3" t2="SZ5"/>
+<connection t1="SZ3" t2="SZ32"/>
+<connection t1="SZ4" t2="SZ5"/>
+<connection t1="SZ5" t2="Sunblade Coast"/>
+<connection t1="SZ7" t2="SZ8"/>
+<connection t1="SZ7" t2="SZ9"/>
+<connection t1="SZ7" t2="Tranquil Shore"/>
+<connection t1="SZ7" t2="West Silvermoon Mountain"/>
+<connection t1="SZ8" t2="SZ9"/>
+<connection t1="SZ8" t2="SZ10"/>
+<connection t1="SZ8" t2="Shalandis Isle"/>
+<connection t1="SZ9" t2="SZ10"/>
+<connection t1="SZ9" t2="SZ11"/>
+<connection t1="SZ9" t2="SZ12"/>
+<connection t1="SZ10" t2="SZ11"/>
+<connection t1="SZ10" t2="Stratholme City"/>
+<connection t1="SZ10" t2="Stratholme East Mountains"/>
+<connection t1="SZ10" t2="Windrunner Spire"/>
+<connection t1="SZ10" t2="Windrunner Village"/>
+<connection t1="SZ11" t2="SZ12"/>
+<connection t1="SZ11" t2="SZ13"/>
+<connection t1="SZ11" t2="Thondroril River"/>
+<connection t1="SZ12" t2="SZ0"/>
+<connection t1="SZ12" t2="SZ13"/>
+<connection t1="SZ12" t2="SZ14"/>
+<connection t1="SZ13" t2="SZ14"/>
+<connection t1="SZ13" t2="SZ15"/>
+<connection t1="SZ13" t2="The North Coast"/>
+<connection t1="SZ14" t2="SZ0"/>
+<connection t1="SZ14" t2="SZ15"/>
+<connection t1="SZ14" t2="SZ16"/>
+<connection t1="SZ15" t2="SZ16"/>
+<connection t1="SZ15" t2="SZ17"/>
+<connection t1="SZ15" t2="Solliden Farmstead"/>
+<connection t1="SZ15" t2="The Tirisfal Mountains"/>
+<connection t1="SZ15" t2="Whispering Shore"/>
+<connection t1="SZ16" t2="SZ0"/>
+<connection t1="SZ16" t2="SZ18"/>
+<connection t1="SZ17" t2="SZ16"/>
+<connection t1="SZ17" t2="SZ18"/>
+<connection t1="SZ17" t2="SZ19"/>
+<connection t1="SZ17" t2="Skittering Dark"/>
+<connection t1="SZ17" t2="The Tirisfal Mountains"/>
+<connection t1="SZ17" t2="Tide's Run Mountains"/>
+<connection t1="SZ18" t2="SZ0"/>
+<connection t1="SZ18" t2="SZ19"/>
+<connection t1="SZ18" t2="SZ20"/>
+<connection t1="SZ19" t2="SZ20"/>
+<connection t1="SZ19" t2="Shadowfang Keep"/>
+<connection t1="SZ19" t2="South Tide's Run"/>
+<connection t1="SZ19" t2="Tide's Run Mountains"/>
+<connection t1="SZ20" t2="SZ0"/>
+<connection t1="SZ20" t2="SZ21"/>
+<connection t1="SZ20" t2="SZ23"/>
+<connection t1="SZ21" t2="SZ22"/>
+<connection t1="SZ21" t2="SZ23"/>
+<connection t1="SZ21" t2="Western Strand"/>
+<connection t1="SZ22" t2="SZ23"/>
+<connection t1="SZ22" t2="SZ24"/>
+<connection t1="SZ22" t2="South Darrowmere River"/>
+<connection t1="SZ22" t2="Southshore"/>
+<connection t1="SZ22" t2="Stromgarde Mountains"/>
+<connection t1="SZ22" t2="Tower of Arathor"/>
+<connection t1="SZ22" t2="West Thandol Mountains"/>
+<connection t1="SZ23" t2="SZ0"/>
+<connection t1="SZ23" t2="SZ24"/>
+<connection t1="SZ24" t2="SZ25"/>
+<connection t1="SZ24" t2="The Thandol Span"/>
+<connection t1="SZ24" t2="West Thandol Mountains"/>
+<connection t1="SZ25" t2="SZ26"/>
+<connection t1="SZ25" t2="SZ27"/>
+<connection t1="SZ25" t2="The Overlook Cliffs"/>
+<connection t1="SZ26" t2="SZ27"/>
+<connection t1="SZ26" t2="SZ28"/>
+<connection t1="SZ27" t2="SZ28"/>
+<connection t1="SZ27" t2="The Overlook Cliffs"/>
+<connection t1="SZ28" t2="SZ29"/>
+<connection t1="SZ28" t2="Seradane Mountains"/>
+<connection t1="SZ28" t2="The Overlook Cliffs"/>
+<connection t1="SZ29" t2="SZ30"/>
+<connection t1="SZ29" t2="Scarlet Enclave"/>
+<connection t1="SZ30" t2="SZ31"/>
+<connection t1="SZ30" t2="Scarlet Enclave"/>
+<connection t1="SZ30" t2="South Amani Mountains"/>
+<connection t1="SZ30" t2="South Hatchet Hills"/>
+<connection t1="SZ30" t2="Zul'Aman"/>
+<connection t1="SZ31" t2="SZ32"/>
+<connection t1="SZ31" t2="Tor'Watha Mountain"/>
+<connection t1="SZ32" t2="Tor'Watha Mountain"/>
+<connection t1="Sanctum of the Moon" t2="South Dead Scar"/>
+<connection t1="Sanctum of the Moon" t2="Twin Ziggurats"/>
+<connection t1="Sanctum of the Moon" t2="Underlight Mines"/>
+<connection t1="Sanctum of the Moon" t2="Windrunner Village"/>
+<connection t1="Sanctum of the Sun" t2="Sungraze Peak"/>
+<connection t1="Scarlet Enclave" t2="South Hatchet Hills"/>
+<connection t1="Scarlet Enclave" t2="The Eastern Plaguelands"/>
+<connection t1="Scarlet Enclave" t2="The Noxious Glade"/>
+<connection t1="Scarlet Enclave" t2="Tyr's Hand"/>
+<connection t1="Scarlet Monastery" t2="Scarlet Watch Post"/>
+<connection t1="Scarlet Watchtower" t2="Lordamere Lake"/>
+<connection t1="Scarlet Watchtower" t2="The Shining Strand"/>
+<connection t1="Scarlet Watchtower" t2="Undercity"/>
+<connection t1="Scarlet Watchtower" t2="Vale Mountains"/>
+<connection t1="Seradane" t2="Overlook River"/>
+<connection t1="Seradane" t2="Seradane Mountains"/>
+<connection t1="Shadowfang Keep" t2="South Silverpine Forest"/>
+<connection t1="Shadowfang Keep" t2="Tide's Run Mountains"/>
+<connection t1="Shadra'Alor" t2="Troll Mountains"/>
+<connection t1="Shaol'watha" t2="Skull Rock"/>
+<connection t1="Shaol'watha" t2="The Overlook Cliffs"/>
+<connection t1="Shindigger's Camp" t2="Chillwind Point"/>
+<connection t1="Shindigger's Camp" t2="Zun'watha"/>
+<connection t1="Silvermoon City" t2="Silvermoon City Wall"/>
+<connection t1="Silvermoon City" t2="Thurons Livery"/>
+<connection t1="Silvermoon City Wall" t2="Thurons Livery"/>
+<connection t1="Silverpine Road" t2="South Silverpine Forest"/>
+<connection t1="Silverpine Road" t2="Southpoint Tower"/>
+<connection t1="Skittering Dark" t2="The Dead Fields"/>
+<connection t1="Skittering Dark" t2="The Tirisfal Mountains"/>
+<connection t1="Skull Rock" t2="Overlook River"/>
+<connection t1="Slaughter Square" t2="Stratholme City Interior"/>
+<connection t1="Slaughter Square" t2="Stratholme Harbour"/>
+<connection t1="Slaughter Square" t2="The Slaughter House"/>
+<connection t1="Solliden Farmstead" t2="Stillwater Pond"/>
+<connection t1="Solliden Farmstead" t2="The Tirisfal Mountains"/>
+<connection t1="Solliden Farmstead" t2="Whispering Shore"/>
+<connection t1="Sorrow Hill" t2="Sorrow Hill Cemetery"/>
+<connection t1="Sorrow Hill Cemetery" t2="North Darrowmere River"/>
+<connection t1="South Alterac Mountains" t2="The Fingers"/>
+<connection t1="South Amani Mountains" t2="South Hatchet Hills"/>
+<connection t1="South Amani Mountains" t2="Zeb'Nowa"/>
+<connection t1="South Amani Mountains" t2="Zul'Aman"/>
+<connection t1="South Darrowmere River" t2="Southshore"/>
+<connection t1="South Dead Scar" t2="Isle of Tribulations"/>
+<connection t1="South Dead Scar" t2="Tranquillien"/>
+<connection t1="South Dead Scar" t2="Twin Ziggurats"/>
+<connection t1="South Hatchet Hills" t2="The Noxious Glade"/>
+<connection t1="South Hatchet Hills" t2="Zul'Marshar"/>
 <connection t1="South Plaguewood" t2="Terrordale"/>
-<connection t1="South Plaguewood" t2="West plague mountains"/>
-<connection t1="South east plague mountains" t2="South west plague mountains"/>
-<connection t1="South east plague mountains" t2="The Scarlet Basilica"/>
-<connection t1="South east plague mountains" t2="Tyr's Hand"/>
-<connection t1="South west plague mountains" t2="Undercroft"/>
+<connection t1="South Silverpine Forest" t2="Tide's Run Mountains"/>
+<connection t1="South Twin" t2="The Writhing Haunt"/>
+<connection t1="Southshore" t2="Western Strand"/>
+<connection t1="Stillwater Pond" t2="Whispering Shore"/>
+<connection t1="Strahnbrad" t2="Upland Mountains"/>
+<connection t1="Strahnbrad" t2="Uplands"/>
+<connection t1="Stratholme Buildings" t2="Stratholme City Interior"/>
+<connection t1="Stratholme City" t2="Stratholme East Mountains"/>
 <connection t1="Stratholme City" t2="Stratholme Gate"/>
+<connection t1="Stratholme City Interior" t2="Stratholme Harbour"/>
+<connection t1="Stratholme City Interior" t2="The Crimson Throne"/>
+<connection t1="Stratholme City Interior" t2="The Hoard"/>
+<connection t1="Stratholme City Interior" t2="The Scarlet Bastion"/>
+<connection t1="Stratholme City Interior" t2="The Slaughter House"/>
+<connection t1="Stratholme East Mountains" t2="Stratholme Gate"/>
+<connection t1="Stratholme East Mountains" t2="Thalassian Pass"/>
+<connection t1="Stratholme East Mountains" t2="Underlight Mines"/>
+<connection t1="Stratholme East Mountains" t2="Windrunner Spire"/>
 <connection t1="Stratholme Gate" t2="Terrordale"/>
-<connection t1="Terrordale" t2="West plague mountains"/>
-<connection t1="The Crimson Throne" t2="The Hoard"/>
+<connection t1="Stromgarde City" t2="Stromgarde Keep"/>
+<connection t1="Stromgarde City" t2="Stromgarde Mountains"/>
+<connection t1="Stromgarde City" t2="Stromgarde Road"/>
+<connection t1="Stromgarde City" t2="Tower of Arathor"/>
+<connection t1="Stromgarde City" t2="West Thandol Mountains"/>
+<connection t1="Stromgarde Keep" t2="Tower of Arathor"/>
+<connection t1="Stromgarde Keep" t2="West Thandol Mountains"/>
+<connection t1="Stromgarde Mountains" t2="Stromgarde Road"/>
+<connection t1="Stromgarde Mountains" t2="Thoradin's South Wall"/>
+<connection t1="Stromgarde Mountains" t2="Tower of Arathor"/>
+<connection t1="Stromgarde Road" t2="West Thandol Mountains"/>
+<connection t1="Sun's Reach" t2="Sunwell Plateau"/>
+<connection t1="Sunblade Coast" t2="Sunwell Wall"/>
+<connection t1="Suncrown Village" t2="Isle of Tribulations"/>
+<connection t1="Suncrown Village" t2="Sungraze Peak"/>
+<connection t1="Sungraze Peak" t2="Tranquillien"/>
+<connection t1="Sunwell Plateau" t2="Sunwell Wall"/>
+<connection t1="Tarren Mill" t2="South Darrowmere River"/>
+<connection t1="Tarren Mill" t2="The Fingers"/>
+<connection t1="The Altar of Zul" t2="Troll Mountains"/>
+<connection t1="The Altar of Zul" t2="Valorwind Lake"/>
+<connection t1="The Bulwark" t2="The Western Plaguelands"/>
+<connection t1="The Crimson Throne" t2="The Scarlet Bastion"/>
+<connection t1="The Dead Fields" t2="The Tirisfal Mountains"/>
+<connection t1="The Dead Fields" t2="The Worg Orchards"/>
+<connection t1="The Dead Fields" t2="Vale Mountains"/>
 <connection t1="The Eastern Plaguelands" t2="The Noxious Glade"/>
-<connection t1="The Eastern Plaguelands" t2="Tyr's Hand"/>
 <connection t1="The Fungus Vale" t2="The Marris Stead"/>
-<connection t1="The Fungus Vale" t2="West plague mountains"/>
 <connection t1="The Hoard" t2="The Scarlet Bastion"/>
-<connection t1="The Marris Stead" t2="Tirion's Cottage"/>
 <connection t1="The Marris Stead" t2="Undercroft"/>
-<connection t1="The Marris Stead" t2="West plague mountains"/>
-<connection t1="The Scarlet Basilica" t2="Tyr's Hand"/>
-<connection t1="Tirion's Cottage" t2="Undercroft"/>
-<connection t1="West plague mountains" t2="Tirion's Cottage"/>
+<connection t1="The Overlook Cliffs" t2="Troll Mountains"/>
+<connection t1="The Overlook Cliffs" t2="Witherbark Village"/>
+<connection t1="The Sepulcher" t2="Tide's Run Mountains"/>
+<connection t1="The Shining Strand" t2="The Worg Orchards"/>
+<connection t1="The Shining Strand" t2="Vale Mountains"/>
+<connection t1="The Thandol Span" t2="SZ25"/>
+<connection t1="The Thandol Span" t2="West Thandol Mountains"/>
+<connection t1="The Tirisfal Mountains" t2="Vale Mountains"/>
+<connection t1="The Tirisfal Mountains" t2="Whispering Forest"/>
+<connection t1="The Weeping Cave" t2="Thondroril River"/>
+<connection t1="The Worg Orchards" t2="Vale Mountains"/>
+<connection t1="Thondroril River" t2="Darrowmere Lake"/>
+<connection t1="Thondroril River" t2="Tirion's Cottage"/>
+<connection t1="Tor'Watha" t2="Tor'Watha Mountain"/>
+<connection t1="Tor'Watha" t2="Zeb'Sora"/>
+<connection t1="Tor'Watha Mountain" t2="Zeb'Sora"/>
+<connection t1="Tower of Arathor" t2="West Thandol Mountains"/>
+<connection t1="Tranquil Shore" t2="West Sanctum"/>
+<connection t1="Tranquillien" t2="Sanctum of the Sun"/>
+<connection t1="Troll Mountains" t2="Valorwind Lake"/>
+<connection t1="Twin Ziggurats" t2="Underlight Mines"/>
+<connection t1="Undercroft" t2="Darrowmere Shore"/>
+<connection t1="Underlight Mines" t2="Windrunner Spire"/>
+<connection t1="Underlight Mines" t2="Windrunner Village"/>
+<connection t1="Upland Mountains" t2="Lordaeron River"/>
+<connection t1="Uplands" t2="Upland Mountains"/>
+<connection t1="Venomweb Vale" t2="Northridge Mountains"/>
+<connection t1="Windrunner Spire" t2="Windrunner Village"/>
+<connection t1="Windrunner Village" t2="SZ8"/>
+<connection t1="Zeb'Nowa" t2="Zeb'Tela"/>
+<connection t1="Zeb'Nowa" t2="Zul'Aman"/>
+<connection t1="Zeb'Watha" t2="Greenrush River"/>
+<connection t1="Zun'watha" t2="Aerie Mountains"/>
