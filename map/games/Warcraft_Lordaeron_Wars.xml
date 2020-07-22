@@ -6,6 +6,101 @@
   <triplea minimumVersion="1.9" />
   <diceSides value="10" />
 <variableList>
+<variable name="Leadership all not in use">
+<element name="ghoul"/>
+<element name="abomination"/>
+<element name="skeleton_hound"/>
+<element name="initiate"/>
+<element name="crusader"/>
+<element name="cavalier"/>
+<element name="swordsman"/>
+<element name="arcane_guardian"/>
+<element name="hawkstrider_cavalier"/>
+<element name="berserker"/>
+<element name="beast_master"/>
+<element name="warbringer"/>
+<element name="deathguard"/>
+<element name="deathstalker"/>
+<element name="dark_knight"/>
+<element name="sunreaver_battle_mage"/>
+<element name="rune_golem"/>
+<element name="mana_hound"/>
+<element name="grunt"/>
+<element name="poacher"/>
+<element name="coastrunner"/>
+<element name="brute"/>
+<element name="renegade"/>
+<element name="broodling"/>
+<element name="dark_runner"/>
+<element name="moon_walker"/>
+<element name="ghost"/>
+<element name="wraith"/>
+<element name="tunneler"/>
+<element name="fire_elemental"/>
+<element name="earth_elemental"/>
+<element name="husk"/>
+<element name="crypt_fiend"/>
+<element name="banshee"/>
+<element name="meat_wagon"/>
+<element name="ranger"/>
+<element name="purifier"/>
+<element name="cannon"/>
+<element name="farstrider"/>
+<element name="magister"/>
+<element name="thalassian_ballista"/>
+<element name="axe_thrower"/>
+<element name="witch_doctor"/>
+<element name="catapult"/>
+<element name="fallen_archer"/>
+<element name="apothecary"/>
+<element name="plague_catapult"/>
+<element name="silver_covenant_ranger"/>
+<element name="archmage"/>
+<element name="glaive_thrower"/>
+<element name="headhunter"/>
+<element name="rifleman"/>
+<element name="mystic"/>
+<element name="tidecaller"/>
+<element name="magi"/>
+<element name="dark_wizard"/>
+<element name="spitter"/>
+<element name="geomancer"/>
+<element name="air_elemental"/>
+<element name="water_elemental"/>
+<element name="remnant"/>
+<element name="gargoyle"/>
+<element name="scarlet_rider"/>
+<element name="dragonhawk_rider"/>
+<element name="dragonhawk"/>
+<element name="bat"/>
+<element name="silver_covenant_hippogryph"/>
+<element name="gryphon_rider"/>
+</variable>
+<variable name="ProductionForTerritories">
+<element name="slaughterhouse"/>
+<element name="ziggurat"/>
+<element name="scarlet_barrack"/>
+<element name="crusade_outpost"/>
+<element name="elven_lodge"/>
+<element name="magic_tower"/>
+<element name="voodoo_lounge"/>
+<element name="watch_tower"/>
+<element name="crypt"/>
+<element name="reclaimed_ziggurat"/>
+<element name="violet_hall"/>
+<element name="arcane_tower"/>
+<element name="violet_hall"/>
+<element name="hut"/>
+<element name="tent"/>
+<element name="mound"/>
+<element name="hideout"/>
+<element name="nest"/>
+<element name="pack_territory"/>
+<element name="haunt"/>
+<element name="mine"/>
+<element name="covenant"/>
+<element name="mana_nexus"/>
+</variable>
 <variable name="ChargeTargeted">
 <element name="ghoul"/>
 <element name="abomination"/>
@@ -102,7 +197,7 @@
 <element name="water_elemental"/>
 <element name="remnant"/>
 </variable>
-<variable name="LeadershipTargeted">
+<variable name="ArcherLeadership">
 <element name="ghoul"/>
 <element name="abomination"/>
 <element name="skeleton_hound"/>
@@ -134,6 +229,119 @@
 <element name="tunneler"/>
 <element name="fire_elemental"/>
 <element name="earth_elemental"/>
+<element name="husk"/>
+<element name="banshee"/>
+<element name="meat_wagon"/>
+<element name="purifier"/>
+<element name="cannon"/>
+<element name="magister"/>
+<element name="thalassian_ballista"/>
+<element name="witch_doctor"/>
+<element name="catapult"/>
+<element name="apothecary"/>
+<element name="plague_catapult"/>
+<element name="archmage"/>
+<element name="glaive_thrower"/>
+<element name="mystic"/>
+<element name="tidecaller"/>
+<element name="magi"/>
+<element name="dark_wizard"/>
+<element name="geomancer"/>
+<element name="water_elemental"/>
+<element name="gargoyle"/>
+<element name="scarlet_rider"/>
+<element name="dragonhawk_rider"/>
+<element name="dragonhawk"/>
+<element name="bat"/>
+<element name="silver_covenant_hippogryph"/>
+<element name="gryphon_rider"/>
+</variable>
+<variable name="SiegeLeadership">
+<element name="ghoul"/>
+<element name="abomination"/>
+<element name="skeleton_hound"/>
+<element name="initiate"/>
+<element name="crusader"/>
+<element name="cavalier"/>
+<element name="swordsman"/>
+<element name="arcane_guardian"/>
+<element name="hawkstrider_cavalier"/>
+<element name="berserker"/>
+<element name="beast_master"/>
+<element name="warbringer"/>
+<element name="deathguard"/>
+<element name="deathstalker"/>
+<element name="dark_knight"/>
+<element name="sunreaver_battle_mage"/>
+<element name="rune_golem"/>
+<element name="mana_hound"/>
+<element name="grunt"/>
+<element name="poacher"/>
+<element name="coastrunner"/>
+<element name="brute"/>
+<element name="renegade"/>
+<element name="broodling"/>
+<element name="dark_runner"/>
+<element name="moon_walker"/>
+<element name="ghost"/>
+<element name="wraith"/>
+<element name="tunneler"/>
+<element name="fire_elemental"/>
+<element name="earth_elemental"/>
+<element name="husk"/>
+<element name="crypt_fiend"/>
+<element name="banshee"/>
+<element name="ranger"/>
+<element name="purifier"/>
+<element name="farstrider"/>
+<element name="magister"/>
+<element name="axe_thrower"/>
+<element name="witch_doctor"/>
+<element name="fallen_archer"/>
+<element name="apothecary"/>
+<element name="silver_covenant_ranger"/>
+<element name="archmage"/>
+<element name="headhunter"/>
+<element name="rifleman"/>
+<element name="mystic"/>
+<element name="tidecaller"/>
+<element name="magi"/>
+<element name="dark_wizard"/>
+<element name="spitter"/>
+<element name="geomancer"/>
+<element name="air_elemental"/>
+<element name="water_elemental"/>
+<element name="remnant"/>
+<element name="gargoyle"/>
+<element name="scarlet_rider"/>
+<element name="dragonhawk_rider"/>
+<element name="dragonhawk"/>
+<element name="bat"/>
+<element name="silver_covenant_hippogryph"/>
+<element name="gryphon_rider"/>
+</variable>
+<variable name="HeavyInfantryLeadership">
+<element name="ghoul"/>
+<element name="skeleton_hound"/>
+<element name="initiate"/>
+<element name="cavalier"/>
+<element name="swordsman"/>
+<element name="hawkstrider_cavalier"/>
+<element name="berserker"/>
+<element name="warbringer"/>
+<element name="deathguard"/>
+<element name="dark_knight"/>
+<element name="sunreaver_battle_mage"/>
+<element name="mana_hound"/>
+<element name="grunt"/>
+<element name="poacher"/>
+<element name="coastrunner"/>
+<element name="renegade"/>
+<element name="broodling"/>
+<element name="dark_runner"/>
+<element name="ghost"/>
+<element name="tunneler"/>
+<element name="fire_elemental"/>
 <element name="husk"/>
 <element name="crypt_fiend"/>
 <element name="banshee"/>
@@ -1838,6 +2046,8 @@
 <!-- Tunnel Territory Definitions -->
 <connection t1="Tirion's Cottage" t2="Terrordale"/>
 <connection t1="Havenshire" t2="The Noxious Glade"/>
+<connection t1="Ambermill" t2="Dalaran Remnant Camp"/>
+<connection t1="Revantusk Village" t2="Hinterland High Road"/>
 
 <!-- Teleports Territory Definitions -->
 <connection t1="Stratholme Gate" t2="King's Square"/>
@@ -1866,22 +2076,22 @@
 <player name="KoboldNests" optional="false" canBeDisabled="false" />
 <player name="ElementalThrones" optional="false" canBeDisabled="false" />
 <player name="WretchedOutcasts" optional="false" canBeDisabled="false" />
-<alliance player="Scourge" alliance="Undead" />
-<alliance player="ScarletCrusade" alliance="Scarlet" />
-<alliance player="BloodElves" alliance="a" />
-<alliance player="TrollTribes" alliance="b" />
-<alliance player="Forsaken" alliance="c" />
+<alliance player="Scourge" alliance="Scourge" />
+<alliance player="ScarletCrusade" alliance="ScarletCrusade" />
+<alliance player="BloodElves" alliance="BloodElves" />
+<alliance player="TrollTribes" alliance="TrollTribes" />
+<alliance player="Forsaken" alliance="Forsaken" />
 <alliance player="Dalaran" alliance="GrandAlliance" />
-<alliance player="GnollPacks" alliance="z" />
-<alliance player="MurlocTribes" alliance="x" />
-<alliance player="OgreClans" alliance="v" />
-<alliance player="BanditSyndicates" alliance="n" />
-<alliance player="SpiderBroods" alliance="m" />
-<alliance player="WorgenPacks" alliance="l" />
-<alliance player="GhostHaunts" alliance="k" />
-<alliance player="KoboldNests" alliance="j" />
-<alliance player="ElementalThrones" alliance="h" />
-<alliance player="WretchedOutcasts" alliance="dd" />
+<alliance player="GnollPacks" alliance="GnollPacks" />
+<alliance player="MurlocTribes" alliance="MurlocTribes" />
+<alliance player="OgreClans" alliance="OgreClans" />
+<alliance player="BanditSyndicates" alliance="BanditSyndicates" />
+<alliance player="SpiderBroods" alliance="Spiderbroods" />
+<alliance player="WorgenPacks" alliance="WorgenPacks" />
+<alliance player="GhostHaunts" alliance="GhostHaunts" />
+<alliance player="KoboldNests" alliance="KoboldNests" />
+<alliance player="ElementalThrones" alliance="ElementalThrones" />
+<alliance player="WretchedOutcasts" alliance="WretchedOutcasts" />
 </playerList>
 <unitList>
 <unit name="ghoul" />
@@ -2804,6 +3014,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="abomination" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -2819,6 +3032,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -2834,6 +3050,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="skeleton_hound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -2849,6 +3068,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="banshee" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -2864,6 +3086,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="gargoyle" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -2882,6 +3107,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="meat_wagon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -2897,6 +3125,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="slaughterhouse"/>
+<option name="requiresUnits" value="ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="scourge_barge" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -2963,6 +3194,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -2978,6 +3212,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -2993,6 +3230,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="cavalier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3008,6 +3248,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="purifier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3023,6 +3266,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="scarlet_rider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3041,6 +3287,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="cannon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3056,6 +3305,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="scarlet_barrack"/>
+<option name="requiresUnits" value="crusade_outpost"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="scarlet_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3122,6 +3374,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="arcane_guardian" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3137,6 +3392,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="farstrider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3152,6 +3410,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="hawkstrider_cavalier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3167,6 +3428,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="magister" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3182,6 +3446,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dragonhawk_rider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3200,6 +3467,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="magic_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="thalassian_ballista" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3215,6 +3485,7 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="$ProductionForTerritories$"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="thalassian_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3281,6 +3552,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="beast_master" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3296,6 +3570,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="axe_thrower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3311,6 +3588,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="warbringer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3326,6 +3606,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="witch_doctor" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3341,6 +3624,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dragonhawk" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3359,6 +3645,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3374,6 +3663,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="voodoo_lounge"/>
+<option name="requiresUnits" value="watch_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="troll_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3440,6 +3732,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="deathstalker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3455,6 +3750,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="fallen_archer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3470,6 +3768,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dark_knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3485,6 +3786,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="apothecary" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3500,6 +3804,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="bat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3518,6 +3825,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="plague_catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3533,6 +3843,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="reclaimed_ziggurat"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="forsaken_barge" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3599,6 +3912,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="rune_golem" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3614,6 +3930,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="silver_covenant_ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3629,6 +3948,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mana_hound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3644,6 +3966,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="archmage" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3659,6 +3984,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="silver_covenant_hippogryph" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3677,6 +4005,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="glaive_thrower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3692,6 +4023,9 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dalaran_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3850,6 +4184,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="hut"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mystic" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3865,6 +4201,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="hut"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="tent" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -3888,6 +4226,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="tent"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="tidecaller" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3903,6 +4243,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="tent"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="hut" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -3926,6 +4268,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="mound"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="magi" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3941,6 +4285,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="mound"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mound" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -3964,6 +4310,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="hideout"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dark_wizard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3979,6 +4327,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="hideout"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="hideout" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4002,6 +4352,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="nest"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="spitter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4017,6 +4369,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="nest"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="nest" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4040,6 +4394,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="pack_territory"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="moon_walker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4055,6 +4411,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="pack_territory"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="pack_territory" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4078,6 +4436,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="haunt"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="wraith" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4093,6 +4453,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="haunt"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="haunt" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4116,6 +4478,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="mine"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="geomancer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4131,6 +4495,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="mine"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mine" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4154,6 +4520,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="covenant"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="earth_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4169,6 +4537,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="covenant"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="air_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4184,6 +4554,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="covenant"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="water_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4199,6 +4571,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="covenant"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="covenant" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4222,6 +4596,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="mana_nexus"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="remnant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4237,6 +4613,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
+<option name="requiresUnits" value="mana_nexus"/>
+<option name="requiresUnits" value="dungeonpro"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mana_nexus" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4247,7 +4625,7 @@
 <option name='unitPlacementRestrictions' value="$DungeonTiles$" />
 </attachment>
 <attachment name="supportAttachment_leadership_abomination" attachTo="abomination" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4258,7 +4636,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_crypt_fiend" attachTo="crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4269,7 +4647,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_meat_wagon" attachTo="meat_wagon" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4291,7 +4669,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_crusader" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4302,7 +4680,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_ranger" attachTo="ranger" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4313,7 +4691,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_cannon" attachTo="cannon" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4335,7 +4713,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_arcane_guardian" attachTo="arcane_guardian" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4346,7 +4724,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_farstrider" attachTo="farstrider" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4357,7 +4735,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_thalassian_ballista" attachTo="thalassian_ballista" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4379,7 +4757,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_beast_master" attachTo="beast_master" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4390,7 +4768,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_axe_thrower" attachTo="axe_thrower" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4401,7 +4779,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_catapult" attachTo="catapult" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4423,7 +4801,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_deathstalker" attachTo="deathstalker" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4434,7 +4812,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_fallen_archer" attachTo="fallen_archer" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4445,7 +4823,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_plague_catapult" attachTo="plague_catapult" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4467,7 +4845,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_rune_golem" attachTo="rune_golem" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4478,7 +4856,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_silver_covenant_ranger" attachTo="silver_covenant_ranger" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4489,7 +4867,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_glaive_thrower" attachTo="glaive_thrower" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4511,7 +4889,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_headhunter" attachTo="headhunter" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4522,7 +4900,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_rifleman" attachTo="rifleman" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4544,7 +4922,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_brute" attachTo="brute" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4555,7 +4933,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_spitter" attachTo="spitter" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4566,7 +4944,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_moon_walker" attachTo="moon_walker" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4577,7 +4955,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_wraith" attachTo="wraith" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4588,7 +4966,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_earth_elemental" attachTo="earth_elemental" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$HeavyInfantryLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -4599,7 +4977,7 @@
 <option name="players" value="$PlayerFactions$" />
 </attachment>
 <attachment name="supportAttachment_leadership_air_elemental" attachTo="air_elemental" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-<option name="unitType" value="$LeadershipTargeted$" />
+<option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
@@ -5969,7 +6347,7 @@
 <option name="territoryEffect" value="Open" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="South Plaguewood" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="1" />
+<option name="production" value="2" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
 <option name="territoryEffect" value="Woodland" />
@@ -6089,8 +6467,8 @@
 <option name="territoryEffect" value="Shipyard" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Sunwell Plateau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="5" />
-<option name="unitProduction" value="4" />
+<option name="production" value="6" />
+<option name="unitProduction" value="5" />
 <option name="territoryEffect" value="Major_Settlement" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Sunwell Wall" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -7738,7 +8116,6 @@
 <territoryOwner territory="Deep Elem Mine" owner="WorgenPacks" />
 <territoryOwner territory="Drywhisker Gorge" owner="KoboldNests" />
 <territoryOwner territory="Durnholde Keep" owner="BanditSyndicates" />
-<territoryOwner territory="Duskhaven" owner="Dalaran" />
 <territoryOwner territory="Duskwither Spire" owner="WretchedOutcasts" />
 <territoryOwner territory="Eastern Strand" owner="MurlocTribes" />
 <territoryOwner territory="Eastpoint Tower" owner="BanditSyndicates" />
@@ -7759,19 +8136,17 @@
 <territoryOwner territory="Gauntlet Ash'ari Crystal 1" owner="Scourge" />
 <territoryOwner territory="Gauntlet Ash'ari Crystal 2" owner="Scourge" />
 <territoryOwner territory="Gauntlet Ash'ari Crystal 3" owner="Scourge" />
-<territoryOwner territory="Gilneas City" owner="Dalaran" />
 <territoryOwner territory="Golden Strand" owner="MurlocTribes" />
 <territoryOwner territory="Goldenmist Village" owner="GhostHaunts" />
+<territoryOwner territory="Greengill Coast" owner="MurlocTribes" />
 <territoryOwner territory="Grimscale Shore" owner="MurlocTribes" />
 <territoryOwner territory="Growless Cave" owner="OgreClans" />
 <territoryOwner territory="Gunther's Retreat" owner="Scourge" />
 <territoryOwner territory="Havenshire" owner="ScarletCrusade" />
-<territoryOwner territory="Havenswood" owner="Dalaran" />
 <territoryOwner territory="Hearthglen" owner="ScarletCrusade" />
 <territoryOwner territory="Hillsbrad Fields" owner="Dalaran" />
 <territoryOwner territory="Hiri'watha" owner="TrollTribes" />
 <territoryOwner territory="Jintha'Alor" owner="TrollTribes" />
-<territoryOwner territory="Keel Harbour" owner="Dalaran" />
 <territoryOwner territory="King's Square" owner="Scourge" />
 <territoryOwner territory="Koroth's Den" owner="OgreClans" />
 <territoryOwner territory="Lake Mereldar" owner="ElementalThrones" />
@@ -7786,11 +8161,12 @@
 <territoryOwner territory="North Tide's Run" owner="MurlocTribes" />
 <territoryOwner territory="Northdale" owner="GhostHaunts" />
 <territoryOwner territory="Northfold Manor" owner="BanditSyndicates" />
-<territoryOwner territory="Northlands" owner="WorgenPacks" />
 <territoryOwner territory="Northridge Lumber Camp" owner="ScarletCrusade" />
 <territoryOwner territory="Olsen's Farthing" owner="Scourge" />
 <territoryOwner territory="Plaguewood" owner="Scourge" />
+<territoryOwner territory="Purgation Isle" owner="GhostHaunts" />
 <territoryOwner territory="Pyrewood Village" owner="WorgenPacks" />
+<territoryOwner territory="Quel'Danas Dead Scar" owner="Scourge" />
 <territoryOwner territory="Quel'Danil Lodge" owner="BloodElves" />
 <territoryOwner territory="Quel'Lithien Lodge" owner="BloodElves" />
 <territoryOwner territory="Ravenholdt" owner="BanditSyndicates" />
@@ -7798,6 +8174,7 @@
 <territoryOwner territory="Refuge Pointe" owner="Dalaran" />
 <territoryOwner territory="Ruins of Alterac" owner="OgreClans" />
 <territoryOwner territory="Ruins of Silvermoon" owner="WretchedOutcasts" />
+<territoryOwner territory="Rustberg Village" owner="BanditSyndicates" />
 <territoryOwner territory="Sanctum of the Moon" owner="ElementalThrones" />
 <territoryOwner territory="Sanctum of the Sun" owner="BloodElves" />
 <territoryOwner territory="Scarlet Camp" owner="ScarletCrusade" />
@@ -7819,11 +8196,13 @@
 <territoryOwner territory="South Tide's Run" owner="MurlocTribes" />
 <territoryOwner territory="Southpoint Tower" owner="Forsaken" />
 <territoryOwner territory="Southshore" owner="Dalaran" />
+<territoryOwner territory="Stormglen Village" owner="SpiderBroods" />
 <territoryOwner territory="Strahnbrad" owner="BanditSyndicates" />
 <territoryOwner territory="Stratholme Harbour" owner="Scourge" />
 <territoryOwner territory="Stromgarde City" owner="Dalaran" />
 <territoryOwner territory="Stromgarde Keep" owner="BanditSyndicates" />
 <territoryOwner territory="Suncrown Village" owner="Scourge" />
+<territoryOwner territory="Sun's Reach" owner="WretchedOutcasts" />
 <territoryOwner territory="Sunsail Anchorage" owner="WretchedOutcasts" />
 <territoryOwner territory="Taelan's Tower" owner="ScarletCrusade" />
 <territoryOwner territory="Tarren Mill" owner="Forsaken" />
@@ -7892,6 +8271,7 @@
 <unitPlacement unitType="ghoul" territory="Beren's Peril" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="The Dead Scar" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="The Dead Scar" quantity="1" owner="Scourge" />
+<unitPlacement unitType="banshee" territory="Caer Darrow" quantity="4" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Cold Hearth Manor" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Corin's Crossing" quantity="2" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="Corin's Crossing" quantity="2" owner="Scourge" />
@@ -7965,6 +8345,7 @@
 <unitPlacement unitType="scourge_destroyer" territory="SZ40" quantity="2" owner="Scourge" />
 <unitPlacement unitType="scourge_dreadship" territory="SZ40" quantity="1" owner="Scourge" />
 <unitPlacement unitType="scourge_barge" territory="Darrowmere Lake" quantity="1" owner="Scourge" />
+<unitPlacement unitType="ghoul" territory="Quel'Danas Dead Scar" quantity="2" owner="Scourge" />
 <!--ScarletCrusade-->
 <unitPlacement unitType="initiate" territory="Crusader Outpost" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="ranger" territory="Crusader Outpost" quantity="1" owner="ScarletCrusade" />
@@ -8194,8 +8575,8 @@
 <unitPlacement unitType="mana_hound" territory="Stromgarde City" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Stromgarde City" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="dalaran_transport" territory="SZ16" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="dalaran_transport" territory="SZ22" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="dalaran_frigate" territory="SZ22" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="dalaran_transport" territory="SZ20" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="dalaran_frigate" territory="SZ20" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="silver_covenant_ranger" territory="An'daroth" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="silver_covenant_ranger" territory="An'owyn" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="silver_covenant_ranger" territory="An'telas" quantity="2" owner="Dalaran" />
@@ -8249,6 +8630,9 @@
 <unitPlacement unitType="coastrunner" territory="Whispering Shore" quantity="1" owner="MurlocTribes" />
 <unitPlacement unitType="tidecaller" territory="Whispering Shore" quantity="1" owner="MurlocTribes" />
 <unitPlacement unitType="hut" territory="Whispering Shore" quantity="1" owner="MurlocTribes" />
+<unitPlacement unitType="coastrunner" territory="Greengill Coast" quantity="1" owner="MurlocTribes" />
+<unitPlacement unitType="tidecaller" territory="Greengill Coast" quantity="1" owner="MurlocTribes" />
+<unitPlacement unitType="hut" territory="Greengill Coast" quantity="1" owner="MurlocTribes" />
 <!--OgreClans-->
 <unitPlacement unitType="brute" territory="Boulder'gor" quantity="2" owner="OgreClans" />
 <unitPlacement unitType="magi" territory="Boulder'gor" quantity="2" owner="OgreClans" />
@@ -8292,9 +8676,13 @@
 <unitPlacement unitType="renegade" territory="The Fingers" quantity="2" owner="BanditSyndicates" />
 <unitPlacement unitType="renegade" territory="The Uplands" quantity="1" owner="BanditSyndicates" />
 <unitPlacement unitType="dark_wizard" territory="The Uplands" quantity="1" owner="BanditSyndicates" />
+<unitPlacement unitType="renegade" territory="Rustberg Village" quantity="2" owner="BanditSyndicates" />
 <!--SpiderBroods-->
 <unitPlacement unitType="broodling" territory="Nightmare Vale" quantity="2" owner="SpiderBroods" />
 <unitPlacement unitType="nest" territory="Nightmare Vale" quantity="1" owner="SpiderBroods" />
+<unitPlacement unitType="broodling" territory="Stormglen Village" quantity="1" owner="SpiderBroods" />
+<unitPlacement unitType="spitter" territory="Stormglen Village" quantity="2" owner="SpiderBroods" />
+<unitPlacement unitType="nest" territory="Stormglen Village" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="broodling" territory="The Skittering Dark" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="spitter" territory="The Skittering Dark" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="nest" territory="The Skittering Dark" quantity="1" owner="SpiderBroods" />
@@ -8303,9 +8691,8 @@
 <unitPlacement unitType="nest" territory="Venomweb Vale" quantity="1" owner="SpiderBroods" />
 <!--WorgenPacks-->
 <unitPlacement unitType="dark_runner" territory="Deep Elem Mine" quantity="2" owner="WorgenPacks" />
-<unitPlacement unitType="dark_runner" territory="Northlands" quantity="2" owner="WorgenPacks" />
 <unitPlacement unitType="dark_runner" territory="Pyrewood Village" quantity="2" owner="WorgenPacks" />
-<unitPlacement unitType="moon_walker" territory="Pyrewood Village" quantity="2" owner="WorgenPacks" />
+<unitPlacement unitType="moon_walker" territory="Pyrewood Village" quantity="1" owner="WorgenPacks" />
 <unitPlacement unitType="pack_territory" territory="Pyrewood Village" quantity="1" owner="WorgenPacks" />
 <unitPlacement unitType="dark_runner" territory="Shadowfang Keep" quantity="2" owner="WorgenPacks" />
 <unitPlacement unitType="moon_walker" territory="Shadowfang Keep" quantity="2" owner="WorgenPacks" />
@@ -8319,6 +8706,7 @@
 <unitPlacement unitType="haunt" territory="Goldenmist Village" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="ghost" territory="Northdale" quantity="2" owner="GhostHaunts" />
 <unitPlacement unitType="haunt" territory="Northdale" quantity="1" owner="GhostHaunts" />
+<unitPlacement unitType="ghost" territory="Purgation Isle" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="ghost" territory="Terrordale" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="wraith" territory="Terrordale" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="haunt" territory="Terrordale" quantity="1" owner="GhostHaunts" />
@@ -8359,6 +8747,9 @@
 <unitPlacement unitType="husk" territory="Ruins of Silvermoon" quantity="2" owner="WretchedOutcasts" />
 <unitPlacement unitType="remnant" territory="Ruins of Silvermoon" quantity="2" owner="WretchedOutcasts" />
 <unitPlacement unitType="mana_nexus" territory="Ruins of Silvermoon" quantity="1" owner="WretchedOutcasts" />
+<unitPlacement unitType="husk" territory="Sun's Reach" quantity="1" owner="WretchedOutcasts" />
+<unitPlacement unitType="remnant" territory="Sun's Reach" quantity="2" owner="WretchedOutcasts" />
+<unitPlacement unitType="mana_nexus" territory="Sun's Reach" quantity="1" owner="WretchedOutcasts" />
 <unitPlacement unitType="husk" territory="Sunsail Anchorage" quantity="3" owner="WretchedOutcasts" />
 <unitPlacement unitType="mana_nexus" territory="Sunsail Anchorage" quantity="1" owner="WretchedOutcasts" />
 <!--Other/Neutral Placements-->
@@ -8373,6 +8764,12 @@
 <unitPlacement unitType="rifleman" territory="Dwarf Farm" quantity="2" />
 <unitPlacement unitType="rifleman" territory="Alterac Valley" quantity="2" />
 <unitPlacement unitType="gryphon_rider" territory="Aerie Valley" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Keel Harbour" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Duskhaven" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Gilneas City" quantity="4" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Tempest's Reach" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Emberstone Village" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Havenswood" quantity="2" />
 <!--Stratholme invisible production buildings initial-->
  <unitPlacement unitType="dungeonpro" territory="Crusader's Square" quantity="1" owner="ScarletCrusade" />
  <unitPlacement unitType="dungeonpro" territory="Elder's Square" quantity="1" owner="Scourge" />
@@ -8397,7 +8794,7 @@
 <unitPlacement unitType="port" territory="Revantusk Village" quantity="1" />
 <unitPlacement unitType="port" territory="Zul'Aman" quantity="1" owner="TrollTribes" />
 <unitPlacement unitType="port" territory="Fenris Keep" quantity="1" owner="GnollPacks" />
-<unitPlacement unitType="port" territory="Shalandis Isle" quantity="1" />
+<unitPlacement unitType="port" territory="Shalandis Isle" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="port" territory="The North Coast" quantity="1" owner="MurlocTribes" />
 <unitPlacement unitType="port" territory="Exile's Reach" quantity="1" owner="OgreClans" />
 <unitPlacement unitType="port" territory="Jorundall" quantity="1" />
