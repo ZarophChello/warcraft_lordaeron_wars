@@ -2047,7 +2047,7 @@
 <connection t1="Tirion's Cottage" t2="Terrordale"/>
 <connection t1="Havenshire" t2="The Noxious Glade"/>
 <connection t1="Ambermill" t2="Dalaran Remnant Camp"/>
-<connection t1="Revantusk Village" t2="Arathi High Road"/>
+<connection t1="Revantusk Village" t2="Hinterland High Road"/>
 
 <!-- Teleports Territory Definitions -->
 <connection t1="Stratholme Gate" t2="King's Square"/>
