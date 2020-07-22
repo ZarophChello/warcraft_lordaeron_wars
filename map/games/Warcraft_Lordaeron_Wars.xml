@@ -2076,22 +2076,22 @@
 <player name="KoboldNests" optional="false" canBeDisabled="false" />
 <player name="ElementalThrones" optional="false" canBeDisabled="false" />
 <player name="WretchedOutcasts" optional="false" canBeDisabled="false" />
-<alliance player="Scourge" alliance="Undead" />
-<alliance player="ScarletCrusade" alliance="Scarlet" />
-<alliance player="BloodElves" alliance="a" />
-<alliance player="TrollTribes" alliance="b" />
-<alliance player="Forsaken" alliance="c" />
+<alliance player="Scourge" alliance="Scourge" />
+<alliance player="ScarletCrusade" alliance="ScarletCrusade" />
+<alliance player="BloodElves" alliance="BloodElves" />
+<alliance player="TrollTribes" alliance="TrollTribes" />
+<alliance player="Forsaken" alliance="Forsaken" />
 <alliance player="Dalaran" alliance="GrandAlliance" />
-<alliance player="GnollPacks" alliance="z" />
-<alliance player="MurlocTribes" alliance="x" />
-<alliance player="OgreClans" alliance="v" />
-<alliance player="BanditSyndicates" alliance="n" />
-<alliance player="SpiderBroods" alliance="m" />
-<alliance player="WorgenPacks" alliance="l" />
-<alliance player="GhostHaunts" alliance="k" />
-<alliance player="KoboldNests" alliance="j" />
-<alliance player="ElementalThrones" alliance="h" />
-<alliance player="WretchedOutcasts" alliance="dd" />
+<alliance player="GnollPacks" alliance="GnollPacks" />
+<alliance player="MurlocTribes" alliance="MurlocTribes" />
+<alliance player="OgreClans" alliance="OgreClans" />
+<alliance player="BanditSyndicates" alliance="BanditSyndicates" />
+<alliance player="SpiderBroods" alliance="Spiderbroods" />
+<alliance player="WorgenPacks" alliance="WorgenPacks" />
+<alliance player="GhostHaunts" alliance="GhostHaunts" />
+<alliance player="KoboldNests" alliance="KoboldNests" />
+<alliance player="ElementalThrones" alliance="ElementalThrones" />
+<alliance player="WretchedOutcasts" alliance="WretchedOutcasts" />
 </playerList>
 <unitList>
 <unit name="ghoul" />
@@ -6347,7 +6347,7 @@
 <option name="territoryEffect" value="Open" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="South Plaguewood" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="1" />
+<option name="production" value="2" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
 <option name="territoryEffect" value="Woodland" />
@@ -6467,8 +6467,8 @@
 <option name="territoryEffect" value="Shipyard" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Sunwell Plateau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="5" />
-<option name="unitProduction" value="4" />
+<option name="production" value="6" />
+<option name="unitProduction" value="5" />
 <option name="territoryEffect" value="Major_Settlement" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Sunwell Wall" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -8116,7 +8116,6 @@
 <territoryOwner territory="Deep Elem Mine" owner="WorgenPacks" />
 <territoryOwner territory="Drywhisker Gorge" owner="KoboldNests" />
 <territoryOwner territory="Durnholde Keep" owner="BanditSyndicates" />
-<territoryOwner territory="Duskhaven" owner="Dalaran" />
 <territoryOwner territory="Duskwither Spire" owner="WretchedOutcasts" />
 <territoryOwner territory="Eastern Strand" owner="MurlocTribes" />
 <territoryOwner territory="Eastpoint Tower" owner="BanditSyndicates" />
@@ -8137,19 +8136,17 @@
 <territoryOwner territory="Gauntlet Ash'ari Crystal 1" owner="Scourge" />
 <territoryOwner territory="Gauntlet Ash'ari Crystal 2" owner="Scourge" />
 <territoryOwner territory="Gauntlet Ash'ari Crystal 3" owner="Scourge" />
-<territoryOwner territory="Gilneas City" owner="Dalaran" />
 <territoryOwner territory="Golden Strand" owner="MurlocTribes" />
 <territoryOwner territory="Goldenmist Village" owner="GhostHaunts" />
+<territoryOwner territory="Greengill Coast" owner="MurlocTribes" />
 <territoryOwner territory="Grimscale Shore" owner="MurlocTribes" />
 <territoryOwner territory="Growless Cave" owner="OgreClans" />
 <territoryOwner territory="Gunther's Retreat" owner="Scourge" />
 <territoryOwner territory="Havenshire" owner="ScarletCrusade" />
-<territoryOwner territory="Havenswood" owner="Dalaran" />
 <territoryOwner territory="Hearthglen" owner="ScarletCrusade" />
 <territoryOwner territory="Hillsbrad Fields" owner="Dalaran" />
 <territoryOwner territory="Hiri'watha" owner="TrollTribes" />
 <territoryOwner territory="Jintha'Alor" owner="TrollTribes" />
-<territoryOwner territory="Keel Harbour" owner="Dalaran" />
 <territoryOwner territory="King's Square" owner="Scourge" />
 <territoryOwner territory="Koroth's Den" owner="OgreClans" />
 <territoryOwner territory="Lake Mereldar" owner="ElementalThrones" />
@@ -8164,11 +8161,12 @@
 <territoryOwner territory="North Tide's Run" owner="MurlocTribes" />
 <territoryOwner territory="Northdale" owner="GhostHaunts" />
 <territoryOwner territory="Northfold Manor" owner="BanditSyndicates" />
-<territoryOwner territory="Northlands" owner="WorgenPacks" />
 <territoryOwner territory="Northridge Lumber Camp" owner="ScarletCrusade" />
 <territoryOwner territory="Olsen's Farthing" owner="Scourge" />
 <territoryOwner territory="Plaguewood" owner="Scourge" />
+<territoryOwner territory="Purgation Isle" owner="GhostHaunts" />
 <territoryOwner territory="Pyrewood Village" owner="WorgenPacks" />
+<territoryOwner territory="Quel'Danas Dead Scar" owner="Scourge" />
 <territoryOwner territory="Quel'Danil Lodge" owner="BloodElves" />
 <territoryOwner territory="Quel'Lithien Lodge" owner="BloodElves" />
 <territoryOwner territory="Ravenholdt" owner="BanditSyndicates" />
@@ -8176,6 +8174,7 @@
 <territoryOwner territory="Refuge Pointe" owner="Dalaran" />
 <territoryOwner territory="Ruins of Alterac" owner="OgreClans" />
 <territoryOwner territory="Ruins of Silvermoon" owner="WretchedOutcasts" />
+<territoryOwner territory="Rustberg Village" owner="BanditSyndicates" />
 <territoryOwner territory="Sanctum of the Moon" owner="ElementalThrones" />
 <territoryOwner territory="Sanctum of the Sun" owner="BloodElves" />
 <territoryOwner territory="Scarlet Camp" owner="ScarletCrusade" />
@@ -8197,11 +8196,13 @@
 <territoryOwner territory="South Tide's Run" owner="MurlocTribes" />
 <territoryOwner territory="Southpoint Tower" owner="Forsaken" />
 <territoryOwner territory="Southshore" owner="Dalaran" />
+<territoryOwner territory="Stormglen Village" owner="SpiderBroods" />
 <territoryOwner territory="Strahnbrad" owner="BanditSyndicates" />
 <territoryOwner territory="Stratholme Harbour" owner="Scourge" />
 <territoryOwner territory="Stromgarde City" owner="Dalaran" />
 <territoryOwner territory="Stromgarde Keep" owner="BanditSyndicates" />
 <territoryOwner territory="Suncrown Village" owner="Scourge" />
+<territoryOwner territory="Sun's Reach" owner="WretchedOutcasts" />
 <territoryOwner territory="Sunsail Anchorage" owner="WretchedOutcasts" />
 <territoryOwner territory="Taelan's Tower" owner="ScarletCrusade" />
 <territoryOwner territory="Tarren Mill" owner="Forsaken" />
@@ -8270,6 +8271,7 @@
 <unitPlacement unitType="ghoul" territory="Beren's Peril" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="The Dead Scar" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="The Dead Scar" quantity="1" owner="Scourge" />
+<unitPlacement unitType="banshee" territory="Caer Darrow" quantity="4" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Cold Hearth Manor" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Corin's Crossing" quantity="2" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="Corin's Crossing" quantity="2" owner="Scourge" />
@@ -8343,6 +8345,7 @@
 <unitPlacement unitType="scourge_destroyer" territory="SZ40" quantity="2" owner="Scourge" />
 <unitPlacement unitType="scourge_dreadship" territory="SZ40" quantity="1" owner="Scourge" />
 <unitPlacement unitType="scourge_barge" territory="Darrowmere Lake" quantity="1" owner="Scourge" />
+<unitPlacement unitType="ghoul" territory="Quel'Danas Dead Scar" quantity="2" owner="Scourge" />
 <!--ScarletCrusade-->
 <unitPlacement unitType="initiate" territory="Crusader Outpost" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="ranger" territory="Crusader Outpost" quantity="1" owner="ScarletCrusade" />
@@ -8627,6 +8630,9 @@
 <unitPlacement unitType="coastrunner" territory="Whispering Shore" quantity="1" owner="MurlocTribes" />
 <unitPlacement unitType="tidecaller" territory="Whispering Shore" quantity="1" owner="MurlocTribes" />
 <unitPlacement unitType="hut" territory="Whispering Shore" quantity="1" owner="MurlocTribes" />
+<unitPlacement unitType="coastrunner" territory="Greengill Coast" quantity="1" owner="MurlocTribes" />
+<unitPlacement unitType="tidecaller" territory="Greengill Coast" quantity="1" owner="MurlocTribes" />
+<unitPlacement unitType="hut" territory="Greengill Coast" quantity="1" owner="MurlocTribes" />
 <!--OgreClans-->
 <unitPlacement unitType="brute" territory="Boulder'gor" quantity="2" owner="OgreClans" />
 <unitPlacement unitType="magi" territory="Boulder'gor" quantity="2" owner="OgreClans" />
@@ -8670,9 +8676,13 @@
 <unitPlacement unitType="renegade" territory="The Fingers" quantity="2" owner="BanditSyndicates" />
 <unitPlacement unitType="renegade" territory="The Uplands" quantity="1" owner="BanditSyndicates" />
 <unitPlacement unitType="dark_wizard" territory="The Uplands" quantity="1" owner="BanditSyndicates" />
+<unitPlacement unitType="renegade" territory="Rustberg Village" quantity="2" owner="BanditSyndicates" />
 <!--SpiderBroods-->
 <unitPlacement unitType="broodling" territory="Nightmare Vale" quantity="2" owner="SpiderBroods" />
 <unitPlacement unitType="nest" territory="Nightmare Vale" quantity="1" owner="SpiderBroods" />
+<unitPlacement unitType="broodling" territory="Stormglen Village" quantity="1" owner="SpiderBroods" />
+<unitPlacement unitType="spitter" territory="Stormglen Village" quantity="2" owner="SpiderBroods" />
+<unitPlacement unitType="nest" territory="Stormglen Village" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="broodling" territory="The Skittering Dark" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="spitter" territory="The Skittering Dark" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="nest" territory="The Skittering Dark" quantity="1" owner="SpiderBroods" />
@@ -8681,7 +8691,6 @@
 <unitPlacement unitType="nest" territory="Venomweb Vale" quantity="1" owner="SpiderBroods" />
 <!--WorgenPacks-->
 <unitPlacement unitType="dark_runner" territory="Deep Elem Mine" quantity="2" owner="WorgenPacks" />
-<unitPlacement unitType="dark_runner" territory="Northlands" quantity="2" owner="WorgenPacks" />
 <unitPlacement unitType="dark_runner" territory="Pyrewood Village" quantity="2" owner="WorgenPacks" />
 <unitPlacement unitType="moon_walker" territory="Pyrewood Village" quantity="1" owner="WorgenPacks" />
 <unitPlacement unitType="pack_territory" territory="Pyrewood Village" quantity="1" owner="WorgenPacks" />
@@ -8697,6 +8706,7 @@
 <unitPlacement unitType="haunt" territory="Goldenmist Village" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="ghost" territory="Northdale" quantity="2" owner="GhostHaunts" />
 <unitPlacement unitType="haunt" territory="Northdale" quantity="1" owner="GhostHaunts" />
+<unitPlacement unitType="ghost" territory="Purgation Isle" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="ghost" territory="Terrordale" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="wraith" territory="Terrordale" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="haunt" territory="Terrordale" quantity="1" owner="GhostHaunts" />
@@ -8737,6 +8747,9 @@
 <unitPlacement unitType="husk" territory="Ruins of Silvermoon" quantity="2" owner="WretchedOutcasts" />
 <unitPlacement unitType="remnant" territory="Ruins of Silvermoon" quantity="2" owner="WretchedOutcasts" />
 <unitPlacement unitType="mana_nexus" territory="Ruins of Silvermoon" quantity="1" owner="WretchedOutcasts" />
+<unitPlacement unitType="husk" territory="Sun's Reach" quantity="1" owner="WretchedOutcasts" />
+<unitPlacement unitType="remnant" territory="Sun's Reach" quantity="2" owner="WretchedOutcasts" />
+<unitPlacement unitType="mana_nexus" territory="Sun's Reach" quantity="1" owner="WretchedOutcasts" />
 <unitPlacement unitType="husk" territory="Sunsail Anchorage" quantity="3" owner="WretchedOutcasts" />
 <unitPlacement unitType="mana_nexus" territory="Sunsail Anchorage" quantity="1" owner="WretchedOutcasts" />
 <!--Other/Neutral Placements-->
@@ -8751,6 +8764,12 @@
 <unitPlacement unitType="rifleman" territory="Dwarf Farm" quantity="2" />
 <unitPlacement unitType="rifleman" territory="Alterac Valley" quantity="2" />
 <unitPlacement unitType="gryphon_rider" territory="Aerie Valley" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Keel Harbour" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Duskhaven" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Gilneas City" quantity="4" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Tempest's Reach" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Emberstone Village" quantity="2" />
+<unitPlacement unitType="sunreaver_battle_mage" territory="Havenswood" quantity="2" />
 <!--Stratholme invisible production buildings initial-->
  <unitPlacement unitType="dungeonpro" territory="Crusader's Square" quantity="1" owner="ScarletCrusade" />
  <unitPlacement unitType="dungeonpro" territory="Elder's Square" quantity="1" owner="Scourge" />
