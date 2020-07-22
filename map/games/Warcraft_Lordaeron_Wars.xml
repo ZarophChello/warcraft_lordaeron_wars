@@ -5104,9 +5104,9 @@
 <option name="territoryEffect" value="Minor_Settlement" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Agol'watha" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="3" />
-<option name="unitProduction" value="2" />
-<option name="territoryEffect" value="Minor_Settlement" />
+<option name="production" value="2" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Woodland" />
 <option name="territoryEffect" value="Coast" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Alterac Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -5738,6 +5738,7 @@
 <option name="production" value="3" />
 <option name="unitProduction" value="2" />
 <option name="territoryEffect" value="Minor_Settlement" />
+<option name="territoryEffect" value="Woodland" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Isle of Tribulations" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 <option name="production" value="1" />
@@ -6274,9 +6275,9 @@
 <option name="territoryEffect" value="Port" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Shaol'watha" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="3" />
-<option name="unitProduction" value="2" />
-<option name="territoryEffect" value="Minor_Settlement" />
+<option name="production" value="2" />
+<option name="unitProduction" value="1" />
+<option name="territoryEffect" value="Woodland" />
 <option name="territoryEffect" value="Coast" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Shindigger's Camp" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -6868,9 +6869,8 @@
 <option name="territoryEffect" value="Minor_Settlement" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Zun'watha" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="3" />
-<option name="unitProduction" value="2" />
-<option name="territoryEffect" value="Minor_Settlement" />
+<option name="production" value="2" />
+<option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Woodland" />
   </attachment>
 <!-- Air Connections with Canals -->
@@ -8080,6 +8080,7 @@
 <ownerInitialize>
 <territoryOwner territory="Agamand Mills" owner="Scourge" />
 <territoryOwner territory="Ambermill" owner="Dalaran" />
+<territoryOwner territory="Agol'watha" owner="ElementalThrones" />
 <territoryOwner territory="An'daroth" owner="Dalaran" />
 <territoryOwner territory="An'owyn" owner="Dalaran" />
 <territoryOwner territory="An'telas" owner="Dalaran" />
@@ -8185,6 +8186,7 @@
 <territoryOwner territory="Shadra'Alor" owner="TrollTribes" />
 <territoryOwner territory="Shalandis Isle" owner="Dalaran" />
 <territoryOwner territory="Shaol'watha" owner="TrollTribes" />
+<territoryOwner territory="Skull Rock" owner="ElementalThrones" />
 <territoryOwner territory="Silvermoon City" owner="BloodElves" />
 <territoryOwner territory="Silverpine Road" owner="Dalaran" />
 <territoryOwner territory="Slaughter Square" owner="Scourge" />
@@ -8209,6 +8211,7 @@
 <territoryOwner territory="Terrordale" owner="GhostHaunts" />
 <territoryOwner territory="The Altar of Zul" owner="TrollTribes" />
 <territoryOwner territory="The Bulwark" owner="Forsaken" />
+<territoryOwner territory="The Creeping Ruin" owner="SpiderBroods" />
 <territoryOwner territory="The Crimson Throne" owner="ScarletCrusade" />
 <territoryOwner territory="The Dawning Isles" owner="MurlocTribes" />
 <territoryOwner territory="The Dead Fields" owner="Scourge" />
@@ -8454,8 +8457,7 @@
 <unitPlacement unitType="witch_doctor" territory="Jintha'Alor" quantity="2" owner="TrollTribes" />
 <unitPlacement unitType="voodoo_lounge" territory="Jintha'Alor" quantity="1" owner="TrollTribes" />
 <unitPlacement unitType="watch_tower" territory="Jintha'Alor" quantity="1" owner="TrollTribes" />
-<unitPlacement unitType="berserker" territory="Shaol'watha" quantity="2" owner="TrollTribes" />
-<unitPlacement unitType="axe_thrower" territory="Shaol'watha" quantity="1" owner="TrollTribes" />
+<unitPlacement unitType="berserker" territory="Shaol'watha" quantity="1" owner="TrollTribes" />
 <unitPlacement unitType="witch_doctor" territory="Shaol'watha" quantity="1" owner="TrollTribes" />
 <unitPlacement unitType="berserker" territory="The Altar of Zul" quantity="2" owner="TrollTribes" />
 <unitPlacement unitType="witch_doctor" territory="The Altar of Zul" quantity="2" owner="TrollTribes" />
@@ -8499,6 +8501,14 @@
 <unitPlacement unitType="voodoo_lounge" territory="Zul'Mashar" quantity="1" owner="TrollTribes" />
 <unitPlacement unitType="troll_transport" territory="SZ7" quantity="2" owner="TrollTribes" />
 <unitPlacement unitType="troll_frigate" territory="SZ7" quantity="1" owner="TrollTribes" />
+<unitPlacement unitType="berserker" territory="Hiri'watha" quantity="1" owner="TrollTribes" />
+<unitPlacement unitType="axe_thrower" territory="Hiri'watha" quantity="2" owner="TrollTribes" />
+<unitPlacement unitType="voodoo_lounge" territory="Hiri'watha" quantity="1" owner="TrollTribes" />
+<unitPlacement unitType="axe_thrower" territory="Shadra'Alor" quantity="2" owner="TrollTribes" />
+<unitPlacement unitType="witch_doctor" territory="Shadra'Alor" quantity="2" owner="TrollTribes" />
+<unitPlacement unitType="watch_tower" territory="Shadra'Alor" quantity="1" owner="TrollTribes" />
+<unitPlacement unitType="voodoo_lounge" territory="Shadra'Alor" quantity="1" owner="TrollTribes" />
+<unitPlacement unitType="axe_thrower" territory="Zun'watha" quantity="2" owner="TrollTribes" />
 <!--Forsaken-->
 <unitPlacement unitType="deathguard" territory="Brill" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="fallen_archer" territory="Brill" quantity="2" owner="Forsaken" />
@@ -8689,6 +8699,8 @@
 <unitPlacement unitType="broodling" territory="Venomweb Vale" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="spitter" territory="Venomweb Vale" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="nest" territory="Venomweb Vale" quantity="1" owner="SpiderBroods" />
+<unitPlacement unitType="broodling" territory="The Creeping Ruin" quantity="1" owner="SpiderBroods" />
+<unitPlacement unitType="spitter" territory="The Creeping Ruin" quantity="1" owner="SpiderBroods" />
 <!--WorgenPacks-->
 <unitPlacement unitType="dark_runner" territory="Deep Elem Mine" quantity="2" owner="WorgenPacks" />
 <unitPlacement unitType="dark_runner" territory="Pyrewood Village" quantity="2" owner="WorgenPacks" />
@@ -8737,6 +8749,8 @@
 <unitPlacement unitType="earth_elemental" territory="The Scorched Grove" quantity="2" owner="ElementalThrones" />
 <unitPlacement unitType="covenant" territory="The Scorched Grove" quantity="1" owner="ElementalThrones" />
 <unitPlacement unitType="earth_elemental" territory="The Weeping Cave" quantity="2" owner="ElementalThrones" />
+<unitPlacement unitType="earth_elemental" territory="Agol'watha" quantity="2" owner="ElementalThrones" />
+<unitPlacement unitType="earth_elemental" territory="Skull Rock" quantity="2" owner="ElementalThrones" />
 <!--WretchedOutcasts-->
 <unitPlacement unitType="husk" territory="Duskwither Spire" quantity="1" owner="WretchedOutcasts" />
 <unitPlacement unitType="remnant" territory="Duskwither Spire" quantity="1" owner="WretchedOutcasts" />
@@ -8804,7 +8818,7 @@
 <unitPlacement unitType="shipyard" territory="New Avalon" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="shipyard" territory="Sunsail Anchorage" quantity="1" owner="WretchedOutcasts" />
 <unitPlacement unitType="shipyard" territory="Keel Harbour" quantity="1" />
-<unitPlacement unitType="shipyard" territory="Sun's Reach" quantity="1" />
+<unitPlacement unitType="shipyard" territory="Sun's Reach" quantity="1" owner="WretchedOutcasts" />
 <unitPlacement unitType="shipyard" territory="Stratholme Harbour" quantity="1" owner="Scourge" />
 <!--Resource initial-->
 </unitInitialize>
