@@ -8572,8 +8572,8 @@
 <unitPlacement unitType="mana_hound" territory="Stromgarde City" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Stromgarde City" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="dalaran_transport" territory="SZ16" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="dalaran_transport" territory="SZ22" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="dalaran_frigate" territory="SZ22" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="dalaran_transport" territory="SZ20" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="dalaran_frigate" territory="SZ20" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="silver_covenant_ranger" territory="An'daroth" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="silver_covenant_ranger" territory="An'owyn" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="silver_covenant_ranger" territory="An'telas" quantity="2" owner="Dalaran" />
@@ -8683,7 +8683,7 @@
 <unitPlacement unitType="dark_runner" territory="Deep Elem Mine" quantity="2" owner="WorgenPacks" />
 <unitPlacement unitType="dark_runner" territory="Northlands" quantity="2" owner="WorgenPacks" />
 <unitPlacement unitType="dark_runner" territory="Pyrewood Village" quantity="2" owner="WorgenPacks" />
-<unitPlacement unitType="moon_walker" territory="Pyrewood Village" quantity="2" owner="WorgenPacks" />
+<unitPlacement unitType="moon_walker" territory="Pyrewood Village" quantity="1" owner="WorgenPacks" />
 <unitPlacement unitType="pack_territory" territory="Pyrewood Village" quantity="1" owner="WorgenPacks" />
 <unitPlacement unitType="dark_runner" territory="Shadowfang Keep" quantity="2" owner="WorgenPacks" />
 <unitPlacement unitType="moon_walker" territory="Shadowfang Keep" quantity="2" owner="WorgenPacks" />
