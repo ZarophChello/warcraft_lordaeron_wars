@@ -2076,22 +2076,22 @@
 <player name="KoboldNests" optional="false" canBeDisabled="false" />
 <player name="ElementalThrones" optional="false" canBeDisabled="false" />
 <player name="WretchedOutcasts" optional="false" canBeDisabled="false" />
-<alliance player="Scourge" alliance="Scourge" />
-<alliance player="ScarletCrusade" alliance="ScarletCrusade" />
-<alliance player="BloodElves" alliance="BloodElves" />
-<alliance player="TrollTribes" alliance="TrollTribes" />
-<alliance player="Forsaken" alliance="Forsaken" />
+<alliance player="Scourge" alliance="The Scourge" />
+<alliance player="ScarletCrusade" alliance="Scarlet Crusade" />
+<alliance player="BloodElves" alliance="Blood Elves" />
+<alliance player="TrollTribes" alliance="Troll Tribes" />
+<alliance player="Forsaken" alliance="The Forsaken" />
 <alliance player="Dalaran" alliance="GrandAlliance" />
-<alliance player="GnollPacks" alliance="GnollPacks" />
-<alliance player="MurlocTribes" alliance="MurlocTribes" />
-<alliance player="OgreClans" alliance="OgreClans" />
-<alliance player="BanditSyndicates" alliance="BanditSyndicates" />
-<alliance player="SpiderBroods" alliance="Spiderbroods" />
-<alliance player="WorgenPacks" alliance="WorgenPacks" />
-<alliance player="GhostHaunts" alliance="GhostHaunts" />
-<alliance player="KoboldNests" alliance="KoboldNests" />
-<alliance player="ElementalThrones" alliance="ElementalThrones" />
-<alliance player="WretchedOutcasts" alliance="WretchedOutcasts" />
+<alliance player="GnollPacks" alliance="Gnoll Packs" />
+<alliance player="MurlocTribes" alliance="Murloc Tribes" />
+<alliance player="OgreClans" alliance="Ogre Clans" />
+<alliance player="BanditSyndicates" alliance="Bandit Syndicates" />
+<alliance player="SpiderBroods" alliance="Spider Broods" />
+<alliance player="WorgenPacks" alliance="Worgen Packs" />
+<alliance player="GhostHaunts" alliance="Ghost Haunts" />
+<alliance player="KoboldNests" alliance="Kobold Nests" />
+<alliance player="ElementalThrones" alliance="Elemental Thrones" />
+<alliance player="WretchedOutcasts" alliance="Wretched Outcasts" />
 </playerList>
 <unitList>
 <unit name="ghoul" />
@@ -8786,8 +8786,8 @@
  <unitPlacement unitType="dungeonpro" territory="The Scarlet Bastion" quantity="1" owner="ScarletCrusade" />
  <unitPlacement unitType="dungeonpro" territory="The Slaughter House" quantity="1" owner="Scourge" />
 <!-- Ports Initial -->
-<unitPlacement unitType="port" territory="Duskhaven" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="port" territory="Havenswood" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="port" territory="Duskhaven" quantity="1" />
+<unitPlacement unitType="port" territory="Havenswood" quantity="1" />
 <unitPlacement unitType="port" territory="Southshore" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="port" territory="Tower of Arathor" quantity="1" owner="OgreClans" />
 <unitPlacement unitType="port" territory="Faldir's Cove" quantity="1" />
@@ -8803,7 +8803,7 @@
 <unitPlacement unitType="shipyard" territory="Farson Hold" quantity="1" />
 <unitPlacement unitType="shipyard" territory="New Avalon" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="shipyard" territory="Sunsail Anchorage" quantity="1" owner="WretchedOutcasts" />
-<unitPlacement unitType="shipyard" territory="Keel Harbour" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="shipyard" territory="Keel Harbour" quantity="1" />
 <unitPlacement unitType="shipyard" territory="Sun's Reach" quantity="1" />
 <unitPlacement unitType="shipyard" territory="Stratholme Harbour" quantity="1" owner="Scourge" />
 <!--Resource initial-->
