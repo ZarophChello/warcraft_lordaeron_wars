@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd"[]>
 <game>
-  <info name="Warcraft: Lordaeron Wars" version="0.1.1" />
+  <info name="Warcraft: Lordaeron Wars" version="0.2" />
   <loader javaClass="games.strategy.triplea.TripleA" />
   <triplea minimumVersion="1.9" />
   <diceSides value="10" />
@@ -1415,7 +1415,6 @@
 <connection t1="Eastern Strand" t2="Nethander Stead"/>
 <connection t1="Eastern Strand" t2="SZ16"/>
 <connection t1="Eastern Strand" t2="South Darrowmere River"/>
-<connection t1="Eastern Strand" t2="Southshore"/>
 <connection t1="Eastern Strand" t2="Stromgarde Mountains"/>
 <connection t1="Eastpoint Tower" t2="Hillsbrad Foothills"/>
 <connection t1="Eastpoint Tower" t2="Nethander Stead"/>
@@ -2203,17 +2202,6 @@
 <unit name="headhunter" />
 <unit name="rifleman" />
 <unit name="gryphon_rider" />
-<unit name="pier" />
-<unit name="port" />
-<unit name="shipyard" />
-<unit name="dungeonpro" />
-<unit name="neutral_tower" />
-<unit name="trollai" />
-<unit name="trolltoken" />
-<unit name="trollmajorswitch1" />
-<unit name="trollmediumswitch1" />
-<unit name="trollmediumswitch2" />
-<unit name="trollminorswitch1" />
 <unit name="poacher" />
 <unit name="mystic" />
 <unit name="tent_capturable" />
@@ -2256,6 +2244,34 @@
 <unit name="remnant" />
 <unit name="mana_nexus_capturable" />
 <unit name="mana_nexus" />
+
+<unit name="pier" />
+<unit name="port" />
+<unit name="shipyard" />
+<unit name="dungeonpro" />
+<unit name="neutral_tower" />
+<unit name="gold_mine" />
+<unit name="farm" />
+<unit name="trollai" />
+<unit name="trolltoken" />
+<unit name="trollmajorswitch1" />
+<unit name="trollmediumswitch1" />
+<unit name="trollmediumswitch2" />
+<unit name="trollminorswitch1" />
+<unit name="stromgardeswitch" />
+<unit name="alteracswitch" />
+<unit name="silvermoonswitch" />
+<unit name="eastplaguelandsvillageswitch" />
+<unit name="shadowfangkeepswitch" />
+<unit name="fenriskeepswitch" />
+<unit name="strahnbadswitch" />
+<unit name="arathicirclesswitch" />
+<unit name="eventswitch1" />
+<unit name="eventswitch2" />
+<unit name="eventswitch3" />
+<unit name="eventswitch4" />
+<unit name="eventswitch5" />
+<unit name="eventswitch6" />
 </unitList>
 <territoryEffectList>
 <territoryEffect name="Open"/>
@@ -2349,6 +2365,7 @@
 <step name="scarletcrusadePlace" delegate="place" player="ScarletCrusade">
 <stepProperty name="removeAirThatCanNotLand" value="false" />
 </step>
+<step name="scarletcrusadeEndTurn" delegate="endTurn" player="ScarletCrusade"/>
 <!--Scourge Game Sequence -->
 <step name="scourgeUserActions" delegate="userActions" player="Scourge"/>
 <step name="scourgeCombatMove" delegate="move" player="Scourge"/>
@@ -2882,15 +2899,15 @@
 </productionRule>
 <productionRule name="buy_husk">
 <cost resource="PUs" quantity="18"/>
-<result resourceOrUnit="ghost" quantity="1"/>
+<result resourceOrUnit="husk" quantity="1"/>
 </productionRule>
 <productionRule name="buy_remnant">
 <cost resource="PUs" quantity="21"/>
-<result resourceOrUnit="wraith" quantity="1"/>
+<result resourceOrUnit="remnant" quantity="1"/>
 </productionRule>
 <productionRule name="buy_mana_nexus">
 <cost resource="PUs" quantity="20"/>
-<result resourceOrUnit="haunt" quantity="1"/>
+<result resourceOrUnit="mana_nexus" quantity="1"/>
 </productionRule>
 <productionFrontier name="ScourgeFrontier">
 <frontierRules name="buy_ghoul" />
@@ -3098,6 +3115,7 @@
 <option name="requiresUnits" value="slaughterhouse"/>
 <option name="requiresUnits" value="ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="abomination" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3116,6 +3134,7 @@
 <option name="requiresUnits" value="slaughterhouse"/>
 <option name="requiresUnits" value="ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3134,6 +3153,7 @@
 <option name="requiresUnits" value="slaughterhouse"/>
 <option name="requiresUnits" value="ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="skeleton_hound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3152,6 +3172,7 @@
 <option name="requiresUnits" value="slaughterhouse"/>
 <option name="requiresUnits" value="ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="banshee" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3170,6 +3191,7 @@
 <option name="requiresUnits" value="slaughterhouse"/>
 <option name="requiresUnits" value="ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="gargoyle" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3189,6 +3211,7 @@
 <option name="requiresUnits" value="slaughterhouse"/>
 <option name="requiresUnits" value="ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="meat_wagon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3207,6 +3230,7 @@
 <option name="requiresUnits" value="slaughterhouse"/>
 <option name="requiresUnits" value="ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="scourge_barge" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3288,6 +3312,7 @@
 <option name="requiresUnits" value="scarlet_barrack"/>
 <option name="requiresUnits" value="crusade_outpost"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="crusader" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3306,6 +3331,7 @@
 <option name="requiresUnits" value="scarlet_barrack"/>
 <option name="requiresUnits" value="crusade_outpost"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3324,6 +3350,7 @@
 <option name="requiresUnits" value="scarlet_barrack"/>
 <option name="requiresUnits" value="crusade_outpost"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="cavalier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3342,6 +3369,7 @@
 <option name="requiresUnits" value="scarlet_barrack"/>
 <option name="requiresUnits" value="crusade_outpost"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="purifier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3360,6 +3388,7 @@
 <option name="requiresUnits" value="scarlet_barrack"/>
 <option name="requiresUnits" value="crusade_outpost"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="scarlet_rider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3379,6 +3408,7 @@
 <option name="requiresUnits" value="scarlet_barrack"/>
 <option name="requiresUnits" value="crusade_outpost"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="cannon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3397,6 +3427,7 @@
 <option name="requiresUnits" value="scarlet_barrack"/>
 <option name="requiresUnits" value="crusade_outpost"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="scarlet_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3478,6 +3509,7 @@
 <option name="requiresUnits" value="elven_lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="arcane_guardian" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3496,6 +3528,7 @@
 <option name="requiresUnits" value="elven_lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="farstrider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3514,6 +3547,7 @@
 <option name="requiresUnits" value="elven_lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="hawkstrider_cavalier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3532,6 +3566,7 @@
 <option name="requiresUnits" value="elven_lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="magister" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3550,6 +3585,7 @@
 <option name="requiresUnits" value="elven_lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dragonhawk_rider" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3569,6 +3605,7 @@
 <option name="requiresUnits" value="elven_lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="thalassian_ballista" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3587,6 +3624,7 @@
 <option name="requiresUnits" value="elven_lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="thalassian_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3668,6 +3706,7 @@
 <option name="requiresUnits" value="voodoo_lounge"/>
 <option name="requiresUnits" value="watch_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="beast_master" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3686,6 +3725,7 @@
 <option name="requiresUnits" value="voodoo_lounge"/>
 <option name="requiresUnits" value="watch_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="axe_thrower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3704,6 +3744,7 @@
 <option name="requiresUnits" value="voodoo_lounge"/>
 <option name="requiresUnits" value="watch_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="warbringer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3722,6 +3763,7 @@
 <option name="requiresUnits" value="voodoo_lounge"/>
 <option name="requiresUnits" value="watch_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="witch_doctor" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3740,6 +3782,7 @@
 <option name="requiresUnits" value="voodoo_lounge"/>
 <option name="requiresUnits" value="watch_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dragonhawk" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3759,6 +3802,7 @@
 <option name="requiresUnits" value="voodoo_lounge"/>
 <option name="requiresUnits" value="watch_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3777,6 +3821,7 @@
 <option name="requiresUnits" value="voodoo_lounge"/>
 <option name="requiresUnits" value="watch_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="troll_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -3858,6 +3903,7 @@
 <option name="requiresUnits" value="crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="deathstalker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3876,6 +3922,7 @@
 <option name="requiresUnits" value="crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="fallen_archer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3894,6 +3941,7 @@
 <option name="requiresUnits" value="crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dark_knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3912,6 +3960,7 @@
 <option name="requiresUnits" value="crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="apothecary" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -3930,6 +3979,7 @@
 <option name="requiresUnits" value="crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="bat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -3949,6 +3999,7 @@
 <option name="requiresUnits" value="crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="plague_catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -3967,6 +4018,7 @@
 <option name="requiresUnits" value="crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="forsaken_barge" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -4048,6 +4100,7 @@
 <option name="requiresUnits" value="violet_hall"/>
 <option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="rune_golem" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4066,6 +4119,7 @@
 <option name="requiresUnits" value="violet_hall"/>
 <option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="silver_covenant_ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4084,6 +4138,7 @@
 <option name="requiresUnits" value="violet_hall"/>
 <option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mana_hound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4102,6 +4157,7 @@
 <option name="requiresUnits" value="violet_hall"/>
 <option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="archmage" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4120,6 +4176,7 @@
 <option name="requiresUnits" value="violet_hall"/>
 <option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="silver_covenant_hippogryph" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
@@ -4139,6 +4196,7 @@
 <option name="requiresUnits" value="violet_hall"/>
 <option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="glaive_thrower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
@@ -4157,6 +4215,7 @@
 <option name="requiresUnits" value="violet_hall"/>
 <option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dalaran_transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="2" />
@@ -4232,6 +4291,16 @@
 <attachment name="unitAttachment" attachTo="shipyard" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
 <option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="gold_mine" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+<option name="createsResourcesList" value="3:PUs"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="farm" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+<option name="canProduceUnits" value="true"/>
+<option name="canProduceXUnits" value="1"/>
+<option name="createsResourcesList" value="1:PUs"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="grunt" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4335,6 +4404,48 @@
 <attachment name="unitAttachment" attachTo="trollminorswitch1" javaClass="UnitAttachment" type="unitType">
 <option name="isInfrastructure" value="true"/>
 </attachment>
+<attachment name="unitAttachment" attachTo="stromgardeswitch" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="alteracswitch" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="silvermoonswitch" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="eastplaguelandsvillageswitch" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="shadowfangkeepswitch" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="fenriskeepswitch" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="strahnbadswitch" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="arathicirclesswitch" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="eventswitch1" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="eventswitch2" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="eventswitch3" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="eventswitch4" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="eventswitch5" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
+<attachment name="unitAttachment" attachTo="eventswitch6" javaClass="UnitAttachment" type="unitType">
+<option name="isInfrastructure" value="true"/>
+</attachment>
 <attachment name="unitAttachment" attachTo="poacher" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="1" />
@@ -4352,6 +4463,8 @@
 <option name="requiresUnits" value="tent"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="6"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mystic" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4370,6 +4483,8 @@
 <option name="requiresUnits" value="tent"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="7"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="tent" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4423,6 +4538,8 @@
 <option name="requiresUnits" value="hut"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="6"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="tidecaller" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4441,6 +4558,8 @@
 <option name="requiresUnits" value="hut"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="7"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="hut" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4494,6 +4613,8 @@
 <option name="requiresUnits" value="mound"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="9"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="magi" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4512,6 +4633,8 @@
 <option name="requiresUnits" value="mound"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="7"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mound" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4565,6 +4688,8 @@
 <option name="requiresUnits" value="hideout"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="6"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="dark_wizard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4583,6 +4708,8 @@
 <option name="requiresUnits" value="hideout"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="7"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="hideout" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4636,6 +4763,8 @@
 <option name="requiresUnits" value="nest"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="6"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="spitter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4654,6 +4783,8 @@
 <option name="requiresUnits" value="nest"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="7"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="nest" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4707,6 +4838,8 @@
 <option name="requiresUnits" value="pack_territory"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="6"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="moon_walker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4725,6 +4858,8 @@
 <option name="requiresUnits" value="pack_territory"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="9"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="pack_territory" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4778,6 +4913,8 @@
 <option name="requiresUnits" value="haunt"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="6"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="wraith" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4796,6 +4933,8 @@
 <option name="requiresUnits" value="haunt"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="9"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="haunt" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4849,6 +4988,8 @@
 <option name="requiresUnits" value="mine"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="6"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="geomancer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4867,6 +5008,8 @@
 <option name="requiresUnits" value="mine"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="7"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mine" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -4920,6 +5063,8 @@
 <option name="requiresUnits" value="covenant"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="6"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="earth_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4938,6 +5083,8 @@
 <option name="requiresUnits" value="covenant"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="9"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="air_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4956,6 +5103,8 @@
 <option name="requiresUnits" value="covenant"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="7"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="water_elemental" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -4974,6 +5123,8 @@
 <option name="requiresUnits" value="covenant"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="7"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="covenant" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -5027,6 +5178,8 @@
 <option name="requiresUnits" value="mana_nexus"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="6"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="remnant" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
@@ -5045,6 +5198,8 @@
 <option name="requiresUnits" value="mana_nexus"/>
 <option name="requiresUnits" value="neutral_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
+<option name="requiresUnits" value="farm"/>
+<option name="tuv" value="7"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="mana_nexus" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
@@ -5108,7 +5263,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5163,7 +5318,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5218,7 +5373,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5273,7 +5428,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5328,7 +5483,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5383,7 +5538,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5449,7 +5604,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5460,7 +5615,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5482,7 +5637,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5493,7 +5648,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5537,7 +5692,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5570,7 +5725,7 @@
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
 <option name="dice" value="strength" />
-<option name="bonus" value="1" />
+<option name="bonus" value="-1" />
 <option name="number" value="2" />
 <option name="bonusType" value="curse" />
 <option name="impArtTech" value="false" />
@@ -5714,7 +5869,7 @@
 <option name="territoryEffect" value="Mountains" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Alterac Valley" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
   </attachment>
@@ -5795,12 +5950,12 @@
 <option name="territoryEffect" value="Mountains" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Azurelode Mine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Balnir Farmstead" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -5891,7 +6046,7 @@
 <option name="territoryEffect" value="Open" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Cold Hearth Manor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Woodland" />
   </attachment>
@@ -5928,7 +6083,7 @@
 <option name="territoryEffect" value="Hillside" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Dabyrie's Farmstead" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -5948,12 +6103,12 @@
 <option name="capital" value="Dalaran" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Dalson's Tears" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Dandred's Fold" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
 <option name="territoryEffect" value="Coast" />
@@ -6011,7 +6166,7 @@
 <option name="territoryEffect" value="Minor_Settlement" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Deep Elem Mine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
   </attachment>
@@ -6022,13 +6177,13 @@
 <option name="territoryEffect" value="Coast" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Drywhisker Gorge" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
 <option name="capital" value="KoboldNests" />
   </attachment>
   <attachment name="territoryAttachment" attachTo="Drywhisker Mine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
   </attachment>
@@ -6167,7 +6322,7 @@
 <option name="territoryEffect" value="Woodland" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Felstone Field" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -6184,7 +6339,7 @@
 <option name="territoryEffect" value="Dungeon" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Gahrron's Withering" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -6194,7 +6349,7 @@
 <option name="territoryEffect" value="Hillside" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Garren's Haunt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Woodland" />
   </attachment>
@@ -6220,7 +6375,7 @@
 <option name="territoryEffect" value="Coast" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Go'Shek Farm" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -6436,7 +6591,7 @@
 <option name="territoryEffect" value="Coast" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Nethander Stead" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
 <option name="territoryEffect" value="Coast" />
@@ -6493,7 +6648,7 @@
 <option name="territoryEffect" value="Mountains" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Northfold Manor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -6518,7 +6673,7 @@
 <option name="territoryEffect" value="Woodland" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Olsen's Farthing" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -6929,7 +7084,7 @@
 <option name="territoryEffect" value="Hillside" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Solliden Farmstead" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -6983,7 +7138,7 @@
   </attachment>
 <attachment name="territoryAttachment" attachTo="Space" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 <option name="production" value="0" />
- <option name="isImpassable" value="true" />
+<option name="isImpassable" value="true" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Stillwater Pond" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 <option name="production" value="1" />
@@ -7014,7 +7169,7 @@
 <option name="territoryEffect" value="Open" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Stratholme Harbour" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="3" />
+<option name="production" value="1" />
 <option name="unitProduction" value="2" />
 <option name="territoryEffect" value="Dungeon" />
 <option name="territoryEffect" value="Shipyard" />
@@ -7141,7 +7296,7 @@
 <option name="territoryEffect" value="Coast" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="The Dead Fields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -7221,7 +7376,7 @@
 <option name="territoryEffect" value="Coast" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="The Skittering Dark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
   </attachment>
@@ -7258,13 +7413,13 @@
 <option name="territoryEffect" value="Woodland" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="The Worg Orchards" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
 <option name="territoryEffect" value="Coast" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="The Writhing Haunt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Open" />
   </attachment>
@@ -7357,7 +7512,7 @@
 <option name="territoryEffect" value="Woodland" />
   </attachment>
 <attachment name="territoryAttachment" attachTo="Underlight Mines" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-<option name="production" value="2" />
+<option name="production" value="1" />
 <option name="unitProduction" value="1" />
 <option name="territoryEffect" value="Hillside" />
   </attachment>
@@ -8512,7 +8667,7 @@
 </attachment>
 <attachment name="conditionAttachmentTrollTribesTribeSelectionFirstRound" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 <option name="rounds" value="1"/>
-<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="directPresenceTerritories" value="Greymane Wall" count="1"/>
 <option name="unitPresence" value="trolltoken" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
@@ -8537,7 +8692,7 @@
 <option name="conditions" value="conditionAttachmentBloodElvesFirstRound"/>
 <option name="when" value="before:bloodelvesCombatMove"/>
 <option name="notification" value="BloodElvesFirstRound"/>
-<option name="removeUnits" value="Space:all" count="1"/>
+<option name="removeUnits" value="Greymane Wall:all" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="triggerAttachmentTrollTribesFirstRound" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -8568,7 +8723,6 @@
    <option name="conditions" value="conditionAttachmentTrollTribesAIPlayer"/>
    <option name="invert" value="true"/>
 </attachment>
-
 <!-- TrollTribes Human Player Trigger -->
 <attachment name="triggerAttachmentTrollTribesIsHuman" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
    <!-- This will never happen because 1 will always be true and the other false -->
@@ -8577,8 +8731,9 @@
    <option name="playerProperty" value="switch" count="false"/>
    <option name="when" value="after:TrollTribesUserActions"/>
    <option name="uses" value="1"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="35" />
 </attachment>
-
 <!-- TrollTribes User Action Is Human Check -->
 <attachment name="userActionAttachmentTrollTribesIsHuman" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.UserActionAttachment" type="player">
    <option name="conditions" value="conditionAttachmentTrollTribesAIPlayer"/>
@@ -8587,45 +8742,45 @@
 </attachment>
 <!-- Conditions checking if switches are present -->
 <attachment name="conditionattachmentTrollMajorTrue1" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="directPresenceTerritories" value="Greymane Wall" count="1"/>
 <option name="unitPresence" value="trollmajorswitch1" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="conditionattachmentTrollMajorFalse1" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="directPresenceTerritories" value="Greymane Wall" count="1"/>
 <option name="unitPresence" value="trollmajorswitch1" count="1"/>
 <option name="players" value="Neutral"/>
 <option name="invert" value="true"/>
 </attachment>
 <attachment name="conditionattachmentTrollMediumTrue1" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="directPresenceTerritories" value="Greymane Wall" count="1"/>
 <option name="unitPresence" value="trollmediumswitch1" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="conditionattachmentTrollMediumFalse1" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="directPresenceTerritories" value="Greymane Wall" count="1"/>
 <option name="unitPresence" value="trollmediumswitch1" count="1"/>
 <option name="players" value="Neutral"/>
 <option name="invert" value="true"/>
 </attachment>
 <attachment name="conditionattachmentTrollMediumTrue2" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="directPresenceTerritories" value="Greymane Wall" count="1"/>
 <option name="unitPresence" value="trollmediumswitch2" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="conditionattachmentTrollMediumFalse2" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="directPresenceTerritories" value="Greymane Wall" count="1"/>
 <option name="unitPresence" value="trollmediumswitch2" count="1"/>
 <option name="players" value="Neutral"/>
 <option name="invert" value="true"/>
 </attachment>
 <attachment name="conditionattachmentTrollMinorTrue1" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="directPresenceTerritories" value="Greymane Wall" count="1"/>
 <option name="unitPresence" value="trollminorswitch1" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="conditionattachmentTrollMinorFalse1" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="directPresenceTerritories" value="Greymane Wall" count="1"/>
 <option name="unitPresence" value="trollminorswitch1" count="1"/>
 <option name="players" value="Neutral"/>
 <option name="invert" value="true"/>
@@ -8635,7 +8790,7 @@
 <option name="conditions" value="conditionAttachmentTrollTribesAIPlayer:conditionAttachmentTrollTribesFirstRound"/>
 <option name="conditionType" value="AND"/>
 <option name="players" value="Neutral"/>
-<option name="placement" value="Space:trollmajorswitch1"/>
+<option name="placement" value="Greymane Wall:trollmajorswitch1"/>
 <option name="when" value="before:trolltribesTribeUserActions"/>
 <option name="chance" value="6:6"/>
 </attachment>
@@ -8643,7 +8798,7 @@
 <option name="conditions" value="conditionAttachmentTrollTribesAIPlayer:conditionAttachmentTrollTribesFirstRound"/>
 <option name="conditionType" value="AND"/>
 <option name="players" value="Neutral"/>
-<option name="placement" value="Space:trollmediumswitch1"/>
+<option name="placement" value="Greymane Wall:trollmediumswitch1"/>
 <option name="when" value="before:trolltribesTribeUserActions"/>
 <option name="chance" value="5:6"/>
 </attachment>
@@ -8651,7 +8806,7 @@
 <option name="conditions" value="conditionAttachmentTrollTribesAIPlayer:conditionattachmentTrollMediumFalse1:conditionAttachmentTrollTribesFirstRound"/>
 <option name="conditionType" value="AND"/>
 <option name="players" value="Neutral"/>
-<option name="placement" value="Space:trollmediumswitch2"/>
+<option name="placement" value="Greymane Wall:trollmediumswitch2"/>
 <option name="when" value="before:trolltribesTribeUserActions"/>
 <option name="chance" value="3:6"/>
 </attachment>
@@ -8659,7 +8814,7 @@
 <option name="conditions" value="conditionAttachmentTrollTribesAIPlayer:conditionAttachmentTrollTribesFirstRound"/>
 <option name="conditionType" value="AND"/>
 <option name="players" value="Neutral"/>
-<option name="placement" value="Space:trollminorswitch1"/>
+<option name="placement" value="Greymane Wall:trollminorswitch1"/>
 <option name="when" value="before:trolltribesTribeUserActions"/>
 <option name="chance" value="6:6"/>
 </attachment>
@@ -8674,7 +8829,7 @@
 <option name="removeUnits" value="Zeb'Nowa:all" count="5"/>
 <option name="removeUnits" value="Zeb'Tela:all" count="5"/>
 <option name="removeUnits" value="Zul'Aman:all" count="5"/>
-<option name="removeUnits" value="Space:trollmajorswitch1" count="1"/>
+<option name="removeUnits" value="Greymane Wall:trollmajorswitch1" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="triggerAttachmentTrollTribesAmaniB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -8714,7 +8869,7 @@
 <option name="removeUnits" value="Tor'Watha:all" count="5"/>
 <option name="removeUnits" value="Zeb'Watha:all" count="5"/>
 <option name="removeUnits" value="Zeb'Sora:all" count="5"/>
-<option name="removeUnits" value="Space:trollmediumswitch1" count="1"/>
+<option name="removeUnits" value="Greymane Wall:trollmediumswitch1" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="triggerAttachmentTrollTribesShadowpineB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -8748,7 +8903,7 @@
 <option name="removeUnits" value="Shadra'Alor:all" count="5"/>
 <option name="removeUnits" value="Hiri'watha:all" count="5"/>
 <option name="removeUnits" value="Zun'watha:all" count="5"/>
-<option name="removeUnits" value="Space:trollmediumswitch2" count="1"/>
+<option name="removeUnits" value="Greymane Wall:trollmediumswitch2" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="triggerAttachmentTrollTribesWitherbarkB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -8780,7 +8935,7 @@
 <option name="removeUnits" value="Jintha'Alor:all" count="5"/>
 <option name="removeUnits" value="The Altar of Zul:all" count="5"/>
 <option name="removeUnits" value="Shaol'watha:all" count="5"/>
-<option name="removeUnits" value="Space:trollmediumswitch2" count="1"/>
+<option name="removeUnits" value="Greymane Wall:trollmediumswitch2" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="triggerAttachmentTrollTribesVilebranchB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -8809,7 +8964,7 @@
 <attachment name="triggerAttachmentTrollTribesMossflayerA" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 <option name="removeUnits" value="Zul'Mashar:all" count="5"/>
 <option name="removeUnits" value="Undercroft:all" count="5"/>
-<option name="removeUnits" value="Space:trollminorswitch1" count="1"/>
+<option name="removeUnits" value="Greymane Wall:trollminorswitch1" count="1"/>
 <option name="players" value="Neutral"/>
 </attachment>
 <attachment name="triggerAttachmentTrollTribesMossflayerB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -8868,6 +9023,1087 @@
 <option name="activateTrigger" value="triggerAttachmentTrollTribesMossflayerA:1:false:false:false:false"/>
 <option name="activateTrigger" value="triggerAttachmentTrollTribesMossflayerB:1:false:false:false:false"/>
 <option name="chance" value="6:6"/>
+</attachment>
+  <!--Gold Mine Triggers-->
+<attachment name="conditionAttachmentDeathknellGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Deathknell" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentTheSkitteringDarkGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="The Skittering Dark" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentDeepElemMineGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Deep Elem Mine" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentEmberstoneVillageGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Emberstone Village" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentNorthlandsGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Northlands" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentHearthglenGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Hearthglen" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentHavenshireGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Havenshire" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentUnderlightMinesGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Underlight Mines" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentAzurelodeMineGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Azurelode Mine" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentDrywhiskerMineGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Drywhisker Mine" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="conditionAttachmentAlteracValleyGoldMineIsOwned" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Alterac Valley" count="1"/>
+<option name="unitPresence" value="gold_mine" count="1"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseDeathknellGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDeathknellGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Deathknell:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="DeathknellGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseTheSkitteringDarkGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTheSkitteringDarkGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="The Skittering Dark:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="TheSkitteringDarkGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseDeepElemMineGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDeepElemMineGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Deep Elem Mine:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="DeepElemMineGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseEmberstoneVillageGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentEmberstoneVillageGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Emberstone Village:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="EmberstoneVillageGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseNorthlandsGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentNorthlandsGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Northlands:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="NorthlandsGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseHearthglenGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentHearthglenGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Hearthglen:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="HearthglenGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseHavenshireGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentHavenshireGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Havenshire:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="HavenshireGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseUnderlightMinesGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentUnderlightMinesGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Underlight Mines:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="UnderlightMinesGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseAzurelodeMineGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentAzurelodeMineGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Azurelode Mine:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="AzurelodeMineGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseDrywhiskerMineGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDrywhiskerMineGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Drywhisker Mine:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="DrywhiskerMineGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+<attachment name="triggerAttachmentCollapseAlteracValleyGoldMine" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentAlteracValleyGoldMineIsOwned"/>
+<option name="chance" value="1:20"/>
+<option name="chanceIncrementOnFailure" value="1"/>
+<option name="removeUnits" value="Alterac Valley:gold_mine" count="1"/>
+<option name="when" value="after:wretchedoutcastsEndTurn" />
+<option name="notification" value="AlteracValleyGoldMineCollapses"/>
+<option name="players" value="$PlayerFactions$"/>
+</attachment>
+  <!--Conquest Triggers-->
+<attachment name="conditionAttachmentStromgardeswitch" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="players" value="Neutral"/>
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="stromgardeswitch" count="1"/>
+</attachment>
+<attachment name="conditionAttachmentAlteracswitch" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="players" value="Neutral"/>
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="alteracswitch" count="1"/>
+</attachment>
+<attachment name="conditionAttachmentSilvermoonswitch" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="players" value="Neutral"/>
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="silvermoonswitch" count="1"/>
+</attachment>
+<attachment name="conditionAttachmentEastPlaguelandsVillageswitch" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="players" value="Neutral"/>
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eastplaguelandsvillageswitch" count="1"/>
+</attachment>
+<attachment name="conditionAttachmentShadowfangKeepswitch" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="players" value="Neutral"/>
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="shadowfangkeepswitch" count="1"/>
+</attachment>
+<attachment name="conditionAttachmentFenrisKeepswitch" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="players" value="Neutral"/>
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="fenriskeepswitch" count="1"/>
+</attachment>
+<attachment name="conditionAttachmentStrahnbadswitch" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="players" value="Neutral"/>
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="strahnbadswitch" count="1"/>
+</attachment>
+<attachment name="conditionAttachmentArathiCirclesswitch" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="players" value="Neutral"/>
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="arathicirclesswitch" count="1"/>
+</attachment>
+
+<attachment name="conditionAttachmentScourgeStromgardeConquest" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Stromgarde City:Stromgarde Keep:Tower of Arathor" count="3" />
+</attachment>
+<attachment name="conditionAttachmentScourgeAlteracConquest" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Ruins of Alterac" count="1" />
+</attachment>
+<attachment name="conditionAttachmentScourgeSilvermoonConquest" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Silvermoon City:Ruins of Silvermoon" count="2" />
+</attachment>
+<attachment name="conditionAttachmentScourgeEastPlaguelandsVillageConquest" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Terrordale:Northdale:Darrowshire" count="3" />
+</attachment>
+<attachment name="conditionAttachmentScourgeShadowfangKeepConquest" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Shadowfang Keep:Pyrewood Village" count="2" />
+</attachment>
+<attachment name="conditionAttachmentScourgeFenrisKeepConquest" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Fenris Keep" count="1" />
+</attachment>
+<attachment name="conditionAttachmentScourgeStrahnbadConquest" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Strahnbrad:Dandred's Fold" count="2" />
+</attachment>
+<attachment name="conditionAttachmentScourgeArathiCirclesConquest" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Circle of West Binding:Circle of East Binding:Circle of Inner Binding:Circle of Outer Binding" count="4" />
+</attachment>
+<attachment name="conditionAttachmentScarletCrusadeStromgardeConquest" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Stromgarde City:Stromgarde Keep:Tower of Arathor" count="3" />
+</attachment>
+<attachment name="conditionAttachmentScarletCrusadeAlteracConquest" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Ruins of Alterac" count="1" />
+</attachment>
+<attachment name="conditionAttachmentScarletCrusadeSilvermoonConquest" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Silvermoon City:Ruins of Silvermoon" count="2" />
+</attachment>
+<attachment name="conditionAttachmentScarletCrusadeEastPlaguelandsVillageConquest" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Terrordale:Northdale:Darrowshire" count="3" />
+</attachment>
+<attachment name="conditionAttachmentScarletCrusadeShadowfangKeepConquest" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Shadowfang Keep:Pyrewood Village" count="2" />
+</attachment>
+<attachment name="conditionAttachmentScarletCrusadeFenrisKeepConquest" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Fenris Keep" count="1" />
+</attachment>
+<attachment name="conditionAttachmentScarletCrusadeStrahnbadConquest" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Strahnbrad:Dandred's Fold" count="2" />
+</attachment>
+<attachment name="conditionAttachmentScarletCrusadeArathiCirclesConquest" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Circle of West Binding:Circle of East Binding:Circle of Inner Binding:Circle of Outer Binding" count="4" />
+</attachment>
+<attachment name="conditionAttachmentBloodElvesStromgardeConquest" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Stromgarde City:Stromgarde Keep:Tower of Arathor" count="3" />
+</attachment>
+<attachment name="conditionAttachmentBloodElvesAlteracConquest" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Ruins of Alterac" count="1" />
+</attachment>
+<attachment name="conditionAttachmentBloodElvesSilvermoonConquest" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Silvermoon City:Ruins of Silvermoon" count="2" />
+</attachment>
+<attachment name="conditionAttachmentBloodElvesEastPlaguelandsVillageConquest" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Terrordale:Northdale:Darrowshire" count="3" />
+</attachment>
+<attachment name="conditionAttachmentBloodElvesShadowfangKeepConquest" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Shadowfang Keep:Pyrewood Village" count="2" />
+</attachment>
+<attachment name="conditionAttachmentBloodElvesFenrisKeepConquest" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Fenris Keep" count="1" />
+</attachment>
+<attachment name="conditionAttachmentBloodElvesStrahnbadConquest" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Strahnbrad:Dandred's Fold" count="2" />
+</attachment>
+<attachment name="conditionAttachmentBloodElvesArathiCirclesConquest" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Circle of West Binding:Circle of East Binding:Circle of Inner Binding:Circle of Outer Binding" count="4" />
+</attachment>
+<attachment name="conditionAttachmentTrollTribesStromgardeConquest" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Stromgarde City:Stromgarde Keep:Tower of Arathor" count="3" />
+</attachment>
+<attachment name="conditionAttachmentTrollTribesAlteracConquest" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Ruins of Alterac" count="1" />
+</attachment>
+<attachment name="conditionAttachmentTrollTribesSilvermoonConquest" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Silvermoon City:Ruins of Silvermoon" count="2" />
+</attachment>
+<attachment name="conditionAttachmentTrollTribesEastPlaguelandsVillageConquest" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Terrordale:Northdale:Darrowshire" count="3" />
+</attachment>
+<attachment name="conditionAttachmentTrollTribesShadowfangKeepConquest" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Shadowfang Keep:Pyrewood Village" count="2" />
+</attachment>
+<attachment name="conditionAttachmentTrollTribesFenrisKeepConquest" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Fenris Keep" count="1" />
+</attachment>
+<attachment name="conditionAttachmentTrollTribesStrahnbadConquest" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Strahnbrad:Dandred's Fold" count="2" />
+</attachment>
+<attachment name="conditionAttachmentTrollTribesArathiCirclesConquest" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Circle of West Binding:Circle of East Binding:Circle of Inner Binding:Circle of Outer Binding" count="4" />
+</attachment>
+<attachment name="conditionAttachmentForsakenStromgardeConquest" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Stromgarde City:Stromgarde Keep:Tower of Arathor" count="3" />
+</attachment>
+<attachment name="conditionAttachmentForsakenAlteracConquest" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Ruins of Alterac" count="1" />
+</attachment>
+<attachment name="conditionAttachmentForsakenSilvermoonConquest" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Silvermoon City:Ruins of Silvermoon" count="2" />
+</attachment>
+<attachment name="conditionAttachmentForsakenEastPlaguelandsVillageConquest" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Terrordale:Northdale:Darrowshire" count="3" />
+</attachment>
+<attachment name="conditionAttachmentForsakenShadowfangKeepConquest" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Shadowfang Keep:Pyrewood Village" count="2" />
+</attachment>
+<attachment name="conditionAttachmentForsakenFenrisKeepConquest" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Fenris Keep" count="1" />
+</attachment>
+<attachment name="conditionAttachmentForsakenStrahnbadConquest" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Strahnbrad:Dandred's Fold" count="2" />
+</attachment>
+<attachment name="conditionAttachmentForsakenArathiCirclesConquest" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Circle of West Binding:Circle of East Binding:Circle of Inner Binding:Circle of Outer Binding" count="4" />
+</attachment>
+<attachment name="conditionAttachmentDalaranStromgardeConquest" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Stromgarde City:Stromgarde Keep:Tower of Arathor" count="3" />
+</attachment>
+<attachment name="conditionAttachmentDalaranAlteracConquest" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Ruins of Alterac" count="1" />
+</attachment>
+<attachment name="conditionAttachmentDalaranSilvermoonConquest" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Silvermoon City:Ruins of Silvermoon" count="2" />
+</attachment>
+<attachment name="conditionAttachmentDalaranEastPlaguelandsVillageConquest" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Terrordale:Northdale:Darrowshire" count="3" />
+</attachment>
+<attachment name="conditionAttachmentDalaranShadowfangKeepConquest" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Shadowfang Keep:Pyrewood Village" count="2" />
+</attachment>
+<attachment name="conditionAttachmentDalaranFenrisKeepConquest" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Fenris Keep" count="1" />
+</attachment>
+<attachment name="conditionAttachmentDalaranStrahnbadConquest" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Strahnbrad:Dandred's Fold" count="2" />
+</attachment>
+<attachment name="conditionAttachmentDalaranArathiCirclesConquest" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="alliedOwnershipTerritories" value="Circle of West Binding:Circle of East Binding:Circle of Inner Binding:Circle of Outer Binding" count="4" />
+</attachment>
+
+<attachment name="triggerAttachmentScourgeStromgardeHasBeenConqueredA" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="StromgardeConquest"/>
+<option name="when" value="before:scourgeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScourgeStromgardeHasBeenConqueredB" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:stromgardeswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScourgeAlteracHasBeenConqueredA" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="AlteracConquest"/>
+<option name="when" value="before:scourgeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScourgeAlteracHasBeenConqueredB" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:alteracswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScourgeSilvermoonHasBeenConqueredA" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="SilvermoonConquest"/>
+<option name="when" value="before:scourgeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScourgeSilvermoonHasBeenConqueredB" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:silvermoonswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScourgeEastPlaguelandsVillageHasBeenConqueredA" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="EastPlaguelandsVillageConquest"/>
+<option name="when" value="before:scourgeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScourgeEastPlaguelandsVillageHasBeenConqueredB" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:eastplaguelandsvillageswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScourgeShadowfangKeepHasBeenConqueredA" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="ShadowfangKeepConquest"/>
+<option name="when" value="before:scourgeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScourgeShadowfangKeepHasBeenConqueredB" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:shadowfangkeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScourgeFenrisKeepHasBeenConqueredA" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="FenrisKeepConquest"/>
+<option name="when" value="before:scourgeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScourgeFenrisKeepHasBeenConqueredB" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:fenriskeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScourgeStrahnbadHasBeenConqueredA" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="StrahnbadConquest"/>
+<option name="when" value="before:scourgeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScourgeStrahnbadHasBeenConqueredB" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:strahnbadswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScourgeArathiCirclesHasBeenConqueredA" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="ArathiCirclesConquest"/>
+<option name="when" value="before:scourgeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScourgeArathiCirclesHasBeenConqueredB" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScourgeArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:arathicirclesswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeStromgardeHasBeenConqueredA" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="StromgardeConquest"/>
+<option name="when" value="before:scarletcrusadeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeStromgardeHasBeenConqueredB" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:stromgardeswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeAlteracHasBeenConqueredA" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="AlteracConquest"/>
+<option name="when" value="before:scarletcrusadeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeAlteracHasBeenConqueredB" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:alteracswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeSilvermoonHasBeenConqueredA" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="SilvermoonConquest"/>
+<option name="when" value="before:scarletcrusadeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeSilvermoonHasBeenConqueredB" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:silvermoonswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeEastPlaguelandsVillageHasBeenConqueredA" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="EastPlaguelandsVillageConquest"/>
+<option name="when" value="before:scarletcrusadeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeEastPlaguelandsVillageHasBeenConqueredB" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:eastplaguelandsvillageswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeShadowfangKeepHasBeenConqueredA" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="ShadowfangKeepConquest"/>
+<option name="when" value="before:scarletcrusadeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeShadowfangKeepHasBeenConqueredB" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:shadowfangkeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeFenrisKeepHasBeenConqueredA" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="FenrisKeepConquest"/>
+<option name="when" value="before:scarletcrusadeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeFenrisKeepHasBeenConqueredB" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:fenriskeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeStrahnbadHasBeenConqueredA" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="StrahnbadConquest"/>
+<option name="when" value="before:scarletcrusadeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeStrahnbadHasBeenConqueredB" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:strahnbadswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeArathiCirclesHasBeenConqueredA" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="ArathiCirclesConquest"/>
+<option name="when" value="before:scarletcrusadeEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentScarletCrusadeArathiCirclesHasBeenConqueredB" attachTo="ScarletCrusade" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentScarletCrusadeArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:arathicirclesswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentBloodElvesStromgardeHasBeenConqueredA" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="StromgardeConquest"/>
+<option name="when" value="before:bloodelvesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentBloodElvesStromgardeHasBeenConqueredB" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:stromgardeswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentBloodElvesAlteracHasBeenConqueredA" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="AlteracConquest"/>
+<option name="when" value="before:bloodelvesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentBloodElvesAlteracHasBeenConqueredB" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:alteracswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentBloodElvesSilvermoonHasBeenConqueredA" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="SilvermoonConquest"/>
+<option name="when" value="before:bloodelvesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentBloodElvesSilvermoonHasBeenConqueredB" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:silvermoonswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentBloodElvesEastPlaguelandsVillageHasBeenConqueredA" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="EastPlaguelandsVillageConquest"/>
+<option name="when" value="before:bloodelvesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentBloodElvesEastPlaguelandsVillageHasBeenConqueredB" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:eastplaguelandsvillageswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentBloodElvesShadowfangKeepHasBeenConqueredA" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="ShadowfangKeepConquest"/>
+<option name="when" value="before:bloodelvesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentBloodElvesShadowfangKeepHasBeenConqueredB" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:shadowfangkeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentBloodElvesFenrisKeepHasBeenConqueredA" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="FenrisKeepConquest"/>
+<option name="when" value="before:bloodelvesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentBloodElvesFenrisKeepHasBeenConqueredB" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:fenriskeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentBloodElvesStrahnbadHasBeenConqueredA" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="StrahnbadConquest"/>
+<option name="when" value="before:bloodelvesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentBloodElvesStrahnbadHasBeenConqueredB" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:strahnbadswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentBloodElvesArathiCirclesHasBeenConqueredA" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="ArathiCirclesConquest"/>
+<option name="when" value="before:bloodelvesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentBloodElvesArathiCirclesHasBeenConqueredB" attachTo="BloodElves" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentBloodElvesArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:arathicirclesswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentTrollTribesStromgardeHasBeenConqueredA" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="StromgardeConquest"/>
+<option name="when" value="before:trolltribesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentTrollTribesStromgardeHasBeenConqueredB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:stromgardeswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentTrollTribesAlteracHasBeenConqueredA" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="AlteracConquest"/>
+<option name="when" value="before:trolltribesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentTrollTribesAlteracHasBeenConqueredB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:alteracswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentTrollTribesSilvermoonHasBeenConqueredA" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="SilvermoonConquest"/>
+<option name="when" value="before:trolltribesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentTrollTribesSilvermoonHasBeenConqueredB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:silvermoonswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentTrollTribesEastPlaguelandsVillageHasBeenConqueredA" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="EastPlaguelandsVillageConquest"/>
+<option name="when" value="before:trolltribesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentTrollTribesEastPlaguelandsVillageHasBeenConqueredB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:eastplaguelandsvillageswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentTrollTribesShadowfangKeepHasBeenConqueredA" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="ShadowfangKeepConquest"/>
+<option name="when" value="before:trolltribesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentTrollTribesShadowfangKeepHasBeenConqueredB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:shadowfangkeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentTrollTribesFenrisKeepHasBeenConqueredA" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="FenrisKeepConquest"/>
+<option name="when" value="before:trolltribesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentTrollTribesFenrisKeepHasBeenConqueredB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:fenriskeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentTrollTribesStrahnbadHasBeenConqueredA" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="StrahnbadConquest"/>
+<option name="when" value="before:trolltribesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentTrollTribesStrahnbadHasBeenConqueredB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:strahnbadswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentTrollTribesArathiCirclesHasBeenConqueredA" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="ArathiCirclesConquest"/>
+<option name="when" value="before:trolltribesEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentTrollTribesArathiCirclesHasBeenConqueredB" attachTo="TrollTribes" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentTrollTribesArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:arathicirclesswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentForsakenStromgardeHasBeenConqueredA" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="StromgardeConquest"/>
+<option name="when" value="before:forsakenEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentForsakenStromgardeHasBeenConqueredB" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:stromgardeswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentForsakenAlteracHasBeenConqueredA" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="AlteracConquest"/>
+<option name="when" value="before:forsakenEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentForsakenAlteracHasBeenConqueredB" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:alteracswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentForsakenSilvermoonHasBeenConqueredA" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="SilvermoonConquest"/>
+<option name="when" value="before:forsakenEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentForsakenSilvermoonHasBeenConqueredB" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:silvermoonswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentForsakenEastPlaguelandsVillageHasBeenConqueredA" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="EastPlaguelandsVillageConquest"/>
+<option name="when" value="before:forsakenEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentForsakenEastPlaguelandsVillageHasBeenConqueredB" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:eastplaguelandsvillageswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentForsakenShadowfangKeepHasBeenConqueredA" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="ShadowfangKeepConquest"/>
+<option name="when" value="before:forsakenEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentForsakenShadowfangKeepHasBeenConqueredB" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:shadowfangkeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentForsakenFenrisKeepHasBeenConqueredA" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="FenrisKeepConquest"/>
+<option name="when" value="before:forsakenEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentForsakenFenrisKeepHasBeenConqueredB" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:fenriskeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentForsakenStrahnbadHasBeenConqueredA" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="StrahnbadConquest"/>
+<option name="when" value="before:forsakenEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentForsakenStrahnbadHasBeenConqueredB" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:strahnbadswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentForsakenArathiCirclesHasBeenConqueredA" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="ArathiCirclesConquest"/>
+<option name="when" value="before:forsakenEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentForsakenArathiCirclesHasBeenConqueredB" attachTo="Forsaken" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentForsakenArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:arathicirclesswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentDalaranStromgardeHasBeenConqueredA" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="StromgardeConquest"/>
+<option name="when" value="before:dalaranEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentDalaranStromgardeHasBeenConqueredB" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranStromgardeConquest:conditionAttachmentStromgardeswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:stromgardeswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentDalaranAlteracHasBeenConqueredA" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="20" />
+<option name="notification" value="AlteracConquest"/>
+<option name="when" value="before:dalaranEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentDalaranAlteracHasBeenConqueredB" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranAlteracConquest:conditionAttachmentAlteracswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:alteracswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentDalaranSilvermoonHasBeenConqueredA" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="SilvermoonConquest"/>
+<option name="when" value="before:dalaranEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentDalaranSilvermoonHasBeenConqueredB" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranSilvermoonConquest:conditionAttachmentSilvermoonswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:silvermoonswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentDalaranEastPlaguelandsVillageHasBeenConqueredA" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="EastPlaguelandsVillageConquest"/>
+<option name="when" value="before:dalaranEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentDalaranEastPlaguelandsVillageHasBeenConqueredB" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranEastPlaguelandsVillageConquest:conditionAttachmentEastPlaguelandsVillageswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:eastplaguelandsvillageswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentDalaranShadowfangKeepHasBeenConqueredA" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="ShadowfangKeepConquest"/>
+<option name="when" value="before:dalaranEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentDalaranShadowfangKeepHasBeenConqueredB" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranShadowfangKeepConquest:conditionAttachmentShadowfangKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:shadowfangkeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentDalaranFenrisKeepHasBeenConqueredA" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="FenrisKeepConquest"/>
+<option name="when" value="before:dalaranEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentDalaranFenrisKeepHasBeenConqueredB" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranFenrisKeepConquest:conditionAttachmentFenrisKeepswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:fenriskeepswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentDalaranStrahnbadHasBeenConqueredA" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="15" />
+<option name="notification" value="StrahnbadConquest"/>
+<option name="when" value="before:dalaranEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentDalaranStrahnbadHasBeenConqueredB" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranStrahnbadConquest:conditionAttachmentStrahnbadswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:strahnbadswitch" count="1"/>
+</attachment>
+<attachment name="triggerAttachmentDalaranArathiCirclesHasBeenConqueredA" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="resource" value="PUs" />
+<option name="resourceCount" value="10" />
+<option name="notification" value="ArathiCirclesConquest"/>
+<option name="when" value="before:dalaranEndTurn" />
+</attachment>
+<attachment name="triggerAttachmentDalaranArathiCirclesHasBeenConqueredB" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+<option name="conditions" value="conditionAttachmentDalaranArathiCirclesConquest:conditionAttachmentArathiCirclesswitch" />
+<option name="conditionType" value="AND"/>
+<option name="players" value="Neutral"/>
+<option name="removeUnits" value="Space:arathicirclesswitch" count="1"/>
+</attachment>
+  <!--Event Triggers-->
+<attachment name="conditionAttachmenteventswitch1True" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch1" count="1"/>
+<option name="players" value="Neutral"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch1False" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch1" count="1"/>
+<option name="players" value="Neutral"/>
+<option name="invert" value="true"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch2True" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch2" count="1"/>
+<option name="players" value="Neutral"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch2False" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch2" count="1"/>
+<option name="players" value="Neutral"/>
+<option name="invert" value="true"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch3True" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch3" count="1"/>
+<option name="players" value="Neutral"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch3False" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch3" count="1"/>
+<option name="players" value="Neutral"/>
+<option name="invert" value="true"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch4True" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch4" count="1"/>
+<option name="players" value="Neutral"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch4False" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch4" count="1"/>
+<option name="players" value="Neutral"/>
+<option name="invert" value="true"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch5True" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch5" count="1"/>
+<option name="players" value="Neutral"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch5False" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch5" count="1"/>
+<option name="players" value="Neutral"/>
+<option name="invert" value="true"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch6True" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch6" count="1"/>
+<option name="players" value="Neutral"/>
+</attachment>
+<attachment name="conditionAttachmenteventswitch6False" attachTo="Scourge" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+<option name="directPresenceTerritories" value="Space" count="1"/>
+<option name="unitPresence" value="eventswitch6" count="1"/>
+<option name="players" value="Neutral"/>
+<option name="invert" value="true"/>
 </attachment>
   <!--Player Attachments-->
 <attachment name="playerAttachment" attachTo="Scourge" javaClass="PlayerAttachment" type="player">
@@ -9237,6 +10473,7 @@
 <territoryOwner territory="Whispering Shore" owner="MurlocTribes" />
 <territoryOwner territory="Windrunner Spire" owner="Scourge" />
 <territoryOwner territory="Windrunner Village" owner="GhostHaunts" />
+
 </ownerInitialize>
 <unitInitialize>
 <!--Scourge-->
@@ -9272,17 +10509,14 @@
 <unitPlacement unitType="ghoul" territory="Elder's Square" quantity="2" owner="Scourge" />
 <unitPlacement unitType="skeleton_hound" territory="Elder's Square" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Felstone Field" quantity="2" owner="Scourge" />
-<unitPlacement unitType="ghoul" territory="Festival Lane" quantity="2" owner="Scourge" />
+<unitPlacement unitType="ghoul" territory="Festival Lane" quantity="3" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="Gahrron's Withering" quantity="2" owner="Scourge" />
-<unitPlacement unitType="ghoul" territory="Gauntlet Ash'ari Crystal 1" quantity="2" owner="Scourge" />
 <unitPlacement unitType="crypt_fiend" territory="Gauntlet Ash'ari Crystal 1" quantity="2" owner="Scourge" />
 <unitPlacement unitType="gargoyle" territory="Gauntlet Ash'ari Crystal 1" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="Gauntlet Ash'ari Crystal 1" quantity="1" owner="Scourge" />
-<unitPlacement unitType="ghoul" territory="Gauntlet Ash'ari Crystal 2" quantity="2" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="Gauntlet Ash'ari Crystal 2" quantity="2" owner="Scourge" />
 <unitPlacement unitType="gargoyle" territory="Gauntlet Ash'ari Crystal 2" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="Gauntlet Ash'ari Crystal 2" quantity="1" owner="Scourge" />
-<unitPlacement unitType="ghoul" territory="Gauntlet Ash'ari Crystal 3" quantity="2" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="Gauntlet Ash'ari Crystal 3" quantity="1" owner="Scourge" />
 <unitPlacement unitType="gargoyle" territory="Gauntlet Ash'ari Crystal 3" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="Gauntlet Ash'ari Crystal 3" quantity="1" owner="Scourge" />
@@ -9290,7 +10524,6 @@
 <unitPlacement unitType="ghoul" territory="King's Square" quantity="1" owner="Scourge" />
 <unitPlacement unitType="skeleton_hound" territory="King's Square" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Market Row" quantity="2" owner="Scourge" />
-<unitPlacement unitType="abomination" territory="Market Row" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="Market Row" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="North Dead Scar" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Olsen's Farthing" quantity="1" owner="Scourge" />
@@ -9308,6 +10541,7 @@
 <unitPlacement unitType="meat_wagon" territory="South Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="South Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="crypt_fiend" territory="Suncrown Village" quantity="2" owner="Scourge" />
+<unitPlacement unitType="ghoul" territory="Stratholme Harbour" quantity="3" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="The Dead Fields" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="The Dead Fields" quantity="1" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="The Fungal Vale" quantity="2" owner="Scourge" />
@@ -9335,9 +10569,7 @@
 <unitPlacement unitType="initiate" territory="Crusader Outpost" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="ranger" territory="Crusader Outpost" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="crusade_outpost" territory="Crusader Outpost" quantity="1" owner="ScarletCrusade" />
-<unitPlacement unitType="initiate" territory="Crusader's Square" quantity="1" owner="ScarletCrusade" />
-<unitPlacement unitType="crusader" territory="Crusader's Square" quantity="4" owner="ScarletCrusade" />
-<unitPlacement unitType="ranger" territory="Crusader's Square" quantity="2" owner="ScarletCrusade" />
+<unitPlacement unitType="crusader" territory="Crusader's Square" quantity="2" owner="ScarletCrusade" />
 <unitPlacement unitType="purifier" territory="Crusader's Square" quantity="2" owner="ScarletCrusade" />
 <unitPlacement unitType="initiate" territory="Havenshire" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="ranger" territory="Havenshire" quantity="1" owner="ScarletCrusade" />
@@ -9376,12 +10608,11 @@
 <unitPlacement unitType="initiate" territory="Taelan's Tower" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="purifier" territory="Taelan's Tower" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="crusade_outpost" territory="Taelan's Tower" quantity="1" owner="ScarletCrusade" />
-<unitPlacement unitType="crusader" territory="The Hoard" quantity="3" owner="ScarletCrusade" />
-<unitPlacement unitType="ranger" territory="The Hoard" quantity="4" owner="ScarletCrusade" />
+<unitPlacement unitType="crusader" territory="The Crimson Throne" quantity="4" owner="ScarletCrusade" />
+<unitPlacement unitType="ranger" territory="The Hoard" quantity="2" owner="ScarletCrusade" />
 <unitPlacement unitType="cannon" territory="The Hoard" quantity="2" owner="ScarletCrusade" />
-<unitPlacement unitType="initiate" territory="The Scarlet Bastion" quantity="2" owner="ScarletCrusade" />
 <unitPlacement unitType="crusader" territory="The Scarlet Bastion" quantity="2" owner="ScarletCrusade" />
-<unitPlacement unitType="purifier" territory="The Scarlet Bastion" quantity="3" owner="ScarletCrusade" />
+<unitPlacement unitType="purifier" territory="The Scarlet Bastion" quantity="2" owner="ScarletCrusade" />
 <unitPlacement unitType="crusader" territory="Tyr's Hand" quantity="2" owner="ScarletCrusade" />
 <unitPlacement unitType="cavalier" territory="Tyr's Hand" quantity="1" owner="ScarletCrusade" />
 <unitPlacement unitType="purifier" territory="Tyr's Hand" quantity="2" owner="ScarletCrusade" />
@@ -9615,7 +10846,7 @@
 <unitPlacement unitType="hut" territory="Greengill Coast" quantity="1" owner="MurlocTribes" />
 <!--OgreClans-->
 <unitPlacement unitType="brute" territory="Boulder'gor" quantity="2" owner="OgreClans" />
-<unitPlacement unitType="magi" territory="Boulder'gor" quantity="2" owner="OgreClans" />
+<unitPlacement unitType="magi" territory="Boulder'gor" quantity="1" owner="OgreClans" />
 <unitPlacement unitType="mound" territory="Boulder'gor" quantity="1" owner="OgreClans" />
 <unitPlacement unitType="brute" territory="Boulderfist Hall" quantity="2" owner="OgreClans" />
 <unitPlacement unitType="magi" territory="Boulderfist Hall" quantity="2" owner="OgreClans" />
@@ -9628,7 +10859,7 @@
 <unitPlacement unitType="mound" territory="Darrow Hill" quantity="1" owner="OgreClans" />
 <unitPlacement unitType="brute" territory="Gallow's Corner" quantity="2" owner="OgreClans" />
 <unitPlacement unitType="neutral_tower" territory="Gallow's Corner" quantity="1" owner="OgreClans" />
-<unitPlacement unitType="brute" territory="Growless Cave" quantity="2" owner="OgreClans" />
+<unitPlacement unitType="brute" territory="Growless Cave" quantity="1" owner="OgreClans" />
 <unitPlacement unitType="brute" territory="Koroth's Den" quantity="2" owner="OgreClans" />
 <unitPlacement unitType="mound" territory="Koroth's Den" quantity="1" owner="OgreClans" />
 <unitPlacement unitType="brute" territory="Ruins of Alterac" quantity="2" owner="OgreClans" />
@@ -9654,18 +10885,16 @@
 <unitPlacement unitType="renegade" territory="Northfold Manor" quantity="2" owner="BanditSyndicates" />
 <unitPlacement unitType="renegade" territory="Ravenholdt" quantity="2" owner="BanditSyndicates" />
 <unitPlacement unitType="hideout" territory="Ravenholdt" quantity="1" owner="BanditSyndicates" />
-<unitPlacement unitType="renegade" territory="Sofera's Naze" quantity="2" owner="BanditSyndicates" />
+<unitPlacement unitType="renegade" territory="Sofera's Naze" quantity="1" owner="BanditSyndicates" />
 <unitPlacement unitType="renegade" territory="Strahnbrad" quantity="2" owner="BanditSyndicates" />
 <unitPlacement unitType="dark_wizard" territory="Strahnbrad" quantity="2" owner="BanditSyndicates" />
 <unitPlacement unitType="hideout_capturable" territory="Strahnbrad" quantity="1" owner="BanditSyndicates" />
 <unitPlacement unitType="renegade" territory="Stromgarde Keep" quantity="4" owner="BanditSyndicates" />
 <unitPlacement unitType="dark_wizard" territory="Stromgarde Keep" quantity="2" owner="BanditSyndicates" />
 <unitPlacement unitType="hideout_capturable" territory="Stromgarde Keep" quantity="1" owner="BanditSyndicates" />
-<unitPlacement unitType="renegade" territory="The Fingers" quantity="2" owner="BanditSyndicates" />
-<unitPlacement unitType="renegade" territory="The Uplands" quantity="1" owner="BanditSyndicates" />
+<unitPlacement unitType="renegade" territory="The Fingers" quantity="1" owner="BanditSyndicates" />
 <unitPlacement unitType="dark_wizard" territory="The Uplands" quantity="1" owner="BanditSyndicates" />
 <unitPlacement unitType="renegade" territory="Rustberg Village" quantity="2" owner="BanditSyndicates" />
-<unitPlacement unitType="hideout_capturable" territory="Stromgarde Keep" quantity="1" owner="BanditSyndicates" />
 <!--SpiderBroods-->
 <unitPlacement unitType="broodling" territory="Nightmare Vale" quantity="2" owner="SpiderBroods" />
 <unitPlacement unitType="nest" territory="Nightmare Vale" quantity="1" owner="SpiderBroods" />
@@ -9679,7 +10908,6 @@
 <unitPlacement unitType="spitter" territory="Venomweb Vale" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="nest" territory="Venomweb Vale" quantity="1" owner="SpiderBroods" />
 <unitPlacement unitType="broodling" territory="The Creeping Ruin" quantity="1" owner="SpiderBroods" />
-<unitPlacement unitType="spitter" territory="The Creeping Ruin" quantity="1" owner="SpiderBroods" />
 <!--WorgenPacks-->
 <unitPlacement unitType="dark_runner" territory="Deep Elem Mine" quantity="2" owner="WorgenPacks" />
 <unitPlacement unitType="dark_runner" territory="Pyrewood Village" quantity="2" owner="WorgenPacks" />
@@ -9695,20 +10923,22 @@
 <unitPlacement unitType="wraith" territory="Darrowshire" quantity="2" owner="GhostHaunts" />
 <unitPlacement unitType="haunt_capturable" territory="Darrowshire" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="ghost" territory="Goldenmist Village" quantity="2" owner="GhostHaunts" />
+<unitPlacement unitType="wraith" territory="Goldenmist Village" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="haunt_capturable" territory="Goldenmist Village" quantity="1" owner="GhostHaunts" />
-<unitPlacement unitType="ghost" territory="Northdale" quantity="1" owner="GhostHaunts" />
+<unitPlacement unitType="ghost" territory="Northdale" quantity="2" owner="GhostHaunts" />
 <unitPlacement unitType="wraith" territory="Northdale" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="haunt_capturable" territory="Northdale" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="ghost" territory="Purgation Isle" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="neutral_tower" territory="Purgation Isle" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="ghost" territory="Terrordale" quantity="2" owner="GhostHaunts" />
+<unitPlacement unitType="wraith" territory="Terrordale" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="haunt_capturable" territory="Terrordale" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="neutral_tower" territory="Terrordale" quantity="1" owner="GhostHaunts" />
-<unitPlacement unitType="ghost" territory="Windrunner Village" quantity="1" owner="GhostHaunts" />
+<unitPlacement unitType="ghost" territory="Windrunner Village" quantity="2" owner="GhostHaunts" />
 <unitPlacement unitType="wraith" territory="Windrunner Village" quantity="1" owner="GhostHaunts" />
 <unitPlacement unitType="haunt_capturable" territory="Windrunner Village" quantity="1" owner="GhostHaunts" />
 <!--KoboldNests-->
-<unitPlacement unitType="tunneler" territory="Drywhisker Gorge" quantity="2" owner="KoboldNests" />
+<unitPlacement unitType="tunneler" territory="Drywhisker Gorge" quantity="1" owner="KoboldNests" />
 <unitPlacement unitType="geomancer" territory="Drywhisker Gorge" quantity="1" owner="KoboldNests" />
 <unitPlacement unitType="mine" territory="Drywhisker Gorge" quantity="1" owner="KoboldNests" />
 <unitPlacement unitType="tunneler" territory="Drywhisker Mine" quantity="2" owner="KoboldNests" />
@@ -9716,7 +10946,7 @@
 <!--ElementalThrones-->
 <unitPlacement unitType="water_elemental" territory="Blackwood Lake" quantity="2" owner="ElementalThrones" />
 <unitPlacement unitType="covenant" territory="Blackwood Lake" quantity="1" owner="ElementalThrones" />
-<unitPlacement unitType="air_elemental" territory="Chillwind Point" quantity="2" owner="ElementalThrones" />
+<unitPlacement unitType="air_elemental" territory="Chillwind Point" quantity="1" owner="ElementalThrones" />
 <unitPlacement unitType="water_elemental" territory="Circle of East Binding" quantity="2" owner="ElementalThrones" />
 <unitPlacement unitType="covenant" territory="Circle of East Binding" quantity="1" owner="ElementalThrones" />
 <unitPlacement unitType="earth_elemental" territory="Circle of Inner Binding" quantity="2" owner="ElementalThrones" />
@@ -9735,9 +10965,9 @@
 <unitPlacement unitType="covenant" territory="Sanctum of the Moon" quantity="1" owner="ElementalThrones" />
 <unitPlacement unitType="earth_elemental" territory="The Scorched Grove" quantity="2" owner="ElementalThrones" />
 <unitPlacement unitType="covenant" territory="The Scorched Grove" quantity="1" owner="ElementalThrones" />
-<unitPlacement unitType="earth_elemental" territory="The Weeping Cave" quantity="2" owner="ElementalThrones" />
-<unitPlacement unitType="earth_elemental" territory="Agol'watha" quantity="2" owner="ElementalThrones" />
-<unitPlacement unitType="earth_elemental" territory="Skull Rock" quantity="2" owner="ElementalThrones" />
+<unitPlacement unitType="earth_elemental" territory="The Weeping Cave" quantity="1" owner="ElementalThrones" />
+<unitPlacement unitType="earth_elemental" territory="Agol'watha" quantity="1" owner="ElementalThrones" />
+<unitPlacement unitType="earth_elemental" territory="Skull Rock" quantity="1" owner="ElementalThrones" />
 <!--WretchedOutcasts-->
 <unitPlacement unitType="husk" territory="Duskwither Spire" quantity="1" owner="WretchedOutcasts" />
 <unitPlacement unitType="remnant" territory="Duskwither Spire" quantity="1" owner="WretchedOutcasts" />
@@ -9773,7 +11003,6 @@
 <unitPlacement unitType="sunreaver_battle_mage" territory="Tempest's Reach" quantity="2" />
 <unitPlacement unitType="sunreaver_battle_mage" territory="Emberstone Village" quantity="2" />
 <unitPlacement unitType="sunreaver_battle_mage" territory="Havenswood" quantity="2" />
-
 <unitPlacement unitType="neutral_tower" territory="Northpass Tower" quantity="1" />
 <unitPlacement unitType="neutral_tower" territory="Crown Guard Tower" quantity="1" />
 <!--Stratholme invisible production buildings initial-->
@@ -9812,17 +11041,60 @@
 <unitPlacement unitType="shipyard" territory="Keel Harbour" quantity="1" />
 <unitPlacement unitType="shipyard" territory="Sun's Reach" quantity="1" owner="WretchedOutcasts" />
 <unitPlacement unitType="shipyard" territory="Stratholme Harbour" quantity="1" owner="Scourge" />
+<!-- Farm Initial -->
+<unitPlacement unitType="farm" territory="Gahrron's Withering" quantity="1" owner="Scourge" />
+<unitPlacement unitType="farm" territory="Dalson's Tears" quantity="1" owner="Scourge" />
+<unitPlacement unitType="farm" territory="The Writhing Haunt" quantity="1" owner="Scourge" />
+<unitPlacement unitType="farm" territory="Felstone Field" quantity="1" owner="Scourge" />
+<unitPlacement unitType="farm" territory="Balnir Farmstead" quantity="1" owner="Scourge" />
+<unitPlacement unitType="farm" territory="Garren's Haunt" quantity="1" owner="GnollPacks" />
+<unitPlacement unitType="farm" territory="Solliden Farmstead" quantity="1" owner="ScarletCrusade" />
+<unitPlacement unitType="farm" territory="Cold Hearth Manor" quantity="1" owner="Scourge" />
+<unitPlacement unitType="farm" territory="The Worg Orchards" quantity="1" owner="WorgenPacks" />
+<unitPlacement unitType="farm" territory="The Dead Fields" quantity="1" owner="Scourge" />
+<unitPlacement unitType="farm" territory="Olsen's Farthing" quantity="1" owner="Scourge" />
+<unitPlacement unitType="farm" territory="Hillsbrad Fields" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="farm" territory="Dandred's Fold" quantity="1" owner="BanditSyndicates" />
+<unitPlacement unitType="farm" territory="Nethander Stead" quantity="1" owner="GnollPacks" />
+<unitPlacement unitType="farm" territory="Northfold Manor" quantity="1" owner="BanditSyndicates" />
+<unitPlacement unitType="farm" territory="Go'Shek Farm" quantity="1" />
+<unitPlacement unitType="farm" territory="Dabyrie's Farmstead" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="farm" territory="Dwarf Farm" quantity="1" />
+<unitPlacement unitType="farm" territory="The Marris Stead" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="farm" territory="Havenshire" quantity="1" owner="ScarletCrusade" />
+<unitPlacement unitType="farm" territory="Duskhaven" quantity="1" />
+<unitPlacement unitType="farm" territory="Tarren Mill" quantity="1" owner="Forsaken" />
+<!-- gold_mine Initial -->
+<unitPlacement unitType="gold_mine" territory="Deathknell" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="gold_mine" territory="The Skittering Dark" quantity="1" owner="SpiderBroods" />
+<unitPlacement unitType="gold_mine" territory="Deep Elem Mine" quantity="1" owner="WorgenPacks" />
+<unitPlacement unitType="gold_mine" territory="Emberstone Village" quantity="1" />
+<unitPlacement unitType="gold_mine" territory="Northlands" quantity="1" />
+<unitPlacement unitType="gold_mine" territory="Hearthglen" quantity="1" owner="ScarletCrusade" />
+<unitPlacement unitType="gold_mine" territory="Havenshire" quantity="1" owner="ScarletCrusade" />
+<unitPlacement unitType="gold_mine" territory="Underlight Mines" quantity="1" owner="GnollPacks" />
+<unitPlacement unitType="gold_mine" territory="Azurelode Mine" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="gold_mine" territory="Drywhisker Mine" quantity="1" owner="KoboldNests" />
+<unitPlacement unitType="gold_mine" territory="Alterac Valley" quantity="1" />
 <!--Trigger initial-->
-<unitPlacement unitType="trolltoken" territory="Space" quantity="1" />
+<unitPlacement unitType="trolltoken" territory="Greymane Wall" quantity="1" />
+<unitPlacement unitType="stromgardeswitch" territory="Space" quantity="1" />
+<unitPlacement unitType="alteracswitch" territory="Space" quantity="1" />
+<unitPlacement unitType="silvermoonswitch" territory="Space" quantity="1" />
+<unitPlacement unitType="eastplaguelandsvillageswitch" territory="Space" quantity="1" />
+<unitPlacement unitType="shadowfangkeepswitch" territory="Space" quantity="1" />
+<unitPlacement unitType="fenriskeepswitch" territory="Space" quantity="1" />
+<unitPlacement unitType="strahnbadswitch" territory="Space" quantity="1" />
+<unitPlacement unitType="arathicirclesswitch" territory="Space" quantity="1" />
 <!--Resource initial-->
 </unitInitialize>
 <resourceInitialize>
-<resourceGiven player="Scourge" resource="PUs" quantity="83" />
-<resourceGiven player="ScarletCrusade" resource="PUs" quantity="46" />
+<resourceGiven player="Scourge" resource="PUs" quantity="81" />
+<resourceGiven player="ScarletCrusade" resource="PUs" quantity="53" />
 <resourceGiven player="BloodElves" resource="PUs" quantity="33" />
-<resourceGiven player="TrollTribes" resource="PUs" quantity="35" />
-<resourceGiven player="Forsaken" resource="PUs" quantity="29" />
-<resourceGiven player="Dalaran" resource="PUs" quantity="38" />
+<resourceGiven player="TrollTribes" resource="PUs" quantity="0" />
+<resourceGiven player="Forsaken" resource="PUs" quantity="34" />
+<resourceGiven player="Dalaran" resource="PUs" quantity="41" />
 </resourceInitialize>
 </initialize>
 <propertyList>
@@ -10358,7 +11630,7 @@ Determines whether or not a sub can controls a sea zone. Determines if transport
 <li>Production of units is limited to the production of a <i>production</i> unit and 2 ground combat units, except for the Elemental Conclave which can produce 4 different ground combat units.</li>
 <li>All combat units have a PU cost of 3x the cost of player factions.</li>
 <li>All units have a stat line of 2|2 except for <i>heavy infantry</i> which are 4|4 and <i>tower</i> which are 2x3|2x3.</li>
-<li>All minor faction <i>tower</i> units are capturable, and some <i>production</i> units are capturable which are placed during the game start. The minor factions cannot produce more of these capturable <i>production</i> units. These are both denoted by a white circle instead of black.</li>
+<li>All minor faction <i>tower</i> units are capturable, and some <i>production</i> units are capturable which are placed during the game start. These capturable <i>production</i> units represent things like castles or villages that minor factions have taken over that can be repurposed for a player faction to use rather then things like huts or crypts which have no military use. The minor factions cannot produce more of these capturable <i>production</i> units. These are both denoted by a white circle instead of black.</li>
 <li>If a minor faction destroys a player factions <i>production</i> unit, it is captured instead and the resulting <i>production</i> unit is capturable by all factions.</li>
 </ul>
 
@@ -10371,6 +11643,16 @@ Determines whether or not a sub can controls a sea zone. Determines if transport
 <p><i>Production</i> units can be built on territories the same turn when they are captured and can produce up to its territories PU-1 ground and/or sea units per turn.</p>
 <p>A territory may contain any number of <i>tower</i> units but only 1 can be placed on the same territory per turn, and they may be placed on territories without a <i>production</i> unit. The placement of a <i>tower</i> unit does not count towards the placement limit of the territory.</p>
 <p><i>Tower</i> units can produce 1 ground or sea unit per turn.</p>
+
+<h2>Landmarks</h2>
+<p>The game starts with various minor landmarks placed around the map. These cannot be destroyed or removed, only captured.</p>
+<p>Minor landmarks are:</p>
+<ul>
+<li><b>Farm:</b> These produce 1 PU every turn and can produce 1 unit per turn.</li>
+<li><b>Gold mine:</b> These produce 3 PU every turn but have a chance to collapse during the end of a round if they are contolled by a player faction.</li>
+<li><b>Pier:</b> These enable the production of <i>transport</i> and <i>frigate</i> units.</li>
+<li><b>Port:</b> These enable the production of all sea units.</li>
+</ul>
 
 <h2>Support</h2>
 <p>A support is a passive increases to another units attack or defense during combat./p>
@@ -10645,7 +11927,7 @@ Determines whether or not a sub can controls a sea zone. Determines if transport
 <p>Each unit recieves different bonuses from different terrain. These bonuses are determined by the units Terrain Type.</p>
 <p>If a territory has two terrains, then then resulting terrain bonus is the sum of each terrain effect.</p>
 <p>There are also some terrain types which are used for production, such as Shipyard and don't effect unit values.</p>
-<p>All <i>dungeon</i> terrain can produce 1 unit per turn, except for <i>production</i> and <i>tower</i> units which cannot be placed on them.</p>
+<p>All <i>dungeon</i> terrain can produce 2 unit per turn, except for <i>production</i> and <i>tower</i> units which cannot be placed on them.</p>
 
 <table border="1"bgcolor="757780">
 <tbody>
