@@ -11,7 +11,7 @@
 <element name="abomination"/>
 <element name="skeleton_hound"/>
 <element name="gargoyle"/>
-<element name="Crypt_fiend"/>
+<element name="Crypt_Fiend"/>
 <element name="death_knight"/>
 <element name="lich"/>
 <element name="frost_wyrm"/>
@@ -134,7 +134,7 @@
 <element name="water_elemental"/>
 </variable>
 <variable name="FlankTargeted">
-<element name="Crypt_fiend"/>
+<element name="Crypt_Fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -214,7 +214,7 @@
 <element name="tunneler"/>
 <element name="fire_elemental"/>
 <element name="husk"/>
-<element name="Crypt_fiend"/>
+<element name="Crypt_Fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -415,7 +415,7 @@
 <element name="fire_elemental"/>
 <element name="earth_elemental"/>
 <element name="husk"/>
-<element name="Crypt_fiend"/>
+<element name="Crypt_Fiend"/>
 <element name="banshee"/>
 <element name="ranger"/>
 <element name="purifier"/>
@@ -511,7 +511,7 @@
 <element name="fire_elemental"/>
 <element name="earth_elemental"/>
 <element name="husk"/>
-<element name="Crypt_fiend"/>
+<element name="Crypt_Fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -619,7 +619,7 @@
 <element name="fire_elemental"/>
 <element name="earth_elemental"/>
 <element name="husk"/>
-<element name="Crypt_fiend"/>
+<element name="Crypt_Fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -678,7 +678,7 @@
 <element name="black_dragon"/>
 </variable>
 <variable name="DefensesTargeted">
-<element name="Crypt_fiend"/>
+<element name="Crypt_Fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -787,7 +787,7 @@
 <element name="fire_elemental"/>
 <element name="earth_elemental"/>
 <element name="husk"/>
-<element name="Crypt_fiend"/>
+<element name="Crypt_Fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -874,7 +874,7 @@
 <element name="husk"/>
 </variable>
 <variable name="RangeTerrain">
-<element name="Crypt_fiend"/>
+<element name="Crypt_Fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -3669,7 +3669,7 @@
 <unitList>
 <unit name="ghoul" />
 <unit name="abomination" />
-<unit name="Crypt_fiend" />
+<unit name="Crypt_Fiend" />
 <unit name="skeleton_hound" />
 <unit name="banshee" />
 <unit name="gargoyle" />
@@ -4303,9 +4303,9 @@
 <cost resource="PUs" quantity="9"/>
 <result resourceOrUnit="abomination" quantity="1"/>
 </productionRule>
-<productionRule name="buy_Crypt_fiend">
+<productionRule name="buy_Crypt_Fiend">
 <cost resource="PUs" quantity="7"/>
-<result resourceOrUnit="Crypt_fiend" quantity="1"/>
+<result resourceOrUnit="Crypt_Fiend" quantity="1"/>
 </productionRule>
 <productionRule name="buy_skeleton_hound">
 <cost resource="PUs" quantity="8"/>
@@ -5122,7 +5122,7 @@
 <productionFrontier name="ScourgeFrontier">
 <frontierRules name="buy_ghoul" />
 <frontierRules name="buy_abomination" />
-<frontierRules name="buy_Crypt_fiend" />
+<frontierRules name="buy_Crypt_Fiend" />
 <frontierRules name="buy_skeleton_hound" />
 <frontierRules name="buy_banshee" />
 <frontierRules name="buy_gargoyle" />
@@ -5455,7 +5455,7 @@
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="Crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Crypt_Fiend" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="1" />
 <option name="attack" value="3" />
@@ -6420,8 +6420,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="war_barrack"/>
-<option name="requiresUnits" value="spiked_watch_tower"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
@@ -6439,8 +6439,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="war_barrack"/>
-<option name="requiresUnits" value="spiked_watch_tower"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
@@ -6458,8 +6458,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="war_barrack"/>
-<option name="requiresUnits" value="spiked_watch_tower"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
@@ -6477,8 +6477,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="war_barrack"/>
-<option name="requiresUnits" value="spiked_watch_tower"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
@@ -6497,8 +6497,8 @@
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
 <option name="isDestroyer" value="true"/>
-<option name="requiresUnits" value="war_barrack"/>
-<option name="requiresUnits" value="spiked_watch_tower"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
@@ -6517,8 +6517,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="war_barrack"/>
-<option name="requiresUnits" value="spiked_watch_tower"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
@@ -6536,8 +6536,8 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="war_barrack"/>
-<option name="requiresUnits" value="spiked_watch_tower"/>
+<option name="requiresUnits" value="violet_hall"/>
+<option name="requiresUnits" value="arcane_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
@@ -9676,7 +9676,7 @@
 <option name="impArtTech" value="false" />
 <option name="players" value="$AllFactions$" />
 </attachment>
-<attachment name="supportAttachment_leadership_Crypt_fiend" attachTo="Crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<attachment name="supportAttachment_leadership_Crypt_Fiend" attachTo="Crypt_Fiend" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 <option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
@@ -18645,7 +18645,7 @@
 <option name="movementBonus" value="1:fire_elemental"/>
 <option name="movementBonus" value="1:earth_elemental"/>
 <option name="movementBonus" value="1:husk"/>
-<option name="movementBonus" value="1:Crypt_fiend"/>
+<option name="movementBonus" value="1:Crypt_Fiend"/>
 <option name="movementBonus" value="1:banshee"/>
 <option name="movementBonus" value="1:meat_wagon"/>
 <option name="movementBonus" value="1:ranger"/>
@@ -19048,7 +19048,7 @@
 <unitPlacement unitType="ghoul" territory="Dalson's Tears" quantity="1" owner="Scourge" />
 <unitPlacement unitType="skeleton_hound" territory="Dalson's Tears" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Deatholme" quantity="2" owner="Scourge" />
-<unitPlacement unitType="Crypt_fiend" territory="Deatholme" quantity="1" owner="Scourge" />
+<unitPlacement unitType="Crypt_Fiend" territory="Deatholme" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="Deatholme" quantity="1" owner="Scourge" />
 <unitPlacement unitType="gargoyle" territory="Deatholme" quantity="1" owner="Scourge" />
 <unitPlacement unitType="meat_wagon" territory="Deatholme" quantity="1" owner="Scourge" />
@@ -19059,7 +19059,7 @@
 <unitPlacement unitType="ghoul" territory="Felstone Field" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Festival Lane" quantity="3" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="Gahrron's Withering" quantity="2" owner="Scourge" />
-<unitPlacement unitType="Crypt_fiend" territory="Gauntlet Ash'ari Crystal 1" quantity="2" owner="Scourge" />
+<unitPlacement unitType="Crypt_Fiend" territory="Gauntlet Ash'ari Crystal 1" quantity="2" owner="Scourge" />
 <unitPlacement unitType="gargoyle" territory="Gauntlet Ash'ari Crystal 1" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="Gauntlet Ash'ari Crystal 1" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="Gauntlet Ash'ari Crystal 2" quantity="2" owner="Scourge" />
@@ -19078,26 +19078,26 @@
 <unitPlacement unitType="skeleton_hound" territory="Olsen's Farthing" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Plaguewood" quantity="2" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="Plaguewood" quantity="1" owner="Scourge" />
-<unitPlacement unitType="Crypt_fiend" territory="Plaguewood" quantity="1" owner="Scourge" />
+<unitPlacement unitType="Crypt_Fiend" territory="Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="slaughterhouse" territory="Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="Plaguewood" quantity="2" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="Slaughter Square" quantity="3" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Sorrow Hill Cemetery" quantity="2" owner="Scourge" />
-<unitPlacement unitType="Crypt_fiend" territory="South Dead Scar" quantity="1" owner="Scourge" />
+<unitPlacement unitType="Crypt_Fiend" territory="South Dead Scar" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="South Dead Scar" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="South Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="meat_wagon" territory="South Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="South Plaguewood" quantity="1" owner="Scourge" />
-<unitPlacement unitType="Crypt_fiend" territory="Suncrown Village" quantity="2" owner="Scourge" />
+<unitPlacement unitType="Crypt_Fiend" territory="Suncrown Village" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Stratholme Harbour" quantity="3" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="The Dead Fields" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="The Dead Fields" quantity="1" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="The Fungal Vale" quantity="2" owner="Scourge" />
-<unitPlacement unitType="Crypt_fiend" territory="The Fungal Vale" quantity="2" owner="Scourge" />
+<unitPlacement unitType="Crypt_Fiend" territory="The Fungal Vale" quantity="2" owner="Scourge" />
 <unitPlacement unitType="slaughterhouse" territory="The Fungal Vale" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="The Fungal Vale" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="The Noxious Glade" quantity="1" owner="Scourge" />
-<unitPlacement unitType="Crypt_fiend" territory="The Noxious Glade" quantity="2" owner="Scourge" />
+<unitPlacement unitType="Crypt_Fiend" territory="The Noxious Glade" quantity="2" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="The Noxious Glade" quantity="1" owner="Scourge" />
 <unitPlacement unitType="slaughterhouse" territory="The Noxious Glade" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="The Noxious Glade" quantity="1" owner="Scourge" />
