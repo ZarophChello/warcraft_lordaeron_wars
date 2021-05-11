@@ -11,7 +11,7 @@
 <element name="abomination"/>
 <element name="skeleton_hound"/>
 <element name="gargoyle"/>
-<element name="crypt_fiend"/>
+<element name="Crypt_fiend"/>
 <element name="death_knight"/>
 <element name="lich"/>
 <element name="frost_wyrm"/>
@@ -29,9 +29,9 @@
 <element name="marwyn"/>
 <element name="deathguard"/>
 <element name="deathstalker"/>
-<element name="fallen_archer"/>
-<element name="dark_knight"/>
-<element name="apothecary"/>
+<element name="Fallen_Archer"/>
+<element name="Dark_Knight"/>
+<element name="Apothecary"/>
 <element name="bat"/>
 </variable>
 <variable name="ChargeTargeted">
@@ -49,10 +49,10 @@
 <element name="warbringer"/>
 <element name="deathguard"/>
 <element name="deathstalker"/>
-<element name="dark_knight"/>
-<element name="sunreaver_battle_mage"/>
+<element name="Dark_Knight"/>
+<element name="Sunreaver_Battle_Mage"/>
 <element name="rune_golem"/>
-<element name="mana_hound"/>
+<element name="Mana_Hound"/>
 <element name="grunt"/>
 <element name="tauren"/>
 <element name="raider"/>
@@ -90,8 +90,8 @@
 <element name="cavalier"/>
 <element name="hawkstrider_cavalier"/>
 <element name="warbringer"/>
-<element name="dark_knight"/>
-<element name="mana_hound"/>
+<element name="Dark_Knight"/>
+<element name="Mana_Hound"/>
 <element name="raider"/>
 <element name="knight"/>
 <element name="siege_tank"/>
@@ -105,7 +105,7 @@
 <element name="dragonhawk_rider"/>
 <element name="dragonhawk"/>
 <element name="bat"/>
-<element name="silver_covenant_hippogryph"/>
+<element name="Silver_Covenant_Hippogryph"/>
 <element name="wind_rider"/>
 <element name="flying_machine"/>
 <element name="gryphon_rider"/>
@@ -118,8 +118,8 @@
 <element name="purifier"/>
 <element name="magister"/>
 <element name="witch_doctor"/>
-<element name="apothecary"/>
-<element name="archmage"/>
+<element name="Apothecary"/>
+<element name="Archmage"/>
 <element name="shaman"/>
 <element name="priest"/>
 <element name="arcanist"/>
@@ -134,7 +134,7 @@
 <element name="water_elemental"/>
 </variable>
 <variable name="FlankTargeted">
-<element name="crypt_fiend"/>
+<element name="Crypt_fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -142,15 +142,15 @@
 <element name="cannon"/>
 <element name="farstrider"/>
 <element name="magister"/>
-<element name="thalassian_ballista"/>
+<element name="Thalassian_Ballista"/>
 <element name="axe_thrower"/>
 <element name="witch_doctor"/>
 <element name="catapult"/>
-<element name="fallen_archer"/>
-<element name="apothecary"/>
+<element name="Fallen_Archer"/>
+<element name="Apothecary"/>
 <element name="plague_catapult"/>
-<element name="silver_covenant_ranger"/>
-<element name="archmage"/>
+<element name="Silver_Covenant_Ranger"/>
+<element name="Archmage"/>
 <element name="glaive_thrower"/>
 <element name="headhunter"/>
 <element name="shaman"/>
@@ -190,9 +190,9 @@
 <element name="berserker"/>
 <element name="warbringer"/>
 <element name="deathguard"/>
-<element name="dark_knight"/>
-<element name="sunreaver_battle_mage"/>
-<element name="mana_hound"/>
+<element name="Dark_Knight"/>
+<element name="Sunreaver_Battle_Mage"/>
+<element name="Mana_Hound"/>
 <element name="grunt"/>
 <element name="raider"/>
 <element name="footman"/>
@@ -214,7 +214,7 @@
 <element name="tunneler"/>
 <element name="fire_elemental"/>
 <element name="husk"/>
-<element name="crypt_fiend"/>
+<element name="Crypt_fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -222,15 +222,15 @@
 <element name="cannon"/>
 <element name="farstrider"/>
 <element name="magister"/>
-<element name="thalassian_ballista"/>
+<element name="Thalassian_Ballista"/>
 <element name="axe_thrower"/>
 <element name="witch_doctor"/>
 <element name="catapult"/>
-<element name="fallen_archer"/>
-<element name="apothecary"/>
+<element name="Fallen_Archer"/>
+<element name="Apothecary"/>
 <element name="plague_catapult"/>
-<element name="silver_covenant_ranger"/>
-<element name="archmage"/>
+<element name="Silver_Covenant_Ranger"/>
+<element name="Archmage"/>
 <element name="glaive_thrower"/>
 <element name="headhunter"/>
 <element name="shaman"/>
@@ -264,7 +264,7 @@
 <element name="dragonhawk_rider"/>
 <element name="dragonhawk"/>
 <element name="bat"/>
-<element name="silver_covenant_hippogryph"/>
+<element name="Silver_Covenant_Hippogryph"/>
 <element name="wind_rider"/>
 <element name="flying_machine"/>
 <element name="gryphon_rider"/>
@@ -287,10 +287,10 @@
 <element name="warbringer"/>
 <element name="deathguard"/>
 <element name="deathstalker"/>
-<element name="dark_knight"/>
-<element name="sunreaver_battle_mage"/>
+<element name="Dark_Knight"/>
+<element name="Sunreaver_Battle_Mage"/>
 <element name="rune_golem"/>
-<element name="mana_hound"/>
+<element name="Mana_Hound"/>
 <element name="grunt"/>
 <element name="tauren"/>
 <element name="raider"/>
@@ -327,12 +327,12 @@
 <element name="purifier"/>
 <element name="cannon"/>
 <element name="magister"/>
-<element name="thalassian_ballista"/>
+<element name="Thalassian_Ballista"/>
 <element name="witch_doctor"/>
 <element name="catapult"/>
-<element name="apothecary"/>
+<element name="Apothecary"/>
 <element name="plague_catapult"/>
-<element name="archmage"/>
+<element name="Archmage"/>
 <element name="glaive_thrower"/>
 <element name="shaman"/>
 <element name="demolisher"/>
@@ -357,7 +357,7 @@
 <element name="dragonhawk_rider"/>
 <element name="dragonhawk"/>
 <element name="bat"/>
-<element name="silver_covenant_hippogryph"/>
+<element name="Silver_Covenant_Hippogryph"/>
 <element name="wind_rider"/>
 <element name="flying_machine"/>
 <element name="gryphon_rider"/>
@@ -380,10 +380,10 @@
 <element name="warbringer"/>
 <element name="deathguard"/>
 <element name="deathstalker"/>
-<element name="dark_knight"/>
-<element name="sunreaver_battle_mage"/>
+<element name="Dark_Knight"/>
+<element name="Sunreaver_Battle_Mage"/>
 <element name="rune_golem"/>
-<element name="mana_hound"/>
+<element name="Mana_Hound"/>
 <element name="grunt"/>
 <element name="tauren"/>
 <element name="raider"/>
@@ -415,7 +415,7 @@
 <element name="fire_elemental"/>
 <element name="earth_elemental"/>
 <element name="husk"/>
-<element name="crypt_fiend"/>
+<element name="Crypt_fiend"/>
 <element name="banshee"/>
 <element name="ranger"/>
 <element name="purifier"/>
@@ -423,10 +423,10 @@
 <element name="magister"/>
 <element name="axe_thrower"/>
 <element name="witch_doctor"/>
-<element name="fallen_archer"/>
-<element name="apothecary"/>
-<element name="silver_covenant_ranger"/>
-<element name="archmage"/>
+<element name="Fallen_Archer"/>
+<element name="Apothecary"/>
+<element name="Silver_Covenant_Ranger"/>
+<element name="Archmage"/>
 <element name="headhunter"/>
 <element name="shaman"/>
 <element name="archer"/>
@@ -453,7 +453,7 @@
 <element name="dragonhawk_rider"/>
 <element name="dragonhawk"/>
 <element name="bat"/>
-<element name="silver_covenant_hippogryph"/>
+<element name="Silver_Covenant_Hippogryph"/>
 <element name="wind_rider"/>
 <element name="flying_machine"/>
 <element name="gryphon_rider"/>
@@ -476,10 +476,10 @@
 <element name="warbringer"/>
 <element name="deathguard"/>
 <element name="deathstalker"/>
-<element name="dark_knight"/>
-<element name="sunreaver_battle_mage"/>
+<element name="Dark_Knight"/>
+<element name="Sunreaver_Battle_Mage"/>
 <element name="rune_golem"/>
-<element name="mana_hound"/>
+<element name="Mana_Hound"/>
 <element name="grunt"/>
 <element name="tauren"/>
 <element name="raider"/>
@@ -511,7 +511,7 @@
 <element name="fire_elemental"/>
 <element name="earth_elemental"/>
 <element name="husk"/>
-<element name="crypt_fiend"/>
+<element name="Crypt_fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -519,15 +519,15 @@
 <element name="cannon"/>
 <element name="farstrider"/>
 <element name="magister"/>
-<element name="thalassian_ballista"/>
+<element name="Thalassian_Ballista"/>
 <element name="axe_thrower"/>
 <element name="witch_doctor"/>
 <element name="catapult"/>
-<element name="fallen_archer"/>
-<element name="apothecary"/>
+<element name="Fallen_Archer"/>
+<element name="Apothecary"/>
 <element name="plague_catapult"/>
-<element name="silver_covenant_ranger"/>
-<element name="archmage"/>
+<element name="Silver_Covenant_Ranger"/>
+<element name="Archmage"/>
 <element name="glaive_thrower"/>
 <element name="headhunter"/>
 <element name="shaman"/>
@@ -561,7 +561,7 @@
 <element name="dragonhawk_rider"/>
 <element name="dragonhawk"/>
 <element name="bat"/>
-<element name="silver_covenant_hippogryph"/>
+<element name="Silver_Covenant_Hippogryph"/>
 <element name="wind_rider"/>
 <element name="flying_machine"/>
 <element name="gryphon_rider"/>
@@ -584,10 +584,10 @@
 <element name="warbringer"/>
 <element name="deathguard"/>
 <element name="deathstalker"/>
-<element name="dark_knight"/>
-<element name="sunreaver_battle_mage"/>
+<element name="Dark_Knight"/>
+<element name="Sunreaver_Battle_Mage"/>
 <element name="rune_golem"/>
-<element name="mana_hound"/>
+<element name="Mana_Hound"/>
 <element name="grunt"/>
 <element name="tauren"/>
 <element name="raider"/>
@@ -619,7 +619,7 @@
 <element name="fire_elemental"/>
 <element name="earth_elemental"/>
 <element name="husk"/>
-<element name="crypt_fiend"/>
+<element name="Crypt_fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -627,15 +627,15 @@
 <element name="cannon"/>
 <element name="farstrider"/>
 <element name="magister"/>
-<element name="thalassian_ballista"/>
+<element name="Thalassian_Ballista"/>
 <element name="axe_thrower"/>
 <element name="witch_doctor"/>
 <element name="catapult"/>
-<element name="fallen_archer"/>
-<element name="apothecary"/>
+<element name="Fallen_Archer"/>
+<element name="Apothecary"/>
 <element name="plague_catapult"/>
-<element name="silver_covenant_ranger"/>
-<element name="archmage"/>
+<element name="Silver_Covenant_Ranger"/>
+<element name="Archmage"/>
 <element name="glaive_thrower"/>
 <element name="headhunter"/>
 <element name="shaman"/>
@@ -669,7 +669,7 @@
 <element name="dragonhawk_rider"/>
 <element name="dragonhawk"/>
 <element name="bat"/>
-<element name="silver_covenant_hippogryph"/>
+<element name="Silver_Covenant_Hippogryph"/>
 <element name="wind_rider"/>
 <element name="flying_machine"/>
 <element name="gryphon_rider"/>
@@ -678,7 +678,7 @@
 <element name="black_dragon"/>
 </variable>
 <variable name="DefensesTargeted">
-<element name="crypt_fiend"/>
+<element name="Crypt_fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -686,15 +686,15 @@
 <element name="cannon"/>
 <element name="farstrider"/>
 <element name="magister"/>
-<element name="thalassian_ballista"/>
+<element name="Thalassian_Ballista"/>
 <element name="axe_thrower"/>
 <element name="witch_doctor"/>
 <element name="catapult"/>
-<element name="fallen_archer"/>
-<element name="apothecary"/>
+<element name="Fallen_Archer"/>
+<element name="Apothecary"/>
 <element name="plague_catapult"/>
-<element name="silver_covenant_ranger"/>
-<element name="archmage"/>
+<element name="Silver_Covenant_Ranger"/>
+<element name="Archmage"/>
 <element name="glaive_thrower"/>
 <element name="headhunter"/>
 <element name="shaman"/>
@@ -752,10 +752,10 @@
 <element name="warbringer"/>
 <element name="deathguard"/>
 <element name="deathstalker"/>
-<element name="dark_knight"/>
-<element name="sunreaver_battle_mage"/>
+<element name="Dark_Knight"/>
+<element name="Sunreaver_Battle_Mage"/>
 <element name="rune_golem"/>
-<element name="mana_hound"/>
+<element name="Mana_Hound"/>
 <element name="grunt"/>
 <element name="tauren"/>
 <element name="raider"/>
@@ -787,7 +787,7 @@
 <element name="fire_elemental"/>
 <element name="earth_elemental"/>
 <element name="husk"/>
-<element name="crypt_fiend"/>
+<element name="Crypt_fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -795,15 +795,15 @@
 <element name="cannon"/>
 <element name="farstrider"/>
 <element name="magister"/>
-<element name="thalassian_ballista"/>
+<element name="Thalassian_Ballista"/>
 <element name="axe_thrower"/>
 <element name="witch_doctor"/>
 <element name="catapult"/>
-<element name="fallen_archer"/>
-<element name="apothecary"/>
+<element name="Fallen_Archer"/>
+<element name="Apothecary"/>
 <element name="plague_catapult"/>
-<element name="silver_covenant_ranger"/>
-<element name="archmage"/>
+<element name="Silver_Covenant_Ranger"/>
+<element name="Archmage"/>
 <element name="glaive_thrower"/>
 <element name="headhunter"/>
 <element name="shaman"/>
@@ -845,7 +845,7 @@
 <element name="beast_master"/>
 <element name="deathguard"/>
 <element name="deathstalker"/>
-<element name="sunreaver_battle_mage"/>
+<element name="Sunreaver_Battle_Mage"/>
 <element name="rune_golem"/>
 <element name="grunt"/>
 <element name="tauren"/>
@@ -874,7 +874,7 @@
 <element name="husk"/>
 </variable>
 <variable name="RangeTerrain">
-<element name="crypt_fiend"/>
+<element name="Crypt_fiend"/>
 <element name="banshee"/>
 <element name="meat_wagon"/>
 <element name="ranger"/>
@@ -882,15 +882,15 @@
 <element name="cannon"/>
 <element name="farstrider"/>
 <element name="magister"/>
-<element name="thalassian_ballista"/>
+<element name="Thalassian_Ballista"/>
 <element name="axe_thrower"/>
 <element name="witch_doctor"/>
 <element name="catapult"/>
-<element name="fallen_archer"/>
-<element name="apothecary"/>
+<element name="Fallen_Archer"/>
+<element name="Apothecary"/>
 <element name="plague_catapult"/>
-<element name="silver_covenant_ranger"/>
-<element name="archmage"/>
+<element name="Silver_Covenant_Ranger"/>
+<element name="Archmage"/>
 <element name="glaive_thrower"/>
 <element name="headhunter"/>
 <element name="shaman"/>
@@ -925,8 +925,8 @@
 <element name="cavalier"/>
 <element name="hawkstrider_cavalier"/>
 <element name="warbringer"/>
-<element name="dark_knight"/>
-<element name="mana_hound"/>
+<element name="Dark_Knight"/>
+<element name="Mana_Hound"/>
 <element name="raider"/>
 <element name="knight"/>
 <element name="siege_tank"/>
@@ -940,7 +940,7 @@
 <element name="dragonhawk_rider"/>
 <element name="dragonhawk"/>
 <element name="bat"/>
-<element name="silver_covenant_hippogryph"/>
+<element name="Silver_Covenant_Hippogryph"/>
 <element name="wind_rider"/>
 <element name="flying_machine"/>
 <element name="gryphon_rider"/>
@@ -3669,7 +3669,7 @@
 <unitList>
 <unit name="ghoul" />
 <unit name="abomination" />
-<unit name="crypt_fiend" />
+<unit name="Crypt_fiend" />
 <unit name="skeleton_hound" />
 <unit name="banshee" />
 <unit name="gargoyle" />
@@ -3697,11 +3697,11 @@
 <unit name="hawkstrider_cavalier" />
 <unit name="magister" />
 <unit name="dragonhawk_rider" />
-<unit name="thalassian_ballista" />
+<unit name="Thalassian_Ballista" />
 <unit name="thalassian_transport" />
 <unit name="thalassian_frigate" />
 <unit name="thalassian_battleship" />
-<unit name="elven_lodge" />
+<unit name="Elven_Lodge" />
 <unit name="magic_tower" />
 <unit name="berserker" />
 <unit name="beast_master" />
@@ -3717,22 +3717,22 @@
 <unit name="watch_tower" />
 <unit name="deathguard" />
 <unit name="deathstalker" />
-<unit name="fallen_archer" />
-<unit name="dark_knight" />
-<unit name="apothecary" />
+<unit name="Fallen_Archer" />
+<unit name="Dark_Knight" />
+<unit name="Apothecary" />
 <unit name="bat" />
 <unit name="plague_catapult" />
 <unit name="forsaken_barge" />
 <unit name="forsaken_destroyer" />
 <unit name="forsaken_dreadship" />
-<unit name="crypt" />
+<unit name="Crypt" />
 <unit name="reclaimed_ziggurat" />
-<unit name="sunreaver_battle_mage" />
+<unit name="Sunreaver_Battle_Mage" />
 <unit name="rune_golem" />
-<unit name="silver_covenant_ranger" />
-<unit name="mana_hound" />
-<unit name="archmage" />
-<unit name="silver_covenant_hippogryph" />
+<unit name="Silver_Covenant_Ranger" />
+<unit name="Mana_Hound" />
+<unit name="Archmage" />
+<unit name="Silver_Covenant_Hippogryph" />
 <unit name="glaive_thrower" />
 <unit name="dalaran_transport" />
 <unit name="dalaran_frigate" />
@@ -4303,9 +4303,9 @@
 <cost resource="PUs" quantity="9"/>
 <result resourceOrUnit="abomination" quantity="1"/>
 </productionRule>
-<productionRule name="buy_crypt_fiend">
+<productionRule name="buy_Crypt_fiend">
 <cost resource="PUs" quantity="7"/>
-<result resourceOrUnit="crypt_fiend" quantity="1"/>
+<result resourceOrUnit="Crypt_fiend" quantity="1"/>
 </productionRule>
 <productionRule name="buy_skeleton_hound">
 <cost resource="PUs" quantity="8"/>
@@ -4415,13 +4415,13 @@
 <cost resource="PUs" quantity="9"/>
 <result resourceOrUnit="dragonhawk_rider" quantity="1"/>
 </productionRule>
-<productionRule name="buy_thalassian_ballista">
+<productionRule name="buy_Thalassian_Ballista">
 <cost resource="PUs" quantity="7"/>
-<result resourceOrUnit="thalassian_ballista" quantity="1"/>
+<result resourceOrUnit="Thalassian_Ballista" quantity="1"/>
 </productionRule>
-<productionRule name="buy_elven_lodge">
+<productionRule name="buy_Elven_Lodge">
 <cost resource="PUs" quantity="20"/>
-<result resourceOrUnit="elven_lodge" quantity="1"/>
+<result resourceOrUnit="Elven_Lodge" quantity="1"/>
 </productionRule>
 <productionRule name="buy_magic_tower">
 <cost resource="PUs" quantity="15"/>
@@ -4495,17 +4495,17 @@
 <cost resource="PUs" quantity="9"/>
 <result resourceOrUnit="deathstalker" quantity="1"/>
 </productionRule>
-<productionRule name="buy_fallen_archer">
+<productionRule name="buy_Fallen_Archer">
 <cost resource="PUs" quantity="7"/>
-<result resourceOrUnit="fallen_archer" quantity="1"/>
+<result resourceOrUnit="Fallen_Archer" quantity="1"/>
 </productionRule>
-<productionRule name="buy_dark_knight">
+<productionRule name="buy_Dark_Knight">
 <cost resource="PUs" quantity="8"/>
-<result resourceOrUnit="dark_knight" quantity="1"/>
+<result resourceOrUnit="Dark_Knight" quantity="1"/>
 </productionRule>
-<productionRule name="buy_apothecary">
+<productionRule name="buy_Apothecary">
 <cost resource="PUs" quantity="7"/>
-<result resourceOrUnit="apothecary" quantity="1"/>
+<result resourceOrUnit="Apothecary" quantity="1"/>
 </productionRule>
 <productionRule name="buy_bat">
 <cost resource="PUs" quantity="9"/>
@@ -4515,9 +4515,9 @@
 <cost resource="PUs" quantity="7"/>
 <result resourceOrUnit="plague_catapult" quantity="1"/>
 </productionRule>
-<productionRule name="buy_crypt">
+<productionRule name="buy_Crypt">
 <cost resource="PUs" quantity="20"/>
-<result resourceOrUnit="crypt" quantity="1"/>
+<result resourceOrUnit="Crypt" quantity="1"/>
 </productionRule>
 <productionRule name="buy_reclaimed_ziggurat">
 <cost resource="PUs" quantity="15"/>
@@ -4535,29 +4535,29 @@
 <cost resource="PUs" quantity="16"/>
 <result resourceOrUnit="forsaken_dreadship" quantity="1"/>
 </productionRule>
-<productionRule name="buy_sunreaver_battle_mage">
+<productionRule name="buy_Sunreaver_Battle_Mage">
 <cost resource="PUs" quantity="6"/>
-<result resourceOrUnit="sunreaver_battle_mage" quantity="1"/>
+<result resourceOrUnit="Sunreaver_Battle_Mage" quantity="1"/>
 </productionRule>
 <productionRule name="buy_rune_golem">
 <cost resource="PUs" quantity="9"/>
 <result resourceOrUnit="rune_golem" quantity="1"/>
 </productionRule>
-<productionRule name="buy_silver_covenant_ranger">
+<productionRule name="buy_Silver_Covenant_Ranger">
 <cost resource="PUs" quantity="7"/>
-<result resourceOrUnit="silver_covenant_ranger" quantity="1"/>
+<result resourceOrUnit="Silver_Covenant_Ranger" quantity="1"/>
 </productionRule>
-<productionRule name="buy_mana_hound">
+<productionRule name="buy_Mana_Hound">
 <cost resource="PUs" quantity="8"/>
-<result resourceOrUnit="mana_hound" quantity="1"/>
+<result resourceOrUnit="Mana_Hound" quantity="1"/>
 </productionRule>
-<productionRule name="buy_archmage">
+<productionRule name="buy_Archmage">
 <cost resource="PUs" quantity="7"/>
-<result resourceOrUnit="archmage" quantity="1"/>
+<result resourceOrUnit="Archmage" quantity="1"/>
 </productionRule>
-<productionRule name="buy_silver_covenant_hippogryph">
+<productionRule name="buy_Silver_Covenant_Hippogryph">
 <cost resource="PUs" quantity="9"/>
-<result resourceOrUnit="silver_covenant_hippogryph" quantity="1"/>
+<result resourceOrUnit="Silver_Covenant_Hippogryph" quantity="1"/>
 </productionRule>
 <productionRule name="buy_glaive_thrower">
 <cost resource="PUs" quantity="7"/>
@@ -5122,7 +5122,7 @@
 <productionFrontier name="ScourgeFrontier">
 <frontierRules name="buy_ghoul" />
 <frontierRules name="buy_abomination" />
-<frontierRules name="buy_crypt_fiend" />
+<frontierRules name="buy_Crypt_fiend" />
 <frontierRules name="buy_skeleton_hound" />
 <frontierRules name="buy_banshee" />
 <frontierRules name="buy_gargoyle" />
@@ -5159,11 +5159,11 @@
 <frontierRules name="buy_hawkstrider_cavalier" />
 <frontierRules name="buy_magister" />
 <frontierRules name="buy_dragonhawk_rider" />
-<frontierRules name="buy_thalassian_ballista" />
+<frontierRules name="buy_Thalassian_Ballista" />
 <frontierRules name="buy_thalassian_transport" />
 <frontierRules name="buy_thalassian_frigate" />
 <frontierRules name="buy_thalassian_battleship" />
-<frontierRules name="buy_elven_lodge" />
+<frontierRules name="buy_Elven_Lodge" />
 <frontierRules name="buy_magic_tower" />
 </productionFrontier>
 <productionFrontier name="TrollTribesFrontier">
@@ -5183,24 +5183,24 @@
 <productionFrontier name="ForsakenFrontier">
 <frontierRules name="buy_deathguard" />
 <frontierRules name="buy_deathstalker" />
-<frontierRules name="buy_fallen_archer" />
-<frontierRules name="buy_dark_knight" />
-<frontierRules name="buy_apothecary" />
+<frontierRules name="buy_Fallen_Archer" />
+<frontierRules name="buy_Dark_Knight" />
+<frontierRules name="buy_Apothecary" />
 <frontierRules name="buy_bat" />
 <frontierRules name="buy_plague_catapult" />
 <frontierRules name="buy_forsaken_barge" />
 <frontierRules name="buy_forsaken_destroyer" />
 <frontierRules name="buy_forsaken_dreadship" />
-<frontierRules name="buy_crypt" />
+<frontierRules name="buy_Crypt" />
 <frontierRules name="buy_reclaimed_ziggurat" />
 </productionFrontier>
 <productionFrontier name="DalaranFrontier">
-<frontierRules name="buy_sunreaver_battle_mage" />
+<frontierRules name="buy_Sunreaver_Battle_Mage" />
 <frontierRules name="buy_rune_golem" />
-<frontierRules name="buy_silver_covenant_ranger" />
-<frontierRules name="buy_mana_hound" />
-<frontierRules name="buy_archmage" />
-<frontierRules name="buy_silver_covenant_hippogryph" />
+<frontierRules name="buy_Silver_Covenant_Ranger" />
+<frontierRules name="buy_Mana_Hound" />
+<frontierRules name="buy_Archmage" />
+<frontierRules name="buy_Silver_Covenant_Hippogryph" />
 <frontierRules name="buy_glaive_thrower" />
 <frontierRules name="buy_dalaran_transport" />
 <frontierRules name="buy_dalaran_frigate" />
@@ -5455,7 +5455,7 @@
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="1" />
 <option name="attack" value="3" />
@@ -5826,7 +5826,7 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="Elven_Lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -5845,7 +5845,7 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="Elven_Lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -5864,7 +5864,7 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="Elven_Lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -5883,7 +5883,7 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="Elven_Lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -5903,7 +5903,7 @@
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
 <option name="isDestroyer" value="true"/>
-<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="Elven_Lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -5923,12 +5923,12 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="Elven_Lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="thalassian_ballista" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Thalassian_Ballista" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="2" />
 <option name="movement" value="1" />
 <option name="attack" value="2" />
@@ -5942,7 +5942,7 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="elven_lodge"/>
+<option name="requiresUnits" value="Elven_Lodge"/>
 <option name="requiresUnits" value="magic_tower"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -5977,7 +5977,7 @@
 <option name="requiresUnits" value="shipyard"/>
 <option name='unitPlacementRestrictions' value="$RiverTiles$" />
 </attachment>
-<attachment name="unitAttachment" attachTo="elven_lodge" javaClass="UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Elven_Lodge" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
 <option name="isConstruction" value="true"/>
 <option name="isInfrastructure" value="true"/>
@@ -6222,7 +6222,7 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="Crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -6241,12 +6241,12 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="Crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="fallen_archer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Fallen_Archer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="1" />
 <option name="attack" value="3" />
@@ -6260,12 +6260,12 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="Crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="dark_knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Dark_Knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="2" />
 <option name="attack" value="4" />
@@ -6279,12 +6279,12 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="Crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="apothecary" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Apothecary" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="1" />
 <option name="attack" value="2" />
@@ -6299,7 +6299,7 @@
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
 <option name="isDestroyer" value="true"/>
-<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="Crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -6319,7 +6319,7 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="Crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -6338,7 +6338,7 @@
 <option name="damageableAA" value="false" />
 <option name="maxAAattacks" value="1" />
 <option name="maxRoundsAA" value="1" />
-<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="Crypt"/>
 <option name="requiresUnits" value="reclaimed_ziggurat"/>
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
@@ -6373,7 +6373,7 @@
 <option name="requiresUnits" value="shipyard"/>
 <option name='unitPlacementRestrictions' value="$RiverTiles$" />
 </attachment>
-<attachment name="unitAttachment" attachTo="crypt" javaClass="UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Crypt" javaClass="UnitAttachment" type="unitType">
 <option name="canProduceUnits" value="true"/>
 <option name="isConstruction" value="true"/>
 <option name="isInfrastructure" value="true"/>
@@ -6406,7 +6406,7 @@
 <option name="defenseRolls" value="2" />
 <option name='unitPlacementRestrictions' value="$DungeonTiles$" />
 </attachment>
-<attachment name="unitAttachment" attachTo="sunreaver_battle_mage" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Sunreaver_Battle_Mage" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="1" />
 <option name="attack" value="2" />
@@ -6444,7 +6444,7 @@
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="silver_covenant_ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Silver_Covenant_Ranger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="1" />
 <option name="attack" value="3" />
@@ -6463,7 +6463,7 @@
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="mana_hound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Mana_Hound" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="2" />
 <option name="attack" value="4" />
@@ -6482,7 +6482,7 @@
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="archmage" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Archmage" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="transportCost" value="1" />
 <option name="movement" value="1" />
 <option name="attack" value="2" />
@@ -6502,7 +6502,7 @@
 <option name="requiresUnits" value="dungeonpro"/>
 <option name="requiresUnits" value="farm"/>
 </attachment>
-<attachment name="unitAttachment" attachTo="silver_covenant_hippogryph" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+<attachment name="unitAttachment" attachTo="Silver_Covenant_Hippogryph" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="movement" value="3" />
 <option name="attack" value="3" />
 <option name="defense" value="3" />
@@ -8387,7 +8387,7 @@
 <option name="requiresUnits" value="demon_gate"/>
 <option name="requiresUnits" value="the_dark_portal"/>
 <option name="requiresUnits" value="dungeonpro"/>
-<option name="requiresUnits" value="crypt"/>
+<option name="requiresUnits" value="Crypt"/>
 </attachment>
 <attachment name="unitAttachment" attachTo="balnazzar" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 <option name="isAir" value="true" />
@@ -8931,9 +8931,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9006,9 +9006,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9081,9 +9081,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9156,9 +9156,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9231,9 +9231,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9306,9 +9306,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9381,9 +9381,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9456,9 +9456,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9571,9 +9571,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9646,9 +9646,9 @@
 <option name="isInfrastructure" value="true"/>
 <option name="whenCapturedChangesInto" value="any:Scourge:true:slaughterhouse:1"/>
 <option name="whenCapturedChangesInto" value="any:ScarletCrusade:true:scarlet_barrack:1"/>
-<option name="whenCapturedChangesInto" value="any:BloodElves:true:elven_lodge:1"/>
+<option name="whenCapturedChangesInto" value="any:BloodElves:true:Elven_Lodge:1"/>
 <option name="whenCapturedChangesInto" value="any:TrollTribes:true:voodoo_lounge:1"/>
-<option name="whenCapturedChangesInto" value="any:Forsaken:true:crypt:1"/>
+<option name="whenCapturedChangesInto" value="any:Forsaken:true:Crypt:1"/>
 <option name="whenCapturedChangesInto" value="any:Dalaran:true:violet_hall:1"/>
 <option name="whenCapturedChangesInto" value="any:GnollPacks:true:hut_capturable:1"/>
 <option name="whenCapturedChangesInto" value="any:MurlocTribes:true:tent_capturable:1"/>
@@ -9676,7 +9676,7 @@
 <option name="impArtTech" value="false" />
 <option name="players" value="$AllFactions$" />
 </attachment>
-<attachment name="supportAttachment_leadership_crypt_fiend" attachTo="crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<attachment name="supportAttachment_leadership_Crypt_fiend" attachTo="Crypt_fiend" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 <option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
@@ -9808,7 +9808,7 @@
 <option name="impArtTech" value="false" />
 <option name="players" value="$AllFactions$" />
 </attachment>
-<attachment name="supportAttachment_leadership_thalassian_ballista" attachTo="thalassian_ballista" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<attachment name="supportAttachment_leadership_Thalassian_Ballista" attachTo="Thalassian_Ballista" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 <option name="unitType" value="$SiegeLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
@@ -9896,7 +9896,7 @@
 <option name="impArtTech" value="false" />
 <option name="players" value="$AllFactions$" />
 </attachment>
-<attachment name="supportAttachment_leadership_fallen_archer" attachTo="fallen_archer" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<attachment name="supportAttachment_leadership_Fallen_Archer" attachTo="Fallen_Archer" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 <option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
@@ -9907,7 +9907,7 @@
 <option name="impArtTech" value="false" />
 <option name="players" value="$AllFactions$" />
 </attachment>
-<attachment name="supportAttachment_curse_apothecary" attachTo="apothecary" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<attachment name="supportAttachment_curse_Apothecary" attachTo="Apothecary" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 <option name="unitType" value="$CurseTargeted$" />
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
@@ -9951,7 +9951,7 @@
 <option name="impArtTech" value="false" />
 <option name="players" value="$AllFactions$" />
 </attachment>
-<attachment name="supportAttachment_leadership_silver_covenant_ranger" attachTo="silver_covenant_ranger" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<attachment name="supportAttachment_leadership_Silver_Covenant_Ranger" attachTo="Silver_Covenant_Ranger" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 <option name="unitType" value="$ArcherLeadership$" />
 <option name="faction" value="allied" />
 <option name="side" value="offence:defence" />
@@ -9962,7 +9962,7 @@
 <option name="impArtTech" value="false" />
 <option name="players" value="$AllFactions$" />
 </attachment>
-<attachment name="supportAttachment_curse_archmage" attachTo="archmage" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+<attachment name="supportAttachment_curse_Archmage" attachTo="Archmage" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 <option name="unitType" value="$CurseTargeted$" />
 <option name="faction" value="enemy" />
 <option name="side" value="offence:defence" />
@@ -10642,13 +10642,13 @@
 </attachment>
 <!-- Ship making territories need a territory effect but they cant be left blank -->
 <attachment name="territoryEffectAttachment" attachTo="Coast" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
-<option name="combatDefenseEffect" value="gargoyle:dragonhawk_rider:dragonhawk:bat:silver_covenant_hippogryph" count="0" />
+<option name="combatDefenseEffect" value="gargoyle:dragonhawk_rider:dragonhawk:bat:Silver_Covenant_Hippogryph" count="0" />
 </attachment>
 <attachment name="territoryEffectAttachment" attachTo="Port" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
-<option name="combatDefenseEffect" value="gargoyle:dragonhawk_rider:dragonhawk:bat:silver_covenant_hippogryph" count="0" />
+<option name="combatDefenseEffect" value="gargoyle:dragonhawk_rider:dragonhawk:bat:Silver_Covenant_Hippogryph" count="0" />
 </attachment>
 <attachment name="territoryEffectAttachment" attachTo="Shipyard" javaClass="games.strategy.triplea.attachments.TerritoryEffectAttachment" type="territoryEffect">
-<option name="combatDefenseEffect" value="gargoyle:dragonhawk_rider:dragonhawk:bat:silver_covenant_hippogryph" count="0" />
+<option name="combatDefenseEffect" value="gargoyle:dragonhawk_rider:dragonhawk:bat:Silver_Covenant_Hippogryph" count="0" />
 </attachment>
 <!-- Territory Attachments -->
 <attachment name="territoryAttachment" attachTo="Aerie Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -16216,7 +16216,7 @@
 <attachment name="triggerAttachmentDalaranDalaranRaised" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 <option name="placement" value="Dalaran Remnant Camp:dalaran_city" count="1"/>
 <option name="placement" value="Dalaran Remnant Camp:rhonin_redhair" count="1"/>
-<option name="placement" value="Dalaran Remnant Camp:archmage_modera" count="1"/>
+<option name="placement" value="Dalaran Remnant Camp:Archmage_modera" count="1"/>
 <option name="placement" value="Dalaran Remnant Camp:kirin_tor" count="2"/>
 </attachment>
 <attachment name="triggerAttachmentDalaranDalaranRaisedSwitch" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -16258,7 +16258,7 @@
 <option name="placement" value="SZ16:dalaran_frigate" count="2"/>
 <option name="placement" value="SZ16:dalaran_battleship" count="2"/>
 <option name="placement" value="SZ16:footman" count="4"/>
-<option name="placement" value="SZ16:archmage" count="2"/>
+<option name="placement" value="SZ16:Archmage" count="2"/>
 <option name="placement" value="SZ16:jaina_proudmoore" count="1"/>
 </attachment>
 <attachment name="triggerAttachmentDalaranRecruitJainaEvent2Switch" attachTo="Dalaran" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -18628,10 +18628,10 @@
 <option name="movementBonus" value="1:warbringer"/>
 <option name="movementBonus" value="1:deathguard"/>
 <option name="movementBonus" value="1:deathstalker"/>
-<option name="movementBonus" value="1:dark_knight"/>
-<option name="movementBonus" value="1:sunreaver_battle_mage"/>
+<option name="movementBonus" value="1:Dark_Knight"/>
+<option name="movementBonus" value="1:Sunreaver_Battle_Mage"/>
 <option name="movementBonus" value="1:rune_golem"/>
-<option name="movementBonus" value="1:mana_hound"/>
+<option name="movementBonus" value="1:Mana_Hound"/>
 <option name="movementBonus" value="1:poacher"/>
 <option name="movementBonus" value="1:coastrunner"/>
 <option name="movementBonus" value="1:brute"/>
@@ -18645,7 +18645,7 @@
 <option name="movementBonus" value="1:fire_elemental"/>
 <option name="movementBonus" value="1:earth_elemental"/>
 <option name="movementBonus" value="1:husk"/>
-<option name="movementBonus" value="1:crypt_fiend"/>
+<option name="movementBonus" value="1:Crypt_fiend"/>
 <option name="movementBonus" value="1:banshee"/>
 <option name="movementBonus" value="1:meat_wagon"/>
 <option name="movementBonus" value="1:ranger"/>
@@ -18653,15 +18653,15 @@
 <option name="movementBonus" value="1:cannon"/>
 <option name="movementBonus" value="1:farstrider"/>
 <option name="movementBonus" value="1:magister"/>
-<option name="movementBonus" value="1:thalassian_ballista"/>
+<option name="movementBonus" value="1:Thalassian_Ballista"/>
 <option name="movementBonus" value="1:axe_thrower"/>
 <option name="movementBonus" value="1:witch_doctor"/>
 <option name="movementBonus" value="1:catapult"/>
-<option name="movementBonus" value="1:fallen_archer"/>
-<option name="movementBonus" value="1:apothecary"/>
+<option name="movementBonus" value="1:Fallen_Archer"/>
+<option name="movementBonus" value="1:Apothecary"/>
 <option name="movementBonus" value="1:plague_catapult"/>
-<option name="movementBonus" value="1:silver_covenant_ranger"/>
-<option name="movementBonus" value="1:archmage"/>
+<option name="movementBonus" value="1:Silver_Covenant_Ranger"/>
+<option name="movementBonus" value="1:Archmage"/>
 <option name="movementBonus" value="1:glaive_thrower"/>
 <option name="movementBonus" value="1:mystic"/>
 <option name="movementBonus" value="1:tidecaller"/>
@@ -18677,7 +18677,7 @@
 <option name="movementBonus" value="1:dragonhawk_rider"/>
 <option name="movementBonus" value="1:dragonhawk"/>
 <option name="movementBonus" value="1:bat"/>
-<option name="movementBonus" value="1:silver_covenant_hippogryph"/>
+<option name="movementBonus" value="1:Silver_Covenant_Hippogryph"/>
 </attachment>
 
 </attachmentList>
@@ -19048,7 +19048,7 @@
 <unitPlacement unitType="ghoul" territory="Dalson's Tears" quantity="1" owner="Scourge" />
 <unitPlacement unitType="skeleton_hound" territory="Dalson's Tears" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Deatholme" quantity="2" owner="Scourge" />
-<unitPlacement unitType="crypt_fiend" territory="Deatholme" quantity="1" owner="Scourge" />
+<unitPlacement unitType="Crypt_fiend" territory="Deatholme" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="Deatholme" quantity="1" owner="Scourge" />
 <unitPlacement unitType="gargoyle" territory="Deatholme" quantity="1" owner="Scourge" />
 <unitPlacement unitType="meat_wagon" territory="Deatholme" quantity="1" owner="Scourge" />
@@ -19059,7 +19059,7 @@
 <unitPlacement unitType="ghoul" territory="Felstone Field" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Festival Lane" quantity="3" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="Gahrron's Withering" quantity="2" owner="Scourge" />
-<unitPlacement unitType="crypt_fiend" territory="Gauntlet Ash'ari Crystal 1" quantity="2" owner="Scourge" />
+<unitPlacement unitType="Crypt_fiend" territory="Gauntlet Ash'ari Crystal 1" quantity="2" owner="Scourge" />
 <unitPlacement unitType="gargoyle" territory="Gauntlet Ash'ari Crystal 1" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="Gauntlet Ash'ari Crystal 1" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="Gauntlet Ash'ari Crystal 2" quantity="2" owner="Scourge" />
@@ -19078,26 +19078,26 @@
 <unitPlacement unitType="skeleton_hound" territory="Olsen's Farthing" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Plaguewood" quantity="2" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="Plaguewood" quantity="1" owner="Scourge" />
-<unitPlacement unitType="crypt_fiend" territory="Plaguewood" quantity="1" owner="Scourge" />
+<unitPlacement unitType="Crypt_fiend" territory="Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="slaughterhouse" territory="Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="Plaguewood" quantity="2" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="Slaughter Square" quantity="3" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Sorrow Hill Cemetery" quantity="2" owner="Scourge" />
-<unitPlacement unitType="crypt_fiend" territory="South Dead Scar" quantity="1" owner="Scourge" />
+<unitPlacement unitType="Crypt_fiend" territory="South Dead Scar" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="South Dead Scar" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="South Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="meat_wagon" territory="South Plaguewood" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="South Plaguewood" quantity="1" owner="Scourge" />
-<unitPlacement unitType="crypt_fiend" territory="Suncrown Village" quantity="2" owner="Scourge" />
+<unitPlacement unitType="Crypt_fiend" territory="Suncrown Village" quantity="2" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="Stratholme Harbour" quantity="3" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="The Dead Fields" quantity="1" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="The Dead Fields" quantity="1" owner="Scourge" />
 <unitPlacement unitType="abomination" territory="The Fungal Vale" quantity="2" owner="Scourge" />
-<unitPlacement unitType="crypt_fiend" territory="The Fungal Vale" quantity="2" owner="Scourge" />
+<unitPlacement unitType="Crypt_fiend" territory="The Fungal Vale" quantity="2" owner="Scourge" />
 <unitPlacement unitType="slaughterhouse" territory="The Fungal Vale" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="The Fungal Vale" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ghoul" territory="The Noxious Glade" quantity="1" owner="Scourge" />
-<unitPlacement unitType="crypt_fiend" territory="The Noxious Glade" quantity="2" owner="Scourge" />
+<unitPlacement unitType="Crypt_fiend" territory="The Noxious Glade" quantity="2" owner="Scourge" />
 <unitPlacement unitType="banshee" territory="The Noxious Glade" quantity="1" owner="Scourge" />
 <unitPlacement unitType="slaughterhouse" territory="The Noxious Glade" quantity="1" owner="Scourge" />
 <unitPlacement unitType="ziggurat" territory="The Noxious Glade" quantity="1" owner="Scourge" />
@@ -19200,24 +19200,24 @@
 <unitPlacement unitType="swordsman" territory="Fairbreeze Village" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="farstrider" territory="Fairbreeze Village" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="magister" territory="Fairbreeze Village" quantity="1" owner="BloodElves" />
-<unitPlacement unitType="thalassian_ballista" territory="Fairbreeze Village" quantity="1" owner="BloodElves" />
-<unitPlacement unitType="elven_lodge" territory="Fairbreeze Village" quantity="1" owner="BloodElves" />
+<unitPlacement unitType="Thalassian_Ballista" territory="Fairbreeze Village" quantity="1" owner="BloodElves" />
+<unitPlacement unitType="Elven_Lodge" territory="Fairbreeze Village" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="swordsman" territory="Falconwing Square" quantity="2" owner="BloodElves" />
 <unitPlacement unitType="magister" territory="Falconwing Square" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="dragonhawk_rider" territory="Falconwing Square" quantity="1" owner="BloodElves" />
-<unitPlacement unitType="elven_lodge" territory="Falconwing Square" quantity="1" owner="BloodElves" />
+<unitPlacement unitType="Elven_Lodge" territory="Falconwing Square" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="farstrider" territory="Farstrider Enclave" quantity="2" owner="BloodElves" />
-<unitPlacement unitType="elven_lodge" territory="Farstrider Enclave" quantity="1" owner="BloodElves" />
+<unitPlacement unitType="Elven_Lodge" territory="Farstrider Enclave" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="farstrider" territory="Farstrider Retreat" quantity="2" owner="BloodElves" />
-<unitPlacement unitType="elven_lodge" territory="Farstrider Retreat" quantity="1" owner="BloodElves" />
+<unitPlacement unitType="Elven_Lodge" territory="Farstrider Retreat" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="magister" territory="North Sanctum" quantity="2" owner="BloodElves" />
 <unitPlacement unitType="swordsman" territory="Quel'Danil Lodge" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="farstrider" territory="Quel'Danil Lodge" quantity="2" owner="BloodElves" />
 <unitPlacement unitType="dragonhawk_rider" territory="Quel'Danil Lodge" quantity="1" owner="BloodElves" />
-<unitPlacement unitType="elven_lodge" territory="Quel'Danil Lodge" quantity="1" owner="BloodElves" />
+<unitPlacement unitType="Elven_Lodge" territory="Quel'Danil Lodge" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="swordsman" territory="Quel'Lithien Lodge" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="farstrider" territory="Quel'Lithien Lodge" quantity="3" owner="BloodElves" />
-<unitPlacement unitType="elven_lodge" territory="Quel'Lithien Lodge" quantity="1" owner="BloodElves" />
+<unitPlacement unitType="Elven_Lodge" territory="Quel'Lithien Lodge" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="magister" territory="Runestone Falithas" quantity="2" owner="BloodElves" />
 <unitPlacement unitType="swordsman" territory="Sanctum of the Sun" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="magister" territory="Sanctum of the Sun" quantity="1" owner="BloodElves" />
@@ -19225,7 +19225,7 @@
 <unitPlacement unitType="farstrider" territory="Silvermoon City" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="magister" territory="Silvermoon City" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="dragonhawk_rider" territory="Silvermoon City" quantity="1" owner="BloodElves" />
-<unitPlacement unitType="elven_lodge" territory="Silvermoon City" quantity="1" owner="BloodElves" />
+<unitPlacement unitType="Elven_Lodge" territory="Silvermoon City" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="magic_tower" territory="Silvermoon City" quantity="2" owner="BloodElves" />
 <unitPlacement unitType="magister" territory="The Sunspire" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="dragonhawk_rider" territory="The Sunspire" quantity="1" owner="BloodElves" />
@@ -19233,7 +19233,7 @@
 <unitPlacement unitType="swordsman" territory="Tranquillien" quantity="2" owner="BloodElves" />
 <unitPlacement unitType="magister" territory="Tranquillien" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="farstrider" territory="Tranquillien" quantity="1" owner="BloodElves" />
-<unitPlacement unitType="elven_lodge" territory="Tranquillien" quantity="1" owner="BloodElves" />
+<unitPlacement unitType="Elven_Lodge" territory="Tranquillien" quantity="1" owner="BloodElves" />
 <unitPlacement unitType="thalassian_transport" territory="SZ45" quantity="2" owner="BloodElves" />
 <unitPlacement unitType="thalassian_frigate" territory="SZ45" quantity="4" owner="BloodElves" />
 <!--TrollTribes-->
@@ -19326,105 +19326,105 @@
 
 <!--Forsaken-->
 <unitPlacement unitType="deathguard" territory="Brill" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="fallen_archer" territory="Brill" quantity="2" owner="Forsaken" />
+<unitPlacement unitType="Fallen_Archer" territory="Brill" quantity="2" owner="Forsaken" />
 <unitPlacement unitType="bat" territory="Brill" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="crypt" territory="Brill" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Crypt" territory="Brill" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathguard" territory="Crosspoint Tower" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathstalker" territory="Crosspoint Tower" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="reclaimed_ziggurat" territory="Crosspoint Tower" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathguard" territory="Deathknell" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathstalker" territory="Deathknell" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="fallen_archer" territory="Deathknell" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Fallen_Archer" territory="Deathknell" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="bat" territory="Deathknell" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="crypt" territory="Deathknell" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Crypt" territory="Deathknell" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathguard" territory="Lordaeron City Gates" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="dark_knight" territory="Lordaeron City Gates" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Dark_Knight" territory="Lordaeron City Gates" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathguard" territory="Southpoint Tower" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathstalker" territory="Southpoint Tower" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="reclaimed_ziggurat" territory="Southpoint Tower" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathstalker" territory="Tarren Mill" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="fallen_archer" territory="Tarren Mill" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="apothecary" territory="Tarren Mill" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Fallen_Archer" territory="Tarren Mill" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Apothecary" territory="Tarren Mill" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="bat" territory="Tarren Mill" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="crypt" territory="Tarren Mill" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Crypt" territory="Tarren Mill" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathguard" territory="The Bulwark" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathstalker" territory="The Bulwark" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="fallen_archer" territory="The Bulwark" quantity="2" owner="Forsaken" />
+<unitPlacement unitType="Fallen_Archer" territory="The Bulwark" quantity="2" owner="Forsaken" />
 <unitPlacement unitType="reclaimed_ziggurat" territory="The Bulwark" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="fallen_archer" territory="The Marris Stead" quantity="2" owner="Forsaken" />
+<unitPlacement unitType="Fallen_Archer" territory="The Marris Stead" quantity="2" owner="Forsaken" />
 <unitPlacement unitType="deathstalker" territory="The Sepulcher" quantity="2" owner="Forsaken" />
-<unitPlacement unitType="fallen_archer" territory="The Sepulcher" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Fallen_Archer" territory="The Sepulcher" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="bat" territory="The Sepulcher" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="crypt" territory="The Sepulcher" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Crypt" territory="The Sepulcher" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathstalker" territory="Undercity" quantity="2" owner="Forsaken" />
-<unitPlacement unitType="fallen_archer" territory="Undercity" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="apothecary" territory="Undercity" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Fallen_Archer" territory="Undercity" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Apothecary" territory="Undercity" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="bat" territory="Undercity" quantity="2" owner="Forsaken" />
-<unitPlacement unitType="crypt" territory="Undercity" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Crypt" territory="Undercity" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="forsaken_barge" territory="Lordamere Lake" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="forsaken_destroyer" territory="SZ38" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="forsaken_dreadship" territory="SZ38" quantity="1" owner="Forsaken" />
 
 <unitPlacement unitType="deathguard" territory="Beggar's Haunt" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="apothecary" territory="Beggar's Haunt" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Apothecary" territory="Beggar's Haunt" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="reclaimed_ziggurat" territory="Beggar's Haunt" quantity="1" owner="Forsaken" />
 <unitPlacement unitType="deathguard" territory="Tranquillien" quantity="1" owner="Forsaken" />
-<unitPlacement unitType="apothecary" territory="Tranquillien" quantity="1" owner="Forsaken" />
+<unitPlacement unitType="Apothecary" territory="Tranquillien" quantity="1" owner="Forsaken" />
 <!--Dalaran-->
 <unitPlacement unitType="rune_golem" territory="Ambermill" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="archmage" territory="Ambermill" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Ambermill" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="glaive_thrower" territory="Ambermill" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Ambermill" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="arcane_tower" territory="Ambermill" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Azurelode Mine" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Chillwind Camp" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="archmage" territory="Chillwind Camp" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_hippogryph" territory="Chillwind Camp" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Dabyrie's Farmstead" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Dalaran Remnant Camp" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Azurelode Mine" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Chillwind Camp" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Chillwind Camp" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Hippogryph" territory="Chillwind Camp" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Dabyrie's Farmstead" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Dalaran Remnant Camp" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="rune_golem" territory="Dalaran Remnant Camp" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="archmage" territory="Dalaran Remnant Camp" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Dalaran Remnant Camp" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Dalaran Remnant Camp" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="archmage" territory="Hillsbrad Fields" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Hillsbrad Fields" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Hillsbrad Fields" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Hillsbrad Fields" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Lordamere Internment Camp" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="archmage" territory="Lordamere Internment Camp" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Refuge Pointe" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_ranger" territory="Refuge Pointe" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_hippogryph" territory="Refuge Pointe" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Hillsbrad Fields" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Lordamere Internment Camp" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Lordamere Internment Camp" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Refuge Pointe" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Ranger" territory="Refuge Pointe" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Hippogryph" territory="Refuge Pointe" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Refuge Pointe" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="archmage" territory="Silverpine Road" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Southshore" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_ranger" territory="Southshore" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="archmage" territory="Southshore" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Silverpine Road" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Southshore" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Ranger" territory="Southshore" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Southshore" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Southshore" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="arcane_tower" territory="Southshore" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Stromgarde City" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Stromgarde City" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="rune_golem" territory="Stromgarde City" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_ranger" territory="Stromgarde City" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="mana_hound" territory="Stromgarde City" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Ranger" territory="Stromgarde City" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Mana_Hound" territory="Stromgarde City" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Stromgarde City" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="galen_trollbane" territory="Stromgarde City" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="dalaran_transport" territory="SZ16" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="dalaran_frigate" territory="SZ16" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_ranger" territory="An'daroth" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_ranger" territory="An'owyn" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_ranger" territory="An'telas" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_ranger" territory="Shalandis Isle" quantity="3" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Ranger" territory="An'daroth" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Ranger" territory="An'owyn" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Ranger" territory="An'telas" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Ranger" territory="Shalandis Isle" quantity="3" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Shalandis Isle" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_ranger" territory="West Sanctum" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Ranger" territory="West Sanctum" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="dalaran_transport" territory="SZ41" quantity="1" owner="Dalaran" />
 
-<unitPlacement unitType="archmage" territory="Altar of Sacrifice" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Garrison Armory" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Karazhan Village" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="archmage" territory="Karazhan Village" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Altar of Sacrifice" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Garrison Armory" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Karazhan Village" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Karazhan Village" quantity="2" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Karazhan Village" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Nethergarde Keep" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="silver_covenant_ranger" territory="Nethergarde Keep" quantity="2" owner="Dalaran" />
-<unitPlacement unitType="archmage" territory="Nethergarde Keep" quantity="1" owner="Dalaran" />
-<unitPlacement unitType="mana_hound" territory="Nethergarde Keep" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Nethergarde Keep" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Silver_Covenant_Ranger" territory="Nethergarde Keep" quantity="2" owner="Dalaran" />
+<unitPlacement unitType="Archmage" territory="Nethergarde Keep" quantity="1" owner="Dalaran" />
+<unitPlacement unitType="Mana_Hound" territory="Nethergarde Keep" quantity="1" owner="Dalaran" />
 <unitPlacement unitType="violet_hall" territory="Nethergarde Keep" quantity="1" owner="Dalaran" />
 <!--Horde-->
 <unitPlacement unitType="grunt" territory="Flame Crest" quantity="1" owner="Horde" />
@@ -19976,12 +19976,12 @@
 <!--Other/Neutral Placements-->
 <unitPlacement unitType="crusader" territory="Light's Hope Chapel" quantity="2" />
 <unitPlacement unitType="purifier" territory="Light's Hope Chapel" quantity="2" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Keel Harbour" quantity="2" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Duskhaven" quantity="2" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Gilneas City" quantity="4" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Tempest's Reach" quantity="2" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Emberstone Village" quantity="2" />
-<unitPlacement unitType="sunreaver_battle_mage" territory="Havenswood" quantity="2" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Keel Harbour" quantity="2" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Duskhaven" quantity="2" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Gilneas City" quantity="4" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Tempest's Reach" quantity="2" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Emberstone Village" quantity="2" />
+<unitPlacement unitType="Sunreaver_Battle_Mage" territory="Havenswood" quantity="2" />
 <unitPlacement unitType="neutral_tower" territory="Northpass Tower" quantity="1" />
 <unitPlacement unitType="neutral_tower" territory="Crown Guard Tower" quantity="1" />
 <!--Stratholme invisible production buildings initial-->
@@ -20718,7 +20718,7 @@ Determines whether or not a sub can controls a sea zone. Determines if transport
 <li>Production of units is limited to the production of a <i>production</i> unit and 2 ground combat units, except for the Elemental Conclave which can produce 4 different ground combat units.</li>
 <li>All combat units have a PU cost of 3x the cost of player factions.</li>
 <li>All units have a stat line of 2|2 except for <i>heavy infantry</i> which are 4|4 and <i>tower</i> which are 2x3|2x3.</li>
-<li>All minor faction <i>tower</i> units are capturable, and some <i>production</i> units are capturable which are placed during the game start. These capturable <i>production</i> units represent things like castles or villages that minor factions have taken over that can be repurposed for a player faction to use rather then things like huts or crypts which have no military use. The minor factions cannot produce more of these capturable <i>production</i> units. These are both denoted by a white circle instead of black.</li>
+<li>All minor faction <i>tower</i> units are capturable, and some <i>production</i> units are capturable which are placed during the game start. These capturable <i>production</i> units represent things like castles or villages that minor factions have taken over that can be repurposed for a player faction to use rather then things like huts or Crypts which have no military use. The minor factions cannot produce more of these capturable <i>production</i> units. These are both denoted by a white circle instead of black.</li>
 <li>If a minor faction destroys a player factions <i>production</i> unit, it is captured instead and the resulting <i>production</i> unit is capturable by all factions.</li>
 </ul>
 
